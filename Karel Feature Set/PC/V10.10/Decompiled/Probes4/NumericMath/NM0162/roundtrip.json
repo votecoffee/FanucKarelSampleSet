@@ -1,0 +1,115 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V10.13-1",
+    "NM0162.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_exit_code": 0,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V10.10\\Probes4\\NumericMath\\rt\\NM0162\\ec460fae\\compile.log",
+  "compiler_log_sha256": "0dfac3500b22aae7b7d559e789545e240d19139b8b5a10efecea71b14c35b07b",
+  "compiler_release": "V1013-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": true,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V10.10\\Probes4\\NumericMath\\rt\\NM0162\\ec460fae\\nm0162.pc",
+  "generated_pc_sha256": "8f922184af97bfda2de134dbb613a27f4ff01f0e697f32ba22507288e47b266d",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V10.10\\Decompiled\\Probes4\\NumericMath\\NM0162\\NM0162.KL",
+  "kl_sha256": "30465cd6aff9e529dee104702e9686ee217e096ae7339c778b5d0e426fe0b0a7",
+  "native_alignment": {
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; not source identity or semantic equivalence.",
+    "code_bytes_equal": false,
+    "exact_native_record_stream": false,
+    "first_differences": [
+      {
+        "generated_opcodes": [],
+        "generated_record_span": [
+          0,
+          0
+        ],
+        "kind": "delete",
+        "original_opcodes": [
+          "7B",
+          "2D",
+          "9D",
+          "52",
+          "7F",
+          "7F",
+          "7B",
+          "2D",
+          "2E",
+          "69",
+          "7F",
+          "7F"
+        ],
+        "original_record_span": [
+          0,
+          46
+        ]
+      }
+    ],
+    "generated_code_sha256": "4127ac5d1b16240f42def13386519e57279d22dcdf10553c68d764cee3af2b78",
+    "generated_records": 2,
+    "method": "V1013-1 profile native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "opcode_agreement_pct": 4.17,
+    "opcode_aligned": 2,
+    "original_code_sha256": "0595b3b2ec283c109d37cf936575cfd39ead1db987edfaeb9561f2fbc8692038",
+    "original_records": 48,
+    "raw_agreement_pct": 4.17,
+    "raw_equal_in_opcode_alignment": 2
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V10.10\\Probes4\\NumericMath\\NM0162.pc",
+  "original_pc_sha256": "fa39f5ca44c6245c2835bdec4c6978ad7e547dbe0bd624d3198fa441ada9433e",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V1010-1",
+      "V1013-1"
+    ],
+    "name": "NM0162.pc",
+    "observed_tag": "2a",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V10.10\\Probes4\\NumericMath\\NM0162.pc",
+    "size": 769,
+    "status": "tag_observed"
+  },
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V10.10\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V10.10\\Probes4\\NumericMath\\rt\\NM0162\\ec460fae",
+  "source_marker_alignment": {
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+    "code_offset_equal_count": 0,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "generated": [
+          0,
+          25,
+          1274
+        ],
+        "ordinal": 0,
+        "original": [
+          1,
+          5,
+          72
+        ]
+      },
+      {
+        "generated_count": 1,
+        "kind": "marker_count_difference",
+        "original_count": 16
+      }
+    ],
+    "generated_count": 1,
+    "line_equal_count": 0,
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 16,
+    "paired_count": 1,
+    "source_byte_offset_equal_count": 0
+  },
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V10.10\\Decompiled\\Probes4\\NumericMath\\NM0162\\NM0162.recompiled.pc",
+  "status": "compared",
+  "whole_pc_bytes_equal": false
+}

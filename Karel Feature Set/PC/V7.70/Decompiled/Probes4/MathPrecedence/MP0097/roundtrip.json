@@ -1,0 +1,116 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V7.70-1",
+    "MP0097.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_exit_code": 0,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V7.70\\Probes4\\MathPrecedence\\rt\\MP0097\\7d61ffdf\\compile.log",
+  "compiler_log_sha256": "1d0e91852790d544e94a690afb69216c06b5c5b69f8b7e4498f003fdf0b4474c",
+  "compiler_release": "V770-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": true,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V7.70\\Probes4\\MathPrecedence\\rt\\MP0097\\7d61ffdf\\mp0097.pc",
+  "generated_pc_sha256": "de4302ebf67793c478d91510af53c9b5f081ad46b02bf732a5f289cbf018f960",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V7.70\\Decompiled\\Probes4\\MathPrecedence\\MP0097\\MP0097.KL",
+  "kl_sha256": "c92a303f3d51c75a7310811216e976475245cb3cdad6e15a45d6355ee75d38ec",
+  "native_alignment": {
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; not source identity or semantic equivalence.",
+    "code_bytes_equal": false,
+    "exact_native_record_stream": false,
+    "first_differences": [
+      {
+        "generated_opcodes": [],
+        "generated_record_span": [
+          0,
+          0
+        ],
+        "kind": "delete",
+        "original_opcodes": [
+          "7B",
+          "2D",
+          "9D",
+          "52",
+          "7F",
+          "7F",
+          "7B",
+          "2D",
+          "2E",
+          "69",
+          "7F",
+          "7F"
+        ],
+        "original_record_span": [
+          0,
+          38
+        ]
+      }
+    ],
+    "generated_code_sha256": "ead2dc969c6b2bf684f78bb043516bb91e568fc7a1b19509f7aa88bfecc4f3ed",
+    "generated_records": 2,
+    "method": "V770-1 profile native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "opcode_agreement_pct": 5.0,
+    "opcode_aligned": 2,
+    "original_code_sha256": "2309635fcb0536260479426b44319268fc6d4e99684bbbff663b5c68eb4f74e3",
+    "original_records": 40,
+    "raw_agreement_pct": 5.0,
+    "raw_equal_in_opcode_alignment": 2
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V7.70\\Probes4\\MathPrecedence\\MP0097.pc",
+  "original_pc_sha256": "c35a2130ff32e15692a715b172cb322ef524ae4e31c80c781b91ed39eb9de42b",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V740-1",
+      "V750-1",
+      "V770-1"
+    ],
+    "name": "MP0097.pc",
+    "observed_tag": "26",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V7.70\\Probes4\\MathPrecedence\\MP0097.pc",
+    "size": 747,
+    "status": "tag_observed"
+  },
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V7.70\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V7.70\\Probes4\\MathPrecedence\\rt\\MP0097\\7d61ffdf",
+  "source_marker_alignment": {
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+    "code_offset_equal_count": 0,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "generated": [
+          0,
+          23,
+          1160
+        ],
+        "ordinal": 0,
+        "original": [
+          1,
+          5,
+          73
+        ]
+      },
+      {
+        "generated_count": 1,
+        "kind": "marker_count_difference",
+        "original_count": 14
+      }
+    ],
+    "generated_count": 1,
+    "line_equal_count": 0,
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 14,
+    "paired_count": 1,
+    "source_byte_offset_equal_count": 0
+  },
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V7.70\\Decompiled\\Probes4\\MathPrecedence\\MP0097\\MP0097.recompiled.pc",
+  "status": "compared",
+  "whole_pc_bytes_equal": false
+}

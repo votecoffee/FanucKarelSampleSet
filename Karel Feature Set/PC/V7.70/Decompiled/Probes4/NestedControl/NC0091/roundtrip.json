@@ -1,0 +1,116 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V7.70-1",
+    "NC0091.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_exit_code": 0,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V7.70\\Probes4\\NestedControl\\rt\\NC0091\\3662cad6\\compile.log",
+  "compiler_log_sha256": "df7b8a070d907ac39a18ddee81b64a000e1fabf9af6aba464e83a574943d7fd4",
+  "compiler_release": "V770-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": true,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V7.70\\Probes4\\NestedControl\\rt\\NC0091\\3662cad6\\nc0091.pc",
+  "generated_pc_sha256": "0ae5ddf68f69f9c6faff6a99edad26fb413d958bc308a6bdf06d0647df25b09b",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V7.70\\Decompiled\\Probes4\\NestedControl\\NC0091\\NC0091.KL",
+  "kl_sha256": "becdd74875c4380c557c1c7c6a038e5d64ddffea0b560c8ca98e6af3ed017055",
+  "native_alignment": {
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; not source identity or semantic equivalence.",
+    "code_bytes_equal": false,
+    "exact_native_record_stream": false,
+    "first_differences": [
+      {
+        "generated_opcodes": [],
+        "generated_record_span": [
+          0,
+          0
+        ],
+        "kind": "delete",
+        "original_opcodes": [
+          "2B",
+          "2C",
+          "7B",
+          "9D",
+          "23",
+          "21",
+          "9D",
+          "57",
+          "79",
+          "21",
+          "40",
+          "41"
+        ],
+        "original_record_span": [
+          0,
+          217
+        ]
+      }
+    ],
+    "generated_code_sha256": "24a4d9f0c2f609e308edbcd62553c24a2bb601f7e9d66bea2b186e5946c1ba30",
+    "generated_records": 2,
+    "method": "V770-1 profile native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "opcode_agreement_pct": 0.91,
+    "opcode_aligned": 2,
+    "original_code_sha256": "58f4304ab71f9ff4c5225d476cf42e9ae9678b62a163b7c1cdf77e1b7fb63085",
+    "original_records": 219,
+    "raw_agreement_pct": 0.91,
+    "raw_equal_in_opcode_alignment": 2
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V7.70\\Probes4\\NestedControl\\NC0091.pc",
+  "original_pc_sha256": "f58782cd3b8b91f9f9053fbdaa3bd42d254934f395e3804a73e068ca2bee1527",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V740-1",
+      "V750-1",
+      "V770-1"
+    ],
+    "name": "NC0091.pc",
+    "observed_tag": "26",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V7.70\\Probes4\\NestedControl\\NC0091.pc",
+    "size": 1337,
+    "status": "tag_observed"
+  },
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V7.70\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V7.70\\Probes4\\NestedControl\\rt\\NC0091\\3662cad6",
+  "source_marker_alignment": {
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+    "code_offset_equal_count": 0,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "generated": [
+          0,
+          64,
+          3529
+        ],
+        "ordinal": 0,
+        "original": [
+          8,
+          12,
+          151
+        ]
+      },
+      {
+        "generated_count": 1,
+        "kind": "marker_count_difference",
+        "original_count": 65
+      }
+    ],
+    "generated_count": 1,
+    "line_equal_count": 0,
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 65,
+    "paired_count": 1,
+    "source_byte_offset_equal_count": 0
+  },
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V7.70\\Decompiled\\Probes4\\NestedControl\\NC0091\\NC0091.recompiled.pc",
+  "status": "compared",
+  "whole_pc_bytes_equal": false
+}

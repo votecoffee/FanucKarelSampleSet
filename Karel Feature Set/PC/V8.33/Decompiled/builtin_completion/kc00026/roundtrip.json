@@ -1,0 +1,45 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "kc00026.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_error_excerpt": "Notice: Unable to find 'robot.ini',\nUsing basic KAREL support files.\nKTRANS Version V8.33 (Build 25  10/28/2024)\nCopyright (C) FANUC America Corporation, 1985 through 2014.\nAll Rights Reserved.\n\n\n\nC:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\builtin_completion\\rt\\kc00026\\6c578170\\kc00026.kl(20)\n  20 ACT_TBL(I,J,X,K,B,I)\n                 ^ ERROR\nId must be defined before this use.  Id: X\n\n\n===============Translation not successful===============\nError executing KTrans: Error translating program: Code: 0xFFFFFFFF:  ",
+  "compiler_exit_code": 2147745896,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\builtin_completion\\rt\\kc00026\\6c578170\\compile.log",
+  "compiler_log_sha256": "8313f0ce223ce56f6c840d1ea251ee7674cd36d52d48db76b33dc30f922bffd2",
+  "compiler_release": "V833-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": false,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Decompiled\\builtin_completion\\kc00026\\kc00026.KL",
+  "kl_sha256": "e5260260600b6e79114565b343517bacf63345aca0a866d4d950171b2329c7ca",
+  "native_alignment": null,
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\builtin_completion\\kc00026.pc",
+  "original_pc_sha256": "a4a51456f63038bb3f6e16e0821deaea919fa911a4d3193c8d81353bf5a1235e",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "name": "kc00026.pc",
+    "observed_tag": "27",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\builtin_completion\\kc00026.pc",
+    "size": 509,
+    "status": "tag_observed"
+  },
+  "reason": "KTRANS did not produce exactly one successful PC",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\builtin_completion\\rt\\kc00026\\6c578170",
+  "source_marker_alignment": null,
+  "status": "compile_failed",
+  "whole_pc_bytes_equal": false
+}

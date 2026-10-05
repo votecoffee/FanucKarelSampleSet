@@ -1,0 +1,18 @@
+-- PROVISIONAL review KL for V770-1; original PC SHA256 f636d4b71d6c30c74ab49485c4ecb2e25795a87e15aaf733be6e90d3727a5633
+-- Incomplete behavior may be omitted. Consult companion uncertainty JSON. Do not deploy.
+PROGRAM KS00006
+%NOLOCKGROUP
+VAR
+  FLAG : BOOLEAN
+  N : INTEGER
+  STATUS : INTEGER
+  PN : STRING[80]
+  VN : STRING[80]
+-- UNRESOLVED_DECL A type=001100
+-- UNRESOLVED_DECL B type=001100
+BEGIN
+  -- UNRESOLVED_PC offsets 5-13; opcodes 3F,75
+  -- UNRESOLVED_PC offsets 18-27; opcodes 3F,75
+  -- UNRESOLVED_PC offsets 32-70; opcodes 27,22,22,2A,22,2A,22,22,AF
+  -- UNRESOLVED_PC offsets 75-79; opcodes 7F
+END KS00006

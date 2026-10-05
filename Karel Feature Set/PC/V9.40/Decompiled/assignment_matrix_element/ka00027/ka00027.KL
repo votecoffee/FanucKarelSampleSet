@@ -1,0 +1,11 @@
+-- PROVISIONAL review KL for V940-1; original PC SHA256 a10e6a4519638c666afc695f2a7fc5a7f264a61fd8471c80e33078993e2d5529
+-- Incomplete behavior may be omitted. Consult companion uncertainty JSON. Do not deploy.
+PROGRAM KA00027
+%NOLOCKGROUP
+VAR
+  SRC : BOOLEAN
+  DST : BOOLEAN
+BEGIN
+  SRC = TRUE
+  DST = SRC
+END KA00027

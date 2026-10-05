@@ -1,0 +1,45 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "IO0075.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_error_excerpt": "Notice: Unable to find 'robot.ini',\nUsing basic KAREL support files.\nKTRANS Version V8.33 (Build 25  10/28/2024)\nCopyright (C) FANUC America Corporation, 1985 through 2014.\nAll Rights Reserved.\n\n\n\nC:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\RobotIO\\rt\\IO0075\\7c423975\\io0075.kl(24)\n  24 ENDIF\n     ^ ERROR\nInvalid statement or \"ENDxxx\" or \"UNTIL\" expected.\n\nC:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\RobotIO\\rt\\IO0075\\7c423975\\io0075.kl(24)\n  24 ENDIF\n     ^ ERROR\nInvalid statement. \";\" or new line expected.\n\n\n===============Translation not successful===============\nError executing KTrans: Error translating program: Code: 0xFFFFFFFF:  ",
+  "compiler_exit_code": 2147745896,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\RobotIO\\rt\\IO0075\\7c423975\\compile.log",
+  "compiler_log_sha256": "6bd6de1460e82ad0c29fc170a35004fbc59870c020526f1a552baabee7c6245c",
+  "compiler_release": "V833-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": false,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Decompiled\\Probes4\\RobotIO\\IO0075\\IO0075.KL",
+  "kl_sha256": "8d65adfa6c1a3b725c2cab0f4fd0d2480f46e0ad59324aab1f4ebc7fdf02d86f",
+  "native_alignment": null,
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\RobotIO\\IO0075.pc",
+  "original_pc_sha256": "dc91517d6df26c3cc4cebc1cebee809c545c418a119d8ddf31e90d748d0ce9cc",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "name": "IO0075.pc",
+    "observed_tag": "27",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\RobotIO\\IO0075.pc",
+    "size": 678,
+    "status": "tag_observed"
+  },
+  "reason": "KTRANS did not produce exactly one successful PC",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\RobotIO\\rt\\IO0075\\7c423975",
+  "source_marker_alignment": null,
+  "status": "compile_failed",
+  "whole_pc_bytes_equal": false
+}

@@ -1,0 +1,15 @@
+-- PROVISIONAL review KL for V770-1; original PC SHA256 36455e4b537d54b5b7173120043296ae2c86eb6efefa044617cf67153249bd4a
+-- Incomplete behavior may be omitted. Consult companion uncertainty JSON. Do not deploy.
+PROGRAM KT00618
+%NOLOCKGROUP
+VAR
+  B1 : BOOLEAN
+  B2 : BOOLEAN
+  OUT : BOOLEAN
+BEGIN
+  B1 = TRUE
+  B2 = FALSE
+  B1 = TRUE
+  B2 = FALSE
+  OUT = NOT (B1)
+END KT00618

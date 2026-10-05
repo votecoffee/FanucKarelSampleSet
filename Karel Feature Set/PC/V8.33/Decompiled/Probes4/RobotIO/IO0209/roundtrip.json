@@ -1,0 +1,178 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "IO0209.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_exit_code": 0,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\RobotIO\\rt\\IO0209\\8ef25c28\\compile.log",
+  "compiler_log_sha256": "c31980f374b65a194e4863974f801b4ae87c28b1f624de0fc28100ecb2d6d029",
+  "compiler_release": "V833-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": true,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\RobotIO\\rt\\IO0209\\8ef25c28\\io0209.pc",
+  "generated_pc_sha256": "1f31f11f5d6cae44e3244cd5e24e04430c2372fbf780c01944e8cfe95fc5de4f",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Decompiled\\Probes4\\RobotIO\\IO0209\\IO0209.KL",
+  "kl_sha256": "43b308ea888cc1efe0113747e1f5d30c0dbe3b01a9021a7c61b04cbc8621a044",
+  "native_alignment": {
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+    "code_bytes_equal": false,
+    "exact_native_record_stream": true,
+    "first_differences": [],
+    "generated_code_sha256": "fd27c80e24884a649f20f025a0951c76173b91221587d76f94831c66c38e0bb8",
+    "generated_records": 25,
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "opcode_agreement_pct": 100.0,
+    "opcode_aligned": 25,
+    "original_code_sha256": "1a45429972d8c53515766e2cfc646607203d7cc3e99c54c3e84391b78e563275",
+    "original_records": 25,
+    "raw_agreement_pct": 100.0,
+    "raw_equal_in_opcode_alignment": 25
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\RobotIO\\IO0209.pc",
+  "original_pc_sha256": "283e975c8c5dffe36eaeca8d88ddad1959c4cd5bfeee630879f0b00fc01f0e84",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "name": "IO0209.pc",
+    "observed_tag": "27",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\RobotIO\\IO0209.pc",
+    "size": 209,
+    "status": "tag_observed"
+  },
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\RobotIO\\rt\\IO0209\\8ef25c28",
+  "source_marker_alignment": {
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+    "code_offset_equal_count": 8,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "generated": [
+          18,
+          18,
+          248
+        ],
+        "ordinal": 0,
+        "original": [
+          18,
+          16,
+          236
+        ]
+      },
+      {
+        "generated": [
+          30,
+          19,
+          260
+        ],
+        "ordinal": 1,
+        "original": [
+          30,
+          17,
+          245
+        ]
+      },
+      {
+        "generated": [
+          49,
+          20,
+          268
+        ],
+        "ordinal": 2,
+        "original": [
+          49,
+          18,
+          257
+        ]
+      },
+      {
+        "generated": [
+          61,
+          21,
+          280
+        ],
+        "ordinal": 3,
+        "original": [
+          61,
+          19,
+          269
+        ]
+      },
+      {
+        "generated": [
+          77,
+          22,
+          287
+        ],
+        "ordinal": 4,
+        "original": [
+          77,
+          20,
+          280
+        ]
+      },
+      {
+        "generated": [
+          100,
+          23,
+          309
+        ],
+        "ordinal": 5,
+        "original": [
+          100,
+          21,
+          308
+        ]
+      },
+      {
+        "generated": [
+          109,
+          25,
+          325
+        ],
+        "ordinal": 6,
+        "original": [
+          109,
+          23,
+          326
+        ]
+      },
+      {
+        "generated": [
+          118,
+          26,
+          331
+        ],
+        "ordinal": 7,
+        "original": [
+          118,
+          24,
+          335
+        ]
+      }
+    ],
+    "generated_count": 8,
+    "line_equal_count": 0,
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 8,
+    "paired_count": 8,
+    "source_byte_offset_equal_count": 0
+  },
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Decompiled\\Probes4\\RobotIO\\IO0209\\IO0209.recompiled.pc",
+  "status": "compared",
+  "whole_pc_bytes_equal": false
+}

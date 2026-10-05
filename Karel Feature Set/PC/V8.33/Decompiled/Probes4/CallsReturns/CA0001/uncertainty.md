@@ -1,0 +1,33 @@
+# CA0001 maximal KL uncertainty report
+
+Original PC SHA-256: `ae6b3274cc595f1a2064c3283603cd1be532a377ff3c6dae74740fbe56986f15`  
+KL SHA-256: `7e874071e32fa8435eda3c2df5e5a7f89155da2e3507800fcb14e3f68af3723e`  
+Strict source completeness: **no**.  
+This KL is a reconstruction candidate. Compilation does not establish original behavior or deployment safety.
+
+## Coverage
+
+- Statements from existing source-safe renderer: 9
+- Additional unproved statements emitted as code: 0 (0.00% of emitted statements)
+- Existing-renderer statements with explicitly unproved rules: 2
+- Guarded compact STRING concat source spellings (unproved original spelling): 0
+- Remaining unresolved PC spans in comments: 0
+- Remaining unsafe source expressions in comments: 2
+- Explanatory comments moved to JSON report: 16
+- Blank layout lines removed: 6
+- Original routine declaration blockers: 0
+- Routine declaration warnings in comments: 0
+- Unknown compact 2C cells: 0 (0 directly referenced)
+- Exact direct sites to unknown cells: 0
+- Routines without located compact-cell geometry: 0
+- Unknown compact cells without known frame offsets: 0
+- WIP compact type choices: {}
+
+## Unproved rendering methods used
+
+- None.
+
+The companion JSON lists every emitted unproved statement, remaining comment,
+unknown-cell alternative, and original-PC local-reference site with code offset.
+Source-safe here means accepted by the maintained renderer; it does not mean
+the original source spelling or whole-PC equality has been recovered.

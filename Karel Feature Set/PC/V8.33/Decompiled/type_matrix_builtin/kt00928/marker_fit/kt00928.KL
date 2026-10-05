@@ -1,0 +1,13 @@
+PROGRAM KT00928
+%NOLOCKGROUP
+VAR
+S1 : STRING[80];S2 : STRING[80];OUT:INTEGER
+BEGIN
+--   
+--   
+S1='A'     
+S2='B'     
+S1='A'     
+S2='B'     
+OUT=ORD(S1,1)      
+END KT00928

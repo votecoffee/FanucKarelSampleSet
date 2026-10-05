@@ -1,0 +1,68 @@
+PROGRAM NC0026
+%NOLOCKGROUP
+ROUTINE R
+VAR
+S1:INTEGER
+BEGIN         
+S1=1    
+SELECT S1 OF
+CASE(1):       
+SELECT S1 OF
+CASE(1):               
+SELECT S1 OF
+CASE(1):                       
+SELECT S1 OF
+CASE(1):                               
+SELECT S1 OF
+CASE(1):                                       
+SELECT S1 OF
+CASE(1):                                               
+SELECT S1 OF
+CASE(1):                                                       
+SELECT S1 OF
+CASE(1):                                                               
+S1=(S1+1)
+CASE(2):                                                                    
+S1=(S1+2)
+ELSE:                                                                    
+S1=(S1+3)                                   
+ENDSELECT
+CASE(2):                                                            
+S1=(S1+2)
+ELSE:                                                            
+S1=(S1+3)                               
+ENDSELECT
+CASE(2):                                                    
+S1=(S1+2)
+ELSE:                                                    
+S1=(S1+3)                           
+ENDSELECT
+CASE(2):                                            
+S1=(S1+2)
+ELSE:                                            
+S1=(S1+3)                       
+ENDSELECT
+CASE(2):                                    
+S1=(S1+2)
+ELSE:                                    
+S1=(S1+3)                   
+ENDSELECT
+CASE(2):                            
+S1=(S1+2)
+ELSE:                            
+S1=(S1+3)               
+ENDSELECT
+CASE(2):                    
+S1=(S1+2)
+ELSE:                    
+S1=(S1+3)           
+ENDSELECT
+CASE(2):            
+S1=(S1+2)
+ELSE:            
+S1=(S1+3)       
+ENDSELECT   
+END R
+BEGIN  
+R   
+END NC0026

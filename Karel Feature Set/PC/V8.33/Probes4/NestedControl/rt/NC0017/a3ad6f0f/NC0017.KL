@@ -1,0 +1,52 @@
+PROGRAM NC0017
+%NOLOCKGROUP
+ROUTINE R
+VAR
+S1:INTEGER
+BEGIN         
+S1=1    
+IF (S1=1) THEN  
+S1=(S1+2)     
+ELSE   
+IF (S1=1) THEN    
+S1=(S1+2)       
+ELSE     
+IF (S1=1) THEN      
+S1=(S1+2)         
+ELSE       
+IF (S1=1) THEN        
+S1=(S1+2)           
+ELSE         
+IF (S1=1) THEN          
+S1=(S1+2)             
+ELSE           
+IF (S1=1) THEN            
+S1=(S1+2)               
+ELSE             
+IF (S1=1) THEN              
+S1=(S1+2)                 
+ELSE               
+IF (S1=1) THEN                
+S1=(S1+2)                   
+ELSE                 
+IF (S1=1) THEN                  
+S1=(S1+2)                     
+ELSE                   
+IF (S1=1) THEN                    
+S1=(S1+2)                       
+ELSE                     
+S1=(S1+1)                       
+ENDIF                     
+ENDIF                   
+ENDIF                 
+ENDIF               
+ENDIF             
+ENDIF           
+ENDIF         
+ENDIF       
+ENDIF     
+ENDIF   
+END R
+BEGIN  
+R   
+END NC0017

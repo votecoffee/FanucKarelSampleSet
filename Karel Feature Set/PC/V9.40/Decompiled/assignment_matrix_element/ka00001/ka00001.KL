@@ -1,0 +1,13 @@
+-- PROVISIONAL review KL for V940-1; original PC SHA256 ad5081367cd62ad0b6119ae2e7433e47eb24b9ec70d9125016336564edf5669f
+-- Incomplete behavior may be omitted. Consult companion uncertainty JSON. Do not deploy.
+PROGRAM KA00001
+%NOLOCKGROUP
+VAR
+  SRC : INTEGER
+  DST : INTEGER
+BEGIN
+  -- V9_ZERO_TABLE_METADATA_HINT layout=0001; no indexed target words; source/name/runtime held
+  -- UNRESOLVED_PC offsets 5-16; opcodes 2E,23
+  -- UNRESOLVED_PC offsets 21-33; opcodes 21,23
+  -- UNRESOLVED_PC offsets 38-42; opcodes 7F
+END KA00001

@@ -1,0 +1,250 @@
+{
+  "all_untyped_cell_constraints": [],
+  "assumed_compact_cells": 0,
+  "candidate_compact_concat_source_rewrite_count": 0,
+  "candidate_compact_concat_source_rewrites": [],
+  "candidate_named_local_declarations": [],
+  "candidate_named_structure_declarations": [
+    {
+      "blob_sha256": "435a97f517ad671206830308460636114f4c35d1f2c9bc0b19b7bf1c19c95157",
+      "candidate_storage_bytes": 8,
+      "fields": [
+        {
+          "candidate_offset_bytes": 0,
+          "candidate_storage_bytes": 4,
+          "dimension_u16_be": [],
+          "name": "A",
+          "source_type": "INTEGER",
+          "type_u16": 16
+        },
+        {
+          "candidate_offset_bytes": 4,
+          "candidate_storage_bytes": 4,
+          "dimension_u16_be": [],
+          "name": "B",
+          "source_type": "REAL",
+          "type_u16": 17
+        }
+      ],
+      "name": "T",
+      "omitted_padding_fields": [],
+      "required_type_descriptors": [],
+      "rule_status": "compiler_correlated_unproven"
+    }
+  ],
+  "candidate_unreachable_terminal_classifications": [],
+  "code_sha256": "1f39ad44c43e407884e065731010046a60349b7fd025f1994edf18fe935b5390",
+  "compact_2c_source_type_choices": null,
+  "compact_hypothesis_inventory_complete": true,
+  "compact_hypothesis_withheld_routines": [],
+  "direct_reference_sites_to_untyped_cells": 0,
+  "emitted_executable_statement_count": 9,
+  "environment_inference": {
+    "method": "none",
+    "reason": "PC module/link preconditions not met"
+  },
+  "existing_renderer_unproved_rule_count": 2,
+  "existing_renderer_unproved_rule_fraction_of_emitted_statements": 0.2222222222222222,
+  "existing_renderer_unproved_rules": [
+    {
+      "marker_code_offset": 133,
+      "method": "named_field_rule_status",
+      "pc_source_line": 31,
+      "rendered_code": "ST.A = 5",
+      "routine": "CA0097",
+      "status": "compiler_correlated_unproven"
+    },
+    {
+      "marker_code_offset": 153,
+      "method": "named_field_rule_status",
+      "pc_source_line": 32,
+      "rendered_code": "ST.B = 6.5",
+      "routine": "CA0097",
+      "status": "compiler_correlated_unproven"
+    }
+  ],
+  "extra_unproved_fraction_of_emitted_statements": 0.0,
+  "extra_unproved_method_counts": {},
+  "extra_unproved_statements": [],
+  "extra_unproved_statements_emitted": 0,
+  "kl_sha256": "fae2060c29f58cdd0c74d9ce83406c61f0fa2fa85661fe69ebb8276e72cb7d29",
+  "layout_assumption_withholding_reason": null,
+  "native_source_marker_coverage": {
+    "authenticated_marker_count": 13,
+    "body_geometry_policy": "fresh_native_3E_intervals_with_verified_successor_prologue",
+    "code_sha256": "1f39ad44c43e407884e065731010046a60349b7fd025f1994edf18fe935b5390",
+    "complete": true,
+    "issue_count": 0,
+    "issues": [],
+    "native_marker_count": 13,
+    "source_row_count": 13,
+    "status": "generic_V833_native_source_marker_coverage"
+  },
+  "original_declaration_blocker_routines": 0,
+  "original_pc_sha256": "742b46247d40ede23a76d9b8fa98d6e9bd8c19fc68cdb3e5fad0a2a1e624e5af",
+  "original_source_diagnostic_units": 3,
+  "original_unresolved_executable_spans": 0,
+  "original_unsafe_source_ir_lines": 2,
+  "program": "CA0097",
+  "provenance_note": "Existing source-safe statements are compiler-correlated candidates, not authenticated original source. Extra emitted statements use listed methods needing proof. Unknown PC spans remain comments.",
+  "referenced_cell_constraints": [],
+  "relocated_comment_count": 16,
+  "relocated_kl_diagnostics": [
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 1,
+      "routine": null,
+      "text": "-- INCOMPLETE PC DECOMPILATION - REVIEW DRAFT ONLY"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 2,
+      "routine": null,
+      "text": "-- This is compiler-correlated candidate text, not recovered original KL."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 3,
+      "routine": null,
+      "text": "-- Unknown instructions remain as UNRESOLVED_PC comments in the body."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 4,
+      "routine": null,
+      "text": "-- Compilation may succeed while unresolved behavior is omitted."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 5,
+      "routine": null,
+      "text": "-- Resolve every blocker and verify the result before using this source."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 6,
+      "routine": null,
+      "text": "-- Original PC SHA-256: 742b46247d40ede23a76d9b8fa98d6e9bd8c19fc68cdb3e5fad0a2a1e624e5af"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 7,
+      "routine": null,
+      "text": "-- Remaining source blockers: 3"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 8,
+      "routine": null,
+      "text": "-- Unknown special local cells: 0"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 9,
+      "routine": null,
+      "text": "-- Unresolved executable marker lines: 0"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 10,
+      "routine": null
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 11,
+      "routine": null,
+      "text": "-- GENERIC V8.33 WHOLE-PROGRAM KAREL CANDIDATE \u2014 PASS100"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 12,
+      "routine": null,
+      "text": "-- NON-DEPLOYABLE. Unresolved executable spans are preserved as comments, never silently omitted."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 13,
+      "routine": null,
+      "text": "-- PC-resident global/routine names are exact; local/formal names are synthetic when source names are absent."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 14,
+      "routine": null,
+      "text": "-- Header directives are emitted only for compiler-roundtrip-proved V8.33 config images."
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 15,
+      "routine": null
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 36,
+      "routine": "CA0097"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 37,
+      "routine": "CA0097"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 38,
+      "routine": "CA0097",
+      "text": "-- LOCAL ROUTINE FORWARD DECLARATIONS (synthetic formal names)"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 40,
+      "routine": "F(P1 : ARRAY[*] OF REAL) FROM CA0097"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 44,
+      "routine": "F",
+      "text": "-- STRUCTURAL_PC line 22 opcodes [7F] marker_code=20"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 46,
+      "routine": "F"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 58,
+      "routine": "F",
+      "text": "-- STRUCTURAL_PC line 34 opcodes [7F] marker_code=188"
+    }
+  ],
+  "remaining_declaration_warning_comments": 0,
+  "remaining_issue_comments": [
+    {
+      "kind": "UNSAFE_SOURCE_IR",
+      "kl_line": 34,
+      "routine": "F",
+      "text": "-- UNSAFE_SOURCE_IR line 31: ST.A = 5"
+    },
+    {
+      "kind": "UNSAFE_SOURCE_IR",
+      "kl_line": 35,
+      "routine": "F",
+      "text": "-- UNSAFE_SOURCE_IR line 32: ST.B = 6.5"
+    }
+  ],
+  "remaining_unresolved_pc_comments": 0,
+  "remaining_unsafe_source_ir_comments": 2,
+  "removed_blank_line_count": 6,
+  "review_layout_policy": "compact_spacing_and_missing_content_comments_only",
+  "robot_deployable": false,
+  "runtime_equivalence_proved": false,
+  "source_safe_statements_from_existing_renderer": 9,
+  "status": "V833_maximal_KL_uncertainty_report",
+  "still_untyped_cells_with_direct_references": 0,
+  "still_untyped_compact_cells": 0,
+  "strict_source_eligible": false,
+  "unlocated_untyped_compact_cells": 0,
+  "unreferenced_cell_hypotheses": [],
+  "untyped_local_reference_sites": [],
+  "whole_pc_equality_proved": false
+}

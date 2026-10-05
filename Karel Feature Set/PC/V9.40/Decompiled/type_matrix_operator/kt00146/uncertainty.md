@@ -1,0 +1,7 @@
+# V940-1 provisional KL uncertainty
+
+Original PC SHA-256: `302f9985f9e957065a97290694144fdee7d88f488f19c51a445d9eabdb047363`.
+
+Executable statements emitted: 0; unresolved nonmarker records: 16; unresolved declarations: 1.
+
+The candidate may compile while omitting behavior. Source spelling, runtime equivalence and deployability are unproved.

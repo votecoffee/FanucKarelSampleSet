@@ -1,0 +1,217 @@
+{
+  "status": "compared",
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\NestedControl\\NC0064.pc",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Decompiled\\Probes4\\NestedControl\\NC0064\\NC0064.KL",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\robot.ini",
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_release": "V833-1",
+  "compiler_exit_code": 0,
+  "compiler_success": true,
+  "whole_pc_bytes_equal": false,
+  "native_alignment": {
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "original_records": 41,
+    "generated_records": 41,
+    "opcode_aligned": 41,
+    "raw_equal_in_opcode_alignment": 41,
+    "opcode_agreement_pct": 100.0,
+    "raw_agreement_pct": 100.0,
+    "exact_native_record_stream": true,
+    "original_code_sha256": "8586ec68032d21c9a05f56930383d48043b5bfc2bf1093098ccba8eeef5f24f0",
+    "generated_code_sha256": "dc87554b5045b169e196dbec379a5381e65152f160b66414b2cffbdb6494c9fe",
+    "code_bytes_equal": false,
+    "first_differences": [],
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof."
+  },
+  "source_marker_alignment": {
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 11,
+    "generated_count": 11,
+    "paired_count": 11,
+    "code_offset_equal_count": 11,
+    "line_equal_count": 0,
+    "source_byte_offset_equal_count": 1,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "ordinal": 0,
+        "original": [
+          8,
+          10,
+          116
+        ],
+        "generated": [
+          8,
+          13,
+          155
+        ]
+      },
+      {
+        "ordinal": 1,
+        "original": [
+          20,
+          11,
+          125
+        ],
+        "generated": [
+          20,
+          14,
+          160
+        ]
+      },
+      {
+        "ordinal": 2,
+        "original": [
+          54,
+          12,
+          147
+        ],
+        "generated": [
+          54,
+          15,
+          177
+        ]
+      },
+      {
+        "ordinal": 3,
+        "original": [
+          88,
+          13,
+          171
+        ],
+        "generated": [
+          88,
+          16,
+          194
+        ]
+      },
+      {
+        "ordinal": 4,
+        "original": [
+          122,
+          14,
+          197
+        ],
+        "generated": [
+          122,
+          17,
+          211
+        ]
+      },
+      {
+        "ordinal": 5,
+        "original": [
+          141,
+          15,
+          216
+        ],
+        "generated": [
+          141,
+          18,
+          223
+        ]
+      },
+      {
+        "ordinal": 6,
+        "original": [
+          161,
+          16,
+          230
+        ],
+        "generated": [
+          161,
+          19,
+          230
+        ]
+      },
+      {
+        "ordinal": 7,
+        "original": [
+          181,
+          17,
+          242
+        ],
+        "generated": [
+          181,
+          20,
+          237
+        ]
+      },
+      {
+        "ordinal": 8,
+        "original": [
+          201,
+          18,
+          252
+        ],
+        "generated": [
+          201,
+          21,
+          244
+        ]
+      },
+      {
+        "ordinal": 9,
+        "original": [
+          210,
+          20,
+          266
+        ],
+        "generated": [
+          210,
+          23,
+          256
+        ]
+      },
+      {
+        "ordinal": 10,
+        "original": [
+          219,
+          21,
+          271
+        ],
+        "generated": [
+          219,
+          24,
+          258
+        ]
+      }
+    ],
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified."
+  },
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "original_pc_sha256": "eb4d05e436a6f47e1ffa0a39ec250ea2ca26f52b37b8515b3817da51bfdb7063",
+  "kl_sha256": "56c46bc3a91eeeeea35b65976987ee52c951ff1fd03ede094c48137c75aa9d7e",
+  "original_version_probe": {
+    "path": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\NestedControl\\NC0064.pc",
+    "name": "NC0064.pc",
+    "status": "tag_observed",
+    "observed_tag": "27",
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "size": 704
+  },
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\NestedControl\\rt\\NC0064\\6be79401",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "NC0064.KL"
+  ],
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "robot_ini_sha256": null,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\NestedControl\\rt\\NC0064\\6be79401\\compile.log",
+  "compiler_log_sha256": "5884bb952b1f8d51494662be989bc6ed2d43fbe823e0a95af555d80e0ec137f6",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\NestedControl\\rt\\NC0064\\6be79401\\nc0064.pc",
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Decompiled\\Probes4\\NestedControl\\NC0064\\marker_fit\\initial\\NC0064.recompiled.pc",
+  "generated_pc_sha256": "3153d43f17af3a79ded58223e59ed55117e66f5ab07d1b847b7dbe6389b508fe"
+}

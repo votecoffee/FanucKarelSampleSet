@@ -1,0 +1,236 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "CA0014.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_exit_code": 0,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\CallsReturns\\rt\\CA0014\\94886407\\compile.log",
+  "compiler_log_sha256": "5015561bc65b9dd06e884c5ba5a06f3e0752d604dfce20397c14619dfa49e8be",
+  "compiler_release": "V833-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": true,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\CallsReturns\\rt\\CA0014\\94886407\\ca0014.pc",
+  "generated_pc_sha256": "18c0faec9f7cd00956633f11755ef6af28c21e3412b385b2885b4901a1d9cdc2",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Decompiled\\Probes4\\CallsReturns\\CA0014\\CA0014.KL",
+  "kl_sha256": "1acf74f9990f636ad91e9779bc29c83e92237b97618817fc55766ade163a43be",
+  "native_alignment": {
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+    "code_bytes_equal": false,
+    "exact_native_record_stream": false,
+    "first_differences": [
+      {
+        "generated_opcodes": [],
+        "generated_record_span": [
+          26,
+          26
+        ],
+        "kind": "delete",
+        "original_opcodes": [
+          "2E",
+          "22",
+          "32",
+          "35",
+          "2E",
+          "22",
+          "32",
+          "35",
+          "27",
+          "27",
+          "21",
+          "27"
+        ],
+        "original_record_span": [
+          26,
+          42
+        ]
+      }
+    ],
+    "generated_code_sha256": "71195483e5350deb25cf2a0035b335b264cc345c5f483a0e48ddd56b0b6c2069",
+    "generated_records": 28,
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "opcode_agreement_pct": 63.64,
+    "opcode_aligned": 28,
+    "original_code_sha256": "748070d104932242abe8cd5adacbf44bbda33027e9f13c6a99cdd6d9ce5b1130",
+    "original_records": 44,
+    "raw_agreement_pct": 63.64,
+    "raw_equal_in_opcode_alignment": 28
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\CallsReturns\\CA0014.pc",
+  "original_pc_sha256": "c5dce320404b437d53dfcffd7d42c723c23a7b6dcd2b39ebc01c156157f39e69",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "name": "CA0014.pc",
+    "observed_tag": "27",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\CallsReturns\\CA0014.pc",
+    "size": 790,
+    "status": "tag_observed"
+  },
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\CallsReturns\\rt\\CA0014\\94886407",
+  "source_marker_alignment": {
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+    "code_offset_equal_count": 10,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "generated": [
+          1,
+          24,
+          332
+        ],
+        "ordinal": 0,
+        "original": [
+          1,
+          23,
+          335
+        ]
+      },
+      {
+        "generated": [
+          20,
+          25,
+          342
+        ],
+        "ordinal": 1,
+        "original": [
+          20,
+          24,
+          348
+        ]
+      },
+      {
+        "generated": [
+          29,
+          27,
+          354
+        ],
+        "ordinal": 2,
+        "original": [
+          29,
+          26,
+          362
+        ]
+      },
+      {
+        "generated": [
+          41,
+          28,
+          358
+        ],
+        "ordinal": 3,
+        "original": [
+          41,
+          27,
+          371
+        ]
+      },
+      {
+        "generated": [
+          53,
+          29,
+          362
+        ],
+        "ordinal": 4,
+        "original": [
+          53,
+          28,
+          380
+        ]
+      },
+      {
+        "generated": [
+          69,
+          30,
+          368
+        ],
+        "ordinal": 5,
+        "original": [
+          69,
+          29,
+          391
+        ]
+      },
+      {
+        "generated": [
+          81,
+          31,
+          375
+        ],
+        "ordinal": 6,
+        "original": [
+          81,
+          30,
+          403
+        ]
+      },
+      {
+        "generated": [
+          95,
+          32,
+          381
+        ],
+        "ordinal": 7,
+        "original": [
+          95,
+          31,
+          414
+        ]
+      },
+      {
+        "generated": [
+          114,
+          33,
+          389
+        ],
+        "ordinal": 8,
+        "original": [
+          114,
+          32,
+          427
+        ]
+      },
+      {
+        "generated": [
+          133,
+          37,
+          562
+        ],
+        "ordinal": 9,
+        "original": [
+          133,
+          33,
+          442
+        ]
+      },
+      {
+        "generated_count": 10,
+        "kind": "marker_count_difference",
+        "original_count": 13
+      }
+    ],
+    "generated_count": 10,
+    "line_equal_count": 0,
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 13,
+    "paired_count": 10,
+    "source_byte_offset_equal_count": 0
+  },
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Decompiled\\Probes4\\CallsReturns\\CA0014\\CA0014.recompiled.pc",
+  "status": "compared",
+  "whole_pc_bytes_equal": false
+}

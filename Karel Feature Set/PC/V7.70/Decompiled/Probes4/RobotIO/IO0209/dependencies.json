@@ -1,0 +1,71 @@
+{
+  "claim_limit": "Exact PC metadata references; loader binding, source and runtime behavior unproved.",
+  "incoming_element_count": 0,
+  "incoming_element_references": [],
+  "incoming_later_pc_references": [],
+  "outgoing_element_count": 1,
+  "outgoing_element_references": [
+    {
+      "claim_limit": "Embedded reference/signature metadata only; runtime binding and source are unproved.",
+      "consumer_pc": "Probes4/RobotIO/IO0209.pc",
+      "consumer_processed_after_provider": false,
+      "consumer_program": "IO0209",
+      "element_kind": "routine",
+      "element_name": "SET_REAL_REG",
+      "expected_type_from_consumer_pc": {
+        "argument_types_u16": [
+          16,
+          17,
+          16
+        ],
+        "extended_argument_types": [],
+        "return_type_u16": 0
+      },
+      "later_pc_reference_note": null,
+      "metadata_comparison": "provider_pc_absent",
+      "provider_pc_candidates": [],
+      "provider_pc_in_folder": null,
+      "provider_program_from_consumer_pc": "REGOPE",
+      "provider_type_from_provider_pc": null,
+      "site_count": 1,
+      "sites": [
+        {
+          "caller_routine_name": "RTEST",
+          "code_offset": 97,
+          "opcode_hex": "31",
+          "record_index": 24,
+          "record_sha256": "bbe302914ec293ed6b04a87b40c4abdefd00e18653069c22a3b473fbda88c10c",
+          "source_line_context": 20
+        }
+      ]
+    }
+  ],
+  "pc_dependency_names": [
+    {
+      "matching_workspace_pcs": [
+        "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V7.70\\Probes4\\RobotIO\\IO0209.pc"
+      ],
+      "name_from_pc": "IO0209",
+      "relationship": "PC metadata dependency name; source/include ownership not proven",
+      "same_folder_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V7.70\\Probes4\\RobotIO\\IO0209.pc"
+    },
+    {
+      "matching_workspace_pcs": [],
+      "name_from_pc": "REGOPE",
+      "relationship": "PC metadata dependency name; source/include ownership not proven",
+      "same_folder_pc": null
+    },
+    {
+      "matching_workspace_pcs": [],
+      "name_from_pc": "*ID*c37f",
+      "relationship": "PC metadata dependency name; source/include ownership not proven",
+      "same_folder_pc": null
+    }
+  ],
+  "pc_file": "Probes4/RobotIO/IO0209.pc",
+  "program_name": "IO0209",
+  "robot_ini": null,
+  "same_stem_sidecars": [],
+  "schema": "KAREL_PC_dependency_report_v2",
+  "sidecar_authentication": "names and paths only; no PC/sidecar producer identity proven"
+}

@@ -1,0 +1,1108 @@
+{
+  "all_untyped_cell_constraints": [
+    {
+      "cell_index": 1,
+      "constraint_scope": "Exact cell and native reference sites; scalar/vector alternatives are storage geometry only and no source type is selected.",
+      "direct_reference_count": 2,
+      "frame_cell_offset": 12,
+      "native_reference_sites": [
+        {
+          "code_offset": 82,
+          "opcode_hex": "23",
+          "record_index": 21
+        },
+        {
+          "code_offset": 208,
+          "opcode_hex": "22",
+          "record_index": 53
+        }
+      ],
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          12,
+          13,
+          14
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    },
+    {
+      "cell_index": 2,
+      "constraint_scope": "Exact cell and native reference sites; scalar/vector alternatives are storage geometry only and no source type is selected.",
+      "direct_reference_count": 1,
+      "frame_cell_offset": 13,
+      "native_reference_sites": [
+        {
+          "code_offset": 98,
+          "opcode_hex": "23",
+          "record_index": 24
+        }
+      ],
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          12,
+          13,
+          14
+        ],
+        [
+          13,
+          14,
+          15
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    },
+    {
+      "cell_index": 3,
+      "constraint_scope": "Exact cell and native reference sites; scalar/vector alternatives are storage geometry only and no source type is selected.",
+      "direct_reference_count": 2,
+      "frame_cell_offset": 14,
+      "native_reference_sites": [
+        {
+          "code_offset": 114,
+          "opcode_hex": "23",
+          "record_index": 27
+        },
+        {
+          "code_offset": 220,
+          "opcode_hex": "23",
+          "record_index": 57
+        }
+      ],
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          12,
+          13,
+          14
+        ],
+        [
+          13,
+          14,
+          15
+        ],
+        [
+          14,
+          15,
+          16
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    },
+    {
+      "cell_index": 4,
+      "constraint_scope": "Exact cell and native reference sites; scalar/vector alternatives are storage geometry only and no source type is selected.",
+      "direct_reference_count": 1,
+      "frame_cell_offset": 15,
+      "native_reference_sites": [
+        {
+          "code_offset": 130,
+          "opcode_hex": "23",
+          "record_index": 30
+        }
+      ],
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          13,
+          14,
+          15
+        ],
+        [
+          14,
+          15,
+          16
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    },
+    {
+      "cell_index": 5,
+      "constraint_scope": "Exact cell and native reference sites; scalar/vector alternatives are storage geometry only and no source type is selected.",
+      "direct_reference_count": 1,
+      "frame_cell_offset": 16,
+      "native_reference_sites": [
+        {
+          "code_offset": 142,
+          "opcode_hex": "23",
+          "record_index": 33
+        }
+      ],
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          14,
+          15,
+          16
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    }
+  ],
+  "assumed_compact_cells": 5,
+  "candidate_compact_concat_source_rewrite_count": 0,
+  "candidate_compact_concat_source_rewrites": [],
+  "candidate_named_local_declarations": [],
+  "candidate_named_structure_declarations": [],
+  "candidate_unreachable_terminal_classifications": [
+    {
+      "code_sha256": "c7d7fbeb8142ff8ea5c6ca16ecb17e148bca5539627d92cda291352eee8d8179",
+      "evidence": "candidate_scalar_expression_unreachable_terminal_7f",
+      "explicit_return_code_offset": 14,
+      "formal_cleanup_cells": 1,
+      "original_source_text_recovered": false,
+      "routine": "IDI",
+      "routine_index": 1,
+      "rule_status": "compiler_correlated_unproven",
+      "terminal_code_offset": 23,
+      "terminal_record_sha256": "88e92225ce3466242293982a8311aa2081599af18f58987b674b637c2d26bcff",
+      "typed_return": {
+        "code_sha256": "c7d7fbeb8142ff8ea5c6ca16ecb17e148bca5539627d92cda291352eee8d8179",
+        "kind": "RETURN",
+        "record_evidence": [
+          {
+            "code_offset": 6,
+            "end_exclusive": 12,
+            "expanded_offset": 40,
+            "index": 2,
+            "last_seen_source_byte_offset_mod65536": 72,
+            "last_seen_source_line": 5,
+            "last_source_marker_offset": 1,
+            "length": 6,
+            "opcode_hex": "2D",
+            "record_sha256": "cb0814925c0d075317b4b20cb986cfa9a1ae1a24593dac3a3121dd8ead645369",
+            "width_rule": "native_fixed_width"
+          },
+          {
+            "code_offset": 12,
+            "end_exclusive": 13,
+            "expanded_offset": 46,
+            "index": 3,
+            "last_seen_source_byte_offset_mod65536": 72,
+            "last_seen_source_line": 5,
+            "last_source_marker_offset": 1,
+            "length": 1,
+            "opcode_hex": "9D",
+            "record_sha256": "9d277175737fb50041e75f641acf94d10df9b9721db8fffe874ab57f8ffb062e",
+            "width_rule": "native_fixed_width"
+          },
+          {
+            "code_offset": 13,
+            "end_exclusive": 14,
+            "expanded_offset": 47,
+            "index": 4,
+            "last_seen_source_byte_offset_mod65536": 72,
+            "last_seen_source_line": 5,
+            "last_source_marker_offset": 1,
+            "length": 1,
+            "opcode_hex": "52",
+            "record_sha256": "8c2574892063f995fdf756bce07f46c1a5193e54cd52837ed91e32008ccf41ac",
+            "width_rule": "native_fixed_width"
+          },
+          {
+            "code_offset": 14,
+            "end_exclusive": 18,
+            "expanded_offset": 48,
+            "index": 5,
+            "last_seen_source_byte_offset_mod65536": 72,
+            "last_seen_source_line": 5,
+            "last_source_marker_offset": 1,
+            "length": 4,
+            "opcode_hex": "7F",
+            "record_sha256": "c04633aad8db8c9489791de13f8195d9ab755c66c8bcbe37ced72a962f49d585",
+            "routine_boundary_candidate_only": true,
+            "width_rule": "native_fixed_width"
+          }
+        ],
+        "return_argument_stack_cells": 1,
+        "return_evidence": "bounded_typed_postfix_expression_before_7f",
+        "return_type_u16": 16,
+        "routine_name": "IDI",
+        "rule_status": "compiler_correlated_unproven",
+        "scalar_use_constraints": [],
+        "text": "RETURN((P1 + 1))"
+      }
+    },
+    {
+      "code_sha256": "c7d7fbeb8142ff8ea5c6ca16ecb17e148bca5539627d92cda291352eee8d8179",
+      "evidence": "candidate_scalar_expression_unreachable_terminal_7f",
+      "explicit_return_code_offset": 45,
+      "formal_cleanup_cells": 1,
+      "original_source_text_recovered": false,
+      "routine": "IDR",
+      "routine_index": 2,
+      "rule_status": "compiler_correlated_unproven",
+      "terminal_code_offset": 54,
+      "terminal_record_sha256": "88e92225ce3466242293982a8311aa2081599af18f58987b674b637c2d26bcff",
+      "typed_return": {
+        "code_sha256": "c7d7fbeb8142ff8ea5c6ca16ecb17e148bca5539627d92cda291352eee8d8179",
+        "kind": "RETURN",
+        "record_evidence": [
+          {
+            "code_offset": 33,
+            "end_exclusive": 39,
+            "expanded_offset": 67,
+            "index": 10,
+            "last_seen_source_byte_offset_mod65536": 134,
+            "last_seen_source_line": 9,
+            "last_source_marker_offset": 28,
+            "length": 6,
+            "opcode_hex": "2D",
+            "record_sha256": "cb0814925c0d075317b4b20cb986cfa9a1ae1a24593dac3a3121dd8ead645369",
+            "width_rule": "native_fixed_width"
+          },
+          {
+            "code_offset": 39,
+            "end_exclusive": 44,
+            "expanded_offset": 73,
+            "index": 11,
+            "last_seen_source_byte_offset_mod65536": 134,
+            "last_seen_source_line": 9,
+            "last_source_marker_offset": 28,
+            "length": 5,
+            "literal_evidence": "compiler_source_correlated_only",
+            "literal_raw_u32_big_endian": 1065353216,
+            "opcode_hex": "2E",
+            "record_sha256": "93e07ff21e34737c17955fb79d2c02de350a28aec0a045ee9123430e695fa3ef",
+            "width_rule": "native_fixed_width"
+          },
+          {
+            "code_offset": 44,
+            "end_exclusive": 45,
+            "expanded_offset": 78,
+            "index": 12,
+            "last_seen_source_byte_offset_mod65536": 134,
+            "last_seen_source_line": 9,
+            "last_source_marker_offset": 28,
+            "length": 1,
+            "opcode_hex": "69",
+            "record_sha256": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+            "width_rule": "native_fixed_width"
+          },
+          {
+            "code_offset": 45,
+            "end_exclusive": 49,
+            "expanded_offset": 79,
+            "index": 13,
+            "last_seen_source_byte_offset_mod65536": 134,
+            "last_seen_source_line": 9,
+            "last_source_marker_offset": 28,
+            "length": 4,
+            "opcode_hex": "7F",
+            "record_sha256": "c04633aad8db8c9489791de13f8195d9ab755c66c8bcbe37ced72a962f49d585",
+            "routine_boundary_candidate_only": true,
+            "width_rule": "native_fixed_width"
+          }
+        ],
+        "return_argument_stack_cells": 1,
+        "return_evidence": "bounded_typed_postfix_expression_before_7f",
+        "return_type_u16": 17,
+        "routine_name": "IDR",
+        "rule_status": "compiler_correlated_unproven",
+        "scalar_use_constraints": [],
+        "text": "RETURN((P1 + 1.0))"
+      }
+    }
+  ],
+  "code_sha256": "c7d7fbeb8142ff8ea5c6ca16ecb17e148bca5539627d92cda291352eee8d8179",
+  "compact_2c_source_type_choices": {
+    "cell_count": 5,
+    "cells": [
+      {
+        "active_use_lines": [
+          50
+        ],
+        "address_reference_count": 1,
+        "chosen_source_candidate_type": "INTEGER",
+        "conflicting_effective_call_types": false,
+        "conflicting_scalar_use_constraints": false,
+        "direct_native_reference_count": 2,
+        "effective_typed_call_constraints": [],
+        "emitted_active_use_count": 1,
+        "frame_cell_offset": 12,
+        "native_scalar_use_constraints": [],
+        "original_source_type_proved": false,
+        "possible_composite_partition_excluded": false,
+        "preference_order": [
+          "BOOLEAN",
+          "INTEGER",
+          "REAL"
+        ],
+        "routine_name": "RTEST",
+        "selection_reason": "address_formal_unbound",
+        "unmet_native_scalar_use_types": [],
+        "unrepresented_direct_use_count": 1
+      },
+      {
+        "active_use_lines": [
+          51
+        ],
+        "address_reference_count": 0,
+        "chosen_source_candidate_type": "INTEGER",
+        "conflicting_effective_call_types": false,
+        "conflicting_scalar_use_constraints": false,
+        "direct_native_reference_count": 1,
+        "effective_typed_call_constraints": [],
+        "emitted_active_use_count": 1,
+        "frame_cell_offset": 13,
+        "native_scalar_use_constraints": [],
+        "original_source_type_proved": false,
+        "possible_composite_partition_excluded": false,
+        "preference_order": [
+          "BOOLEAN",
+          "INTEGER",
+          "REAL"
+        ],
+        "routine_name": "RTEST",
+        "selection_reason": "other_or_incomplete_numeric_use",
+        "unmet_native_scalar_use_types": [],
+        "unrepresented_direct_use_count": 0
+      },
+      {
+        "active_use_lines": [
+          52
+        ],
+        "address_reference_count": 0,
+        "chosen_source_candidate_type": "INTEGER",
+        "conflicting_effective_call_types": false,
+        "conflicting_scalar_use_constraints": false,
+        "direct_native_reference_count": 2,
+        "effective_typed_call_constraints": [],
+        "emitted_active_use_count": 1,
+        "frame_cell_offset": 14,
+        "native_scalar_use_constraints": [],
+        "original_source_type_proved": false,
+        "possible_composite_partition_excluded": false,
+        "preference_order": [
+          "BOOLEAN",
+          "INTEGER",
+          "REAL"
+        ],
+        "routine_name": "RTEST",
+        "selection_reason": "other_or_incomplete_numeric_use",
+        "unmet_native_scalar_use_types": [],
+        "unrepresented_direct_use_count": 1
+      },
+      {
+        "active_use_lines": [
+          53
+        ],
+        "address_reference_count": 0,
+        "chosen_source_candidate_type": "REAL",
+        "conflicting_effective_call_types": false,
+        "conflicting_scalar_use_constraints": false,
+        "direct_native_reference_count": 1,
+        "effective_typed_call_constraints": [],
+        "emitted_active_use_count": 1,
+        "frame_cell_offset": 15,
+        "native_scalar_use_constraints": [],
+        "original_source_type_proved": false,
+        "possible_composite_partition_excluded": false,
+        "preference_order": [
+          "BOOLEAN",
+          "INTEGER",
+          "REAL"
+        ],
+        "routine_name": "RTEST",
+        "selection_reason": "store_only_compact_word_short_real_candidate",
+        "unmet_native_scalar_use_types": [],
+        "unrepresented_direct_use_count": 0
+      },
+      {
+        "active_use_lines": [
+          54
+        ],
+        "address_reference_count": 0,
+        "chosen_source_candidate_type": "BOOLEAN",
+        "conflicting_effective_call_types": false,
+        "conflicting_scalar_use_constraints": false,
+        "direct_native_reference_count": 1,
+        "effective_typed_call_constraints": [],
+        "emitted_active_use_count": 1,
+        "frame_cell_offset": 16,
+        "native_scalar_use_constraints": [],
+        "original_source_type_proved": false,
+        "possible_composite_partition_excluded": false,
+        "preference_order": [
+          "BOOLEAN",
+          "INTEGER",
+          "REAL"
+        ],
+        "routine_name": "RTEST",
+        "selection_reason": "all_direct_uses_rendered_as_zero_one_equality_or_store",
+        "unmet_native_scalar_use_types": [],
+        "unrepresented_direct_use_count": 0
+      }
+    ],
+    "effective_typed_call_cell_count": 0,
+    "literal_rewrite_count": 2,
+    "literal_rewrites": [
+      {
+        "after": "  U2C_15 = 3.5",
+        "before": "  U2C_15 = 1080033280",
+        "kl_line": 53,
+        "method": "candidate_real_literal_from_native_word",
+        "routine_name": "RTEST"
+      },
+      {
+        "after": "  U2C_16 = TRUE",
+        "before": "  U2C_16 = 1",
+        "kl_line": 54,
+        "method": "heuristic_boolean_source_literal",
+        "routine_name": "RTEST"
+      }
+    ],
+    "scope": "maximal WIP KL only; not strict source or original declaration proof",
+    "selection_order": [
+      "BOOLEAN",
+      "INTEGER",
+      "REAL"
+    ],
+    "status": "heuristic_compact_2c_source_choices",
+    "type_counts": {
+      "BOOLEAN": 1,
+      "INTEGER": 3,
+      "REAL": 1
+    }
+  },
+  "compact_hypothesis_inventory_complete": true,
+  "compact_hypothesis_withheld_routines": [],
+  "direct_reference_sites_to_untyped_cells": 7,
+  "emitted_executable_statement_count": 11,
+  "environment_inference": {
+    "method": "none",
+    "reason": "PC module/link preconditions not met"
+  },
+  "existing_renderer_unproved_rule_count": 2,
+  "existing_renderer_unproved_rule_fraction_of_emitted_statements": 0.18181818181818182,
+  "existing_renderer_unproved_rules": [
+    {
+      "call_kind": null,
+      "marker_code_offset": 1,
+      "method": "rule_status",
+      "pc_source_line": 5,
+      "rendered_code": "RETURN((P1 + 1))",
+      "routine": "IDI",
+      "status": "compiler_correlated_unproven"
+    },
+    {
+      "call_kind": null,
+      "marker_code_offset": 28,
+      "method": "rule_status",
+      "pc_source_line": 9,
+      "rendered_code": "RETURN((P1 + 1.0))",
+      "routine": "IDR",
+      "status": "compiler_correlated_unproven"
+    }
+  ],
+  "extra_unproved_fraction_of_emitted_statements": 0.6363636363636364,
+  "extra_unproved_method_counts": {
+    "assumed_compact_2c_source_type": 5,
+    "bounded_scalar_expression_return": 2
+  },
+  "extra_unproved_statements": [
+    {
+      "kl_line": 10,
+      "methods_needing_proof": [
+        "bounded_scalar_expression_return"
+      ],
+      "original_ir": "RETURN((P1 + 1))",
+      "pc_source_line": 5,
+      "rendered_code": "RETURN((P1 + 1))",
+      "routine": "IDI",
+      "source_type_proved": false
+    },
+    {
+      "kl_line": 14,
+      "methods_needing_proof": [
+        "bounded_scalar_expression_return"
+      ],
+      "original_ir": "RETURN((P1 + 1.0))",
+      "pc_source_line": 9,
+      "rendered_code": "RETURN((P1 + 1.0))",
+      "routine": "IDR",
+      "source_type_proved": false
+    },
+    {
+      "kl_line": 27,
+      "methods_needing_proof": [
+        "assumed_compact_2c_source_type"
+      ],
+      "original_ir": "FRAME[RTEST+0xC] = 1",
+      "pc_source_line": 22,
+      "rendered_code": "U2C_12=1",
+      "routine": "RTEST",
+      "source_type_proved": false
+    },
+    {
+      "kl_line": 28,
+      "methods_needing_proof": [
+        "assumed_compact_2c_source_type"
+      ],
+      "original_ir": "FRAME[RTEST+0xD] = 2",
+      "pc_source_line": 23,
+      "rendered_code": "U2C_13=2",
+      "routine": "RTEST",
+      "source_type_proved": false
+    },
+    {
+      "kl_line": 29,
+      "methods_needing_proof": [
+        "assumed_compact_2c_source_type"
+      ],
+      "original_ir": "FRAME[RTEST+0xE] = 1075838976",
+      "pc_source_line": 24,
+      "rendered_code": "U2C_14=1075838976",
+      "routine": "RTEST",
+      "source_type_proved": false
+    },
+    {
+      "kl_line": 30,
+      "methods_needing_proof": [
+        "assumed_compact_2c_source_type"
+      ],
+      "original_ir": "FRAME[RTEST+0xF] = 1080033280",
+      "pc_source_line": 25,
+      "rendered_code": "U2C_15=3.5",
+      "routine": "RTEST",
+      "source_type_proved": false
+    },
+    {
+      "kl_line": 31,
+      "methods_needing_proof": [
+        "assumed_compact_2c_source_type"
+      ],
+      "original_ir": "FRAME[RTEST+0x10] = 1",
+      "pc_source_line": 26,
+      "rendered_code": "U2C_16=TRUE",
+      "routine": "RTEST",
+      "source_type_proved": false
+    }
+  ],
+  "extra_unproved_statements_emitted": 7,
+  "kl_sha256": "442b41d0414a6d017afcf92ded30b68cee77f5f58b58a2bff89dbccff90ac80f",
+  "layout_assumption_withholding_reason": null,
+  "native_source_marker_coverage": {
+    "authenticated_marker_count": 16,
+    "body_geometry_policy": "fresh_native_3E_intervals_with_verified_successor_prologue",
+    "code_sha256": "c7d7fbeb8142ff8ea5c6ca16ecb17e148bca5539627d92cda291352eee8d8179",
+    "complete": true,
+    "issue_count": 0,
+    "issues": [],
+    "native_marker_count": 16,
+    "source_row_count": 16,
+    "status": "generic_V833_native_source_marker_coverage"
+  },
+  "original_declaration_blocker_routines": 1,
+  "original_pc_sha256": "587c06e58469c9099542860831b176e65a4c95325a9b93bb06cb9407b1816a41",
+  "original_source_diagnostic_units": 11,
+  "original_unresolved_executable_spans": 2,
+  "original_unsafe_source_ir_lines": 8,
+  "program": "NM0097",
+  "provenance_note": "Existing source-safe statements are compiler-correlated candidates, not authenticated original source. Extra emitted statements use listed methods needing proof. Unknown PC spans remain comments.",
+  "referenced_cell_constraints": [
+    {
+      "cell_index": 1,
+      "constraint_scope": "Exact cell and native reference sites; scalar/vector alternatives are storage geometry only and no source type is selected.",
+      "direct_reference_count": 2,
+      "frame_cell_offset": 12,
+      "native_reference_sites": [
+        {
+          "code_offset": 82,
+          "opcode_hex": "23",
+          "record_index": 21
+        },
+        {
+          "code_offset": 208,
+          "opcode_hex": "22",
+          "record_index": 53
+        }
+      ],
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          12,
+          13,
+          14
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    },
+    {
+      "cell_index": 2,
+      "constraint_scope": "Exact cell and native reference sites; scalar/vector alternatives are storage geometry only and no source type is selected.",
+      "direct_reference_count": 1,
+      "frame_cell_offset": 13,
+      "native_reference_sites": [
+        {
+          "code_offset": 98,
+          "opcode_hex": "23",
+          "record_index": 24
+        }
+      ],
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          12,
+          13,
+          14
+        ],
+        [
+          13,
+          14,
+          15
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    },
+    {
+      "cell_index": 3,
+      "constraint_scope": "Exact cell and native reference sites; scalar/vector alternatives are storage geometry only and no source type is selected.",
+      "direct_reference_count": 2,
+      "frame_cell_offset": 14,
+      "native_reference_sites": [
+        {
+          "code_offset": 114,
+          "opcode_hex": "23",
+          "record_index": 27
+        },
+        {
+          "code_offset": 220,
+          "opcode_hex": "23",
+          "record_index": 57
+        }
+      ],
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          12,
+          13,
+          14
+        ],
+        [
+          13,
+          14,
+          15
+        ],
+        [
+          14,
+          15,
+          16
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    },
+    {
+      "cell_index": 4,
+      "constraint_scope": "Exact cell and native reference sites; scalar/vector alternatives are storage geometry only and no source type is selected.",
+      "direct_reference_count": 1,
+      "frame_cell_offset": 15,
+      "native_reference_sites": [
+        {
+          "code_offset": 130,
+          "opcode_hex": "23",
+          "record_index": 30
+        }
+      ],
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          13,
+          14,
+          15
+        ],
+        [
+          14,
+          15,
+          16
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    },
+    {
+      "cell_index": 5,
+      "constraint_scope": "Exact cell and native reference sites; scalar/vector alternatives are storage geometry only and no source type is selected.",
+      "direct_reference_count": 1,
+      "frame_cell_offset": 16,
+      "native_reference_sites": [
+        {
+          "code_offset": 142,
+          "opcode_hex": "23",
+          "record_index": 33
+        }
+      ],
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          14,
+          15,
+          16
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    }
+  ],
+  "relocated_comment_count": 24,
+  "relocated_kl_diagnostics": [
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 1,
+      "routine": null,
+      "text": "-- RESEARCH LOCAL LAYOUT: 5 untyped 2C cells; candidate BOOLEAN=1 INTEGER=3 REAL=1."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 2,
+      "routine": null,
+      "text": "-- Placeholder types and declaration partitions are unproved; compare compiler output only."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 3,
+      "routine": null,
+      "text": "-- INCOMPLETE PC DECOMPILATION - REVIEW DRAFT ONLY"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 4,
+      "routine": null,
+      "text": "-- This is compiler-correlated candidate text, not recovered original KL."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 5,
+      "routine": null,
+      "text": "-- Unknown instructions remain as UNRESOLVED_PC comments in the body."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 6,
+      "routine": null,
+      "text": "-- Compilation may succeed while unresolved behavior is omitted."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 7,
+      "routine": null,
+      "text": "-- Resolve every blocker and verify the result before using this source."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 8,
+      "routine": null,
+      "text": "-- Original PC SHA-256: 587c06e58469c9099542860831b176e65a4c95325a9b93bb06cb9407b1816a41"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 9,
+      "routine": null,
+      "text": "-- Remaining source blockers: 11"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 10,
+      "routine": null,
+      "text": "-- Unknown special local cells: 5"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 11,
+      "routine": null,
+      "text": "-- Unresolved executable marker lines: 2"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 12,
+      "routine": null
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 13,
+      "routine": null,
+      "text": "-- GENERIC V8.33 WHOLE-PROGRAM KAREL CANDIDATE \u2014 PASS100"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 14,
+      "routine": null,
+      "text": "-- NON-DEPLOYABLE. Unresolved executable spans are preserved as comments, never silently omitted."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 15,
+      "routine": null,
+      "text": "-- PC-resident global/routine names are exact; local/formal names are synthetic when source names are absent."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 16,
+      "routine": null,
+      "text": "-- Header directives are emitted only for compiler-roundtrip-proved V8.33 config images."
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 17,
+      "routine": null
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 22,
+      "routine": "NM0097"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 23,
+      "routine": "NM0097",
+      "text": "-- LOCAL ROUTINE FORWARD DECLARATIONS (synthetic formal names)"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 27,
+      "routine": "RTEST FROM NM0097"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 32,
+      "routine": "IDI"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 37,
+      "routine": "IDR"
+    },
+    {
+      "kind": "inline_assumption_comment",
+      "old_kl_line": 43,
+      "routine": "RTEST",
+      "text": "-- ASSUMED 2C source type; see uncertainty report"
+    },
+    {
+      "kind": "inline_assumption_comment",
+      "old_kl_line": 44,
+      "routine": "RTEST",
+      "text": "-- ASSUMED 2C source type; see uncertainty report"
+    },
+    {
+      "kind": "inline_assumption_comment",
+      "old_kl_line": 45,
+      "routine": "RTEST",
+      "text": "-- ASSUMED 2C source type; see uncertainty report"
+    },
+    {
+      "kind": "inline_assumption_comment",
+      "old_kl_line": 46,
+      "routine": "RTEST",
+      "text": "-- ASSUMED 2C source type; see uncertainty report"
+    },
+    {
+      "kind": "inline_assumption_comment",
+      "old_kl_line": 47,
+      "routine": "RTEST",
+      "text": "-- ASSUMED 2C source type; see uncertainty report"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 48,
+      "routine": "RTEST",
+      "text": "-- RESEARCH 2C LAYOUT: scalar source choices preserve one cell each; all types unproved."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 59,
+      "routine": "RTEST",
+      "text": "-- STRUCTURAL_PC line 31 opcodes [7F] marker_code=226"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 61,
+      "routine": "RTEST"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 64,
+      "routine": "RTEST",
+      "text": "-- STRUCTURAL_PC line 34 opcodes [7F] marker_code=244"
+    }
+  ],
+  "remaining_declaration_warning_comments": 0,
+  "remaining_issue_comments": [
+    {
+      "kind": "UNSAFE_SOURCE_IR",
+      "kl_line": 35,
+      "routine": "RTEST",
+      "text": "-- UNSAFE_SOURCE_IR line 30: CALL_RESULT IDI(ARG_1_UNRESOLVED)"
+    }
+  ],
+  "remaining_unresolved_pc_comments": 0,
+  "remaining_unsafe_source_ir_comments": 1,
+  "removed_blank_line_count": 7,
+  "review_layout_policy": "compact_spacing_and_missing_content_comments_only",
+  "robot_deployable": false,
+  "runtime_equivalence_proved": false,
+  "source_safe_statements_from_existing_renderer": 4,
+  "status": "V833_maximal_KL_uncertainty_report",
+  "still_untyped_cells_with_direct_references": 5,
+  "still_untyped_compact_cells": 5,
+  "strict_source_eligible": false,
+  "unlocated_untyped_compact_cells": 0,
+  "unreferenced_cell_hypotheses": [],
+  "untyped_local_reference_sites": [
+    {
+      "code_offset": 82,
+      "frame_cell_offset": 12,
+      "kl_lines": [
+        27
+      ],
+      "opcode_hex": "23",
+      "pc_source_marker_line": 22,
+      "record_index": 21,
+      "routine": "RTEST",
+      "type_proved": false
+    },
+    {
+      "code_offset": 98,
+      "frame_cell_offset": 13,
+      "kl_lines": [
+        28
+      ],
+      "opcode_hex": "23",
+      "pc_source_marker_line": 23,
+      "record_index": 24,
+      "routine": "RTEST",
+      "type_proved": false
+    },
+    {
+      "code_offset": 114,
+      "frame_cell_offset": 14,
+      "kl_lines": [
+        29
+      ],
+      "opcode_hex": "23",
+      "pc_source_marker_line": 24,
+      "record_index": 27,
+      "routine": "RTEST",
+      "type_proved": false
+    },
+    {
+      "code_offset": 130,
+      "frame_cell_offset": 15,
+      "kl_lines": [
+        30
+      ],
+      "opcode_hex": "23",
+      "pc_source_marker_line": 25,
+      "record_index": 30,
+      "routine": "RTEST",
+      "type_proved": false
+    },
+    {
+      "code_offset": 142,
+      "frame_cell_offset": 16,
+      "kl_lines": [
+        31
+      ],
+      "opcode_hex": "23",
+      "pc_source_marker_line": 26,
+      "record_index": 33,
+      "routine": "RTEST",
+      "type_proved": false
+    },
+    {
+      "code_offset": 208,
+      "frame_cell_offset": 12,
+      "kl_lines": [
+        35
+      ],
+      "opcode_hex": "22",
+      "pc_source_marker_line": 30,
+      "record_index": 53,
+      "routine": "RTEST",
+      "type_proved": false
+    },
+    {
+      "code_offset": 220,
+      "frame_cell_offset": 14,
+      "kl_lines": [
+        35
+      ],
+      "opcode_hex": "23",
+      "pc_source_marker_line": 30,
+      "record_index": 57,
+      "routine": "RTEST",
+      "type_proved": false
+    }
+  ],
+  "whole_pc_equality_proved": false
+}

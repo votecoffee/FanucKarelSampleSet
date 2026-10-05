@@ -1,0 +1,30 @@
+-- PROVISIONAL review KL for V940-1; original PC SHA256 4595162539a3c15ca63a42ba2ab59b65f98c805ac02171c103736102ed45197c
+-- Incomplete behavior may be omitted. Consult companion uncertainty JSON. Do not deploy.
+PROGRAM KF00052
+%NOLOCKGROUP
+VAR
+  I : INTEGER
+  J : INTEGER
+  X : REAL
+  Y : REAL
+  B : BOOLEAN
+  C : BOOLEAN
+  TXT : STRING[80]
+  TXT2 : STRING[80]
+  STATUS : INTEGER
+-- UNRESOLVED_DECL AI type=002010
+-- UNRESOLVED_DECL BI type=002010
+-- UNRESOLVED_DECL P type=000102
+-- UNRESOLVED_DECL JP type=000199
+-- UNRESOLVED_DECL PF type=000101
+-- UNRESOLVED_DECL V1 type=000013
+-- UNRESOLVED_DECL V2 type=000013
+BEGIN
+  -- V9_OWNER_INTERVAL_HINT [3,15); structural only; source/VM held
+  -- V9_EXPOSED_INDEXED_TABLE_HINT layout=0001; 2 counted words exposed once; source arms/runtime held
+  -- UNRESOLVED_PC offsets 5-12; opcodes 9C,23
+  -- UNRESOLVED_PC offsets 17-34; opcodes 21,2E,59,79
+  -- UNRESOLVED_PC offsets 39-53; opcodes 21,9D,52,23
+  -- UNRESOLVED_PC offsets 58-63; opcodes 7A
+  -- UNRESOLVED_PC offsets 68-72; opcodes 7F
+END KF00052

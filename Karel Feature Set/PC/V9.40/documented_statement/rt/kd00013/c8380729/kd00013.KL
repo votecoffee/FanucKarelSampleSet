@@ -1,0 +1,15 @@
+-- PROVISIONAL review KL for V940-1; original PC SHA256 d509d398f347475c4580c34835683f914387164df6568816fe6ab54fff6898e3
+-- Incomplete behavior may be omitted. Consult companion uncertainty JSON. Do not deploy.
+PROGRAM KD00013
+%NOLOCKGROUP
+VAR
+  I : INTEGER
+  J : INTEGER
+  B : BOOLEAN
+  R : REAL
+  S : STRING[80]
+BEGIN
+  -- V9_ZERO_TABLE_METADATA_HINT layout=0001; no indexed target words; source/name/runtime held
+  -- UNRESOLVED_PC offsets 5-13; opcodes 2E,9D,1A
+  -- UNRESOLVED_PC offsets 18-22; opcodes 7F
+END KD00013

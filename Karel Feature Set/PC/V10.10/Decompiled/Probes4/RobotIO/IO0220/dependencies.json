@@ -1,0 +1,59 @@
+{
+  "claim_limit": "Exact PC metadata references; loader binding, source and runtime behavior unproved.",
+  "incoming_element_count": 0,
+  "incoming_element_references": [],
+  "incoming_later_pc_references": [],
+  "outgoing_element_count": 1,
+  "outgoing_element_references": [
+    {
+      "claim_limit": "Embedded reference/signature metadata only; runtime binding and source are unproved.",
+      "consumer_pc": "Probes4/RobotIO/IO0220.pc",
+      "consumer_processed_after_provider": false,
+      "consumer_program": "IO0220",
+      "element_kind": "variable",
+      "element_name": "$GROUP",
+      "expected_type_from_consumer_pc": {
+        "type_name": "ARRAY[1] OF TYPE_0x1105",
+        "type_u16": 12549
+      },
+      "later_pc_reference_note": null,
+      "metadata_comparison": "provider_pc_absent",
+      "provider_pc_candidates": [],
+      "provider_pc_in_folder": null,
+      "provider_program_from_consumer_pc": "*SYSTEM*",
+      "provider_type_from_provider_pc": null,
+      "site_count": 1,
+      "sites": [
+        {
+          "code_offset": 82,
+          "link_slot_index": 0,
+          "opcode_hex": "22",
+          "record_index": 19,
+          "record_sha256": "6035b042b36667c37c89c6d4c6d554aafb2213a57e59c9bcc64751a8fe06a66c"
+        }
+      ]
+    }
+  ],
+  "pc_dependency_names": [
+    {
+      "matching_workspace_pcs": [
+        "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V10.10\\Probes4\\RobotIO\\IO0220.pc"
+      ],
+      "name_from_pc": "IO0220",
+      "relationship": "PC metadata dependency name; source/include ownership not proven",
+      "same_folder_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V10.10\\Probes4\\RobotIO\\IO0220.pc"
+    },
+    {
+      "matching_workspace_pcs": [],
+      "name_from_pc": "*ID*3cd0",
+      "relationship": "PC metadata dependency name; source/include ownership not proven",
+      "same_folder_pc": null
+    }
+  ],
+  "pc_file": "Probes4/RobotIO/IO0220.pc",
+  "program_name": "IO0220",
+  "robot_ini": null,
+  "same_stem_sidecars": [],
+  "schema": "KAREL_PC_dependency_report_v2",
+  "sidecar_authentication": "names and paths only; no PC/sidecar producer identity proven"
+}

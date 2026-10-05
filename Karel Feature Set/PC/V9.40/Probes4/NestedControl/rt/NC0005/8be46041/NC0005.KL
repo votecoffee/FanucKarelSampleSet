@@ -1,0 +1,31 @@
+-- PROVISIONAL review KL for V940-1; original PC SHA256 d678332fa5f376a0973c13c258a9604778ac8877a1b861c9cbf5a1f38fcd8569
+-- Incomplete behavior may be omitted. Consult companion uncertainty JSON. Do not deploy.
+PROGRAM NC0005
+%NOLOCKGROUP
+-- UNRESOLVED_LOCAL_POOL 1 cells at code offset 3; source declarations unknown
+-- DIRECT_LOCAL_WORD_ACCESS alone does not prove INTEGER, REAL, or BOOLEAN
+BEGIN
+  -- V9_EXPOSED_INDEXED_TABLE_HINT layout=0001; 10 counted words exposed once; source arms/runtime held
+  -- V9_CONDITION_STACK_HINT 5 bounded expression windows; static native code-base-relative target link; source arms held
+  -- UNRESOLVED_PC offsets 0-8; opcodes 2B,2C,7B
+  -- UNRESOLVED_PC offsets 13-20; opcodes 9D,23
+  -- UNRESOLVED_PC offsets 25-38; opcodes 21,9D,57,79
+  -- UNRESOLVED_PC offsets 43-56; opcodes 21,9D,57,79
+  -- UNRESOLVED_PC offsets 61-74; opcodes 21,9D,57,79
+  -- UNRESOLVED_PC offsets 79-92; opcodes 21,9D,57,79
+  -- UNRESOLVED_PC offsets 97-110; opcodes 21,9D,57,79
+  -- UNRESOLVED_PC offsets 115-129; opcodes 21,9D,52,23
+  -- UNRESOLVED_PC offsets 134-139; opcodes 7A
+  -- UNRESOLVED_PC offsets 144-162; opcodes 21,2E,52,23
+  -- UNRESOLVED_PC offsets 172-177; opcodes 7A
+  -- UNRESOLVED_PC offsets 182-200; opcodes 21,2E,52,23
+  -- UNRESOLVED_PC offsets 210-215; opcodes 7A
+  -- UNRESOLVED_PC offsets 220-238; opcodes 21,2E,52,23
+  -- UNRESOLVED_PC offsets 248-253; opcodes 7A
+  -- UNRESOLVED_PC offsets 258-276; opcodes 21,2E,52,23
+  -- UNRESOLVED_PC offsets 286-291; opcodes 7A
+  -- UNRESOLVED_PC offsets 296-314; opcodes 21,2E,52,23
+  -- UNRESOLVED_PC offsets 324-328; opcodes 7F
+  -- UNRESOLVED_PC offsets 333-337; opcodes 27,AA
+  -- UNRESOLVED_PC offsets 342-346; opcodes 7F
+END NC0005

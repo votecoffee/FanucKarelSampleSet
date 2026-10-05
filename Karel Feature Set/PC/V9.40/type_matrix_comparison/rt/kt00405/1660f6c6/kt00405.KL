@@ -1,0 +1,15 @@
+-- PROVISIONAL review KL for V940-1; original PC SHA256 2b6cddd1552512acb81e80977f509d0287885a0d5f7fb6f6613f6496cc91d93c
+-- Incomplete behavior may be omitted. Consult companion uncertainty JSON. Do not deploy.
+PROGRAM KT00405
+%NOLOCKGROUP
+VAR
+  R1 : REAL
+  I2 : INTEGER
+  OUT : BOOLEAN
+BEGIN
+  -- V9_ZERO_TABLE_METADATA_HINT layout=0001; no indexed target words; source/name/runtime held
+  -- UNRESOLVED_PC offsets 5-16; opcodes 2E,23
+  -- UNRESOLVED_PC offsets 21-32; opcodes 2E,23
+  -- UNRESOLVED_PC offsets 37-57; opcodes 21,21,64,71,23
+  -- UNRESOLVED_PC offsets 62-66; opcodes 7F
+END KT00405

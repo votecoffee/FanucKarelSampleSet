@@ -1,0 +1,286 @@
+{
+  "all_untyped_cell_constraints": [],
+  "assumed_compact_cells": 0,
+  "candidate_compact_concat_source_rewrite_count": 0,
+  "candidate_compact_concat_source_rewrites": [],
+  "candidate_named_local_declarations": [],
+  "candidate_named_structure_declarations": [],
+  "candidate_unreachable_terminal_classifications": [],
+  "code_sha256": "5c6149c9a1ad34515eeb0cb4d00d6f65e9d02a181694d83c7a6e3cc16d759108",
+  "compact_2c_source_type_choices": null,
+  "compact_hypothesis_inventory_complete": true,
+  "compact_hypothesis_withheld_routines": [],
+  "direct_reference_sites_to_untyped_cells": 0,
+  "emitted_executable_statement_count": 3,
+  "environment_inference": {
+    "method": "none",
+    "reason": "PC module/link preconditions not met"
+  },
+  "existing_renderer_unproved_rule_count": 2,
+  "existing_renderer_unproved_rule_fraction_of_emitted_statements": 0.6666666666666666,
+  "existing_renderer_unproved_rules": [
+    {
+      "marker_code_offset": 0,
+      "method": "indexed_byte_array_rule_status",
+      "pc_source_line": 8,
+      "rendered_code": "Y1[1] = 2",
+      "routine": "KT00020",
+      "status": "compiler_correlated_unproven"
+    },
+    {
+      "marker_code_offset": 35,
+      "method": "indexed_byte_array_rule_status",
+      "pc_source_line": 10,
+      "rendered_code": "OUT = (int_to_real(Y1[1]) + R2)",
+      "routine": "KT00020",
+      "status": "compiler_correlated_unproven"
+    }
+  ],
+  "extra_unproved_fraction_of_emitted_statements": 0.6666666666666666,
+  "extra_unproved_method_counts": {
+    "bounded_indexed_byte_array_transfer": 2,
+    "implicit_integer_real_expression": 1
+  },
+  "extra_unproved_statements": [
+    {
+      "kl_line": 10,
+      "methods_needing_proof": [
+        "bounded_indexed_byte_array_transfer"
+      ],
+      "original_ir": "Y1[1] = 2",
+      "pc_source_line": 8,
+      "rendered_code": "Y1[1]=2",
+      "routine": "KT00020",
+      "source_type_proved": false
+    },
+    {
+      "kl_line": 12,
+      "methods_needing_proof": [
+        "bounded_indexed_byte_array_transfer",
+        "implicit_integer_real_expression"
+      ],
+      "original_ir": "OUT = (int_to_real(Y1[1]) + R2)",
+      "pc_source_line": 10,
+      "rendered_code": "OUT=((Y1[1]) + R2)",
+      "routine": "KT00020",
+      "source_type_proved": false
+    }
+  ],
+  "extra_unproved_statements_emitted": 2,
+  "kl_sha256": "5b684ee7d55b339aa96b0b82352ad5f75e320f3cff600480f69d6909ce974bc6",
+  "layout_assumption_withholding_reason": null,
+  "marker_fit": {
+    "compact_kl": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Decompiled\\type_matrix_operator\\kt00020\\kt00020.compact.KL",
+    "filler_operations": [
+      {
+        "decisions": [
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 0,
+            "prior_line_trailing_spaces": 14,
+            "source_byte_offset_mod65536": 92,
+            "source_line_u16": 8,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 92
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 19,
+            "prior_line_trailing_spaces": 5,
+            "source_byte_offset_mod65536": 105,
+            "source_line_u16": 9,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 105
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 35,
+            "prior_line_trailing_spaces": 7,
+            "source_byte_offset_mod65536": 119,
+            "source_line_u16": 10,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 119
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 64,
+            "prior_line_trailing_spaces": 3,
+            "source_byte_offset_mod65536": 139,
+            "source_line_u16": 11,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 139
+          }
+        ],
+        "separator": "LF",
+        "source_compactions": [
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 10
+          }
+        ],
+        "synthetic_comment_count": 0,
+        "synthetic_line_count": 0,
+        "trailing_space_count": 29
+      }
+    ],
+    "preamble_compactions": [
+      {
+        "kind": "omit_sentinel_directive_candidate",
+        "template_line": 2,
+        "text": "%STACKSIZE=65535"
+      },
+      {
+        "kind": "omit_sentinel_directive_candidate",
+        "template_line": 3,
+        "text": "%PRIORITY=65535"
+      }
+    ],
+    "report": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Decompiled\\type_matrix_operator\\kt00020\\marker_fit\\marker_fit.json",
+    "source_authentication": false,
+    "statement_line_numbers_refer_to_compact_kl": true,
+    "status": "whole_pc_equal"
+  },
+  "native_source_marker_coverage": {
+    "authenticated_marker_count": 4,
+    "body_geometry_policy": "fresh_native_3E_intervals_with_verified_successor_prologue",
+    "code_sha256": "5c6149c9a1ad34515eeb0cb4d00d6f65e9d02a181694d83c7a6e3cc16d759108",
+    "complete": true,
+    "issue_count": 0,
+    "issues": [],
+    "native_marker_count": 4,
+    "source_row_count": 4,
+    "status": "generic_V833_native_source_marker_coverage"
+  },
+  "original_declaration_blocker_routines": 0,
+  "original_pc_sha256": "051178cbbb8c71e33bb9814e99bcf732940ebebcffe59038ad44a60d1db56af2",
+  "original_source_diagnostic_units": 2,
+  "original_unresolved_executable_spans": 0,
+  "original_unsafe_source_ir_lines": 2,
+  "program": "KT00020",
+  "provenance_note": "Existing source-safe statements are compiler-correlated candidates, not authenticated original source. Extra emitted statements use listed methods needing proof. Unknown PC spans remain comments.",
+  "referenced_cell_constraints": [],
+  "relocated_comment_count": 14,
+  "relocated_kl_diagnostics": [
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 1,
+      "routine": null,
+      "text": "-- INCOMPLETE PC DECOMPILATION - REVIEW DRAFT ONLY"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 2,
+      "routine": null,
+      "text": "-- This is compiler-correlated candidate text, not recovered original KL."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 3,
+      "routine": null,
+      "text": "-- Unknown instructions remain as UNRESOLVED_PC comments in the body."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 4,
+      "routine": null,
+      "text": "-- Compilation may succeed while unresolved behavior is omitted."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 5,
+      "routine": null,
+      "text": "-- Resolve every blocker and verify the result before using this source."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 6,
+      "routine": null,
+      "text": "-- Original PC SHA-256: 051178cbbb8c71e33bb9814e99bcf732940ebebcffe59038ad44a60d1db56af2"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 7,
+      "routine": null,
+      "text": "-- Remaining source blockers: 2"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 8,
+      "routine": null,
+      "text": "-- Unknown special local cells: 0"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 9,
+      "routine": null,
+      "text": "-- Unresolved executable marker lines: 0"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 10,
+      "routine": null
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 11,
+      "routine": null,
+      "text": "-- GENERIC V8.33 WHOLE-PROGRAM KAREL CANDIDATE \u2014 PASS100"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 12,
+      "routine": null,
+      "text": "-- NON-DEPLOYABLE. Unresolved executable spans are preserved as comments, never silently omitted."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 13,
+      "routine": null,
+      "text": "-- PC-resident global/routine names are exact; local/formal names are synthetic when source names are absent."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 14,
+      "routine": null,
+      "text": "-- Header directives are emitted only for compiler-roundtrip-proved V8.33 config images."
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 15,
+      "routine": null
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 24,
+      "routine": "KT00020"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 29,
+      "routine": "KT00020",
+      "text": "-- STRUCTURAL_PC line 11 opcodes [7F] marker_code=64"
+    }
+  ],
+  "remaining_declaration_warning_comments": 0,
+  "remaining_issue_comments": [],
+  "remaining_unresolved_pc_comments": 0,
+  "remaining_unsafe_source_ir_comments": 0,
+  "removed_blank_line_count": 3,
+  "review_layout_policy": "compact_spacing_and_missing_content_comments_only",
+  "robot_deployable": false,
+  "runtime_equivalence_proved": false,
+  "source_safe_statements_from_existing_renderer": 1,
+  "status": "V833_maximal_KL_uncertainty_report",
+  "still_untyped_cells_with_direct_references": 0,
+  "still_untyped_compact_cells": 0,
+  "strict_source_eligible": false,
+  "unlocated_untyped_compact_cells": 0,
+  "unreferenced_cell_hypotheses": [],
+  "untyped_local_reference_sites": [],
+  "whole_pc_equality_proved": false
+}

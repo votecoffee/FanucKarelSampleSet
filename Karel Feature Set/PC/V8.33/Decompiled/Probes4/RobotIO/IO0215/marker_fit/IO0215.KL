@@ -1,0 +1,23 @@
+PROGRAM IO0215
+%NOLOCKGROUP
+ROUTINE RTEST
+VAR
+L1 : ARRAY[3] OF INTEGER;L2 : XYZWPR
+L3 : JOINTPOS9
+L4 : POSITION
+A:INTEGER
+B:REAL
+C:REAL
+D:BOOLEAN
+E:REAL
+BEGIN
+--                                                     
+A=1     
+L1[1]=2    
+D=TRUE     
+E=1.0     
+L4=$MNUFRAME[A,1]     
+END RTEST
+BEGIN  
+RTEST   
+END IO0215

@@ -1,0 +1,17 @@
+-- PROVISIONAL review KL for V940-1; original PC SHA256 6aa291339461b54960fc5cfe593604732580f9c75f3443e132fa001d030e0c37
+-- Incomplete behavior may be omitted. Consult companion uncertainty JSON. Do not deploy.
+PROGRAM KX00007
+%NOLOCKGROUP
+VAR
+  I : INTEGER
+  J : INTEGER
+  B : BOOLEAN
+  F : FILE
+  S : STRING[80]
+-- UNRESOLVED_DECL P type=000102
+BEGIN
+  -- V9_IO_1F02_MOTIF_HINT bounded seven-record physical form; historical source, timing/runtime/producer release held
+  -- V9_ZERO_TABLE_METADATA_HINT layout=0001; no indexed target words; source/name/runtime held
+  -- UNRESOLVED_PC offsets 5-13; opcodes 9D,2E,1F
+  -- UNRESOLVED_PC offsets 18-22; opcodes 7F
+END KX00007

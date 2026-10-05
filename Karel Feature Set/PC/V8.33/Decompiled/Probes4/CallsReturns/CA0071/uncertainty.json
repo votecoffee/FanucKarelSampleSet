@@ -1,0 +1,262 @@
+{
+  "all_untyped_cell_constraints": [],
+  "assumed_compact_cells": 0,
+  "candidate_compact_concat_source_rewrite_count": 0,
+  "candidate_compact_concat_source_rewrites": [],
+  "candidate_named_local_declarations": [],
+  "candidate_named_structure_declarations": [
+    {
+      "blob_sha256": "435a97f517ad671206830308460636114f4c35d1f2c9bc0b19b7bf1c19c95157",
+      "candidate_storage_bytes": 8,
+      "fields": [
+        {
+          "candidate_offset_bytes": 0,
+          "candidate_storage_bytes": 4,
+          "dimension_u16_be": [],
+          "name": "A",
+          "source_type": "INTEGER",
+          "type_u16": 16
+        },
+        {
+          "candidate_offset_bytes": 4,
+          "candidate_storage_bytes": 4,
+          "dimension_u16_be": [],
+          "name": "B",
+          "source_type": "REAL",
+          "type_u16": 17
+        }
+      ],
+      "name": "T",
+      "omitted_padding_fields": [],
+      "required_type_descriptors": [],
+      "rule_status": "compiler_correlated_unproven"
+    }
+  ],
+  "candidate_unreachable_terminal_classifications": [],
+  "code_sha256": "8039e746c3d6f7577e4af0f9b0859a2e1d6eabb4ba6149c8ccef6b7ac941e9e0",
+  "compact_2c_source_type_choices": null,
+  "compact_hypothesis_inventory_complete": true,
+  "compact_hypothesis_withheld_routines": [],
+  "direct_reference_sites_to_untyped_cells": 0,
+  "emitted_executable_statement_count": 8,
+  "environment_inference": {
+    "method": "none",
+    "reason": "PC module/link preconditions not met"
+  },
+  "existing_renderer_unproved_rule_count": 2,
+  "existing_renderer_unproved_rule_fraction_of_emitted_statements": 0.25,
+  "existing_renderer_unproved_rules": [
+    {
+      "marker_code_offset": 133,
+      "method": "named_field_rule_status",
+      "pc_source_line": 62,
+      "rendered_code": "ST.A = 5",
+      "routine": "CA0071",
+      "status": "compiler_correlated_unproven"
+    },
+    {
+      "marker_code_offset": 153,
+      "method": "named_field_rule_status",
+      "pc_source_line": 63,
+      "rendered_code": "ST.B = 6.5",
+      "routine": "CA0071",
+      "status": "compiler_correlated_unproven"
+    }
+  ],
+  "extra_unproved_fraction_of_emitted_statements": 0.0,
+  "extra_unproved_method_counts": {},
+  "extra_unproved_statements": [],
+  "extra_unproved_statements_emitted": 0,
+  "kl_sha256": "9be21ef3f6b06b613b58f0b92bef61734c25970632cdb51275dea871503b2cb6",
+  "layout_assumption_withholding_reason": null,
+  "native_source_marker_coverage": {
+    "authenticated_marker_count": 13,
+    "body_geometry_policy": "fresh_native_3E_intervals_with_verified_successor_prologue",
+    "code_sha256": "8039e746c3d6f7577e4af0f9b0859a2e1d6eabb4ba6149c8ccef6b7ac941e9e0",
+    "complete": true,
+    "issue_count": 0,
+    "issues": [],
+    "native_marker_count": 13,
+    "source_row_count": 13,
+    "status": "generic_V833_native_source_marker_coverage"
+  },
+  "original_declaration_blocker_routines": 0,
+  "original_pc_sha256": "fc22d1c03c6e64ba58954ae463d427f167c7b475a35e8c06364f5e5e86de7d95",
+  "original_source_diagnostic_units": 4,
+  "original_unresolved_executable_spans": 0,
+  "original_unsafe_source_ir_lines": 3,
+  "program": "CA0071",
+  "provenance_note": "Existing source-safe statements are compiler-correlated candidates, not authenticated original source. Extra emitted statements use listed methods needing proof. Unknown PC spans remain comments.",
+  "referenced_cell_constraints": [],
+  "relocated_comment_count": 17,
+  "relocated_kl_diagnostics": [
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 1,
+      "routine": null,
+      "text": "-- INCOMPLETE PC DECOMPILATION - REVIEW DRAFT ONLY"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 2,
+      "routine": null,
+      "text": "-- This is compiler-correlated candidate text, not recovered original KL."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 3,
+      "routine": null,
+      "text": "-- Unknown instructions remain as UNRESOLVED_PC comments in the body."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 4,
+      "routine": null,
+      "text": "-- Compilation may succeed while unresolved behavior is omitted."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 5,
+      "routine": null,
+      "text": "-- Resolve every blocker and verify the result before using this source."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 6,
+      "routine": null,
+      "text": "-- Original PC SHA-256: fc22d1c03c6e64ba58954ae463d427f167c7b475a35e8c06364f5e5e86de7d95"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 7,
+      "routine": null,
+      "text": "-- Remaining source blockers: 4"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 8,
+      "routine": null,
+      "text": "-- Unknown special local cells: 0"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 9,
+      "routine": null,
+      "text": "-- Unresolved executable marker lines: 0"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 10,
+      "routine": null
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 11,
+      "routine": null,
+      "text": "-- GENERIC V8.33 WHOLE-PROGRAM KAREL CANDIDATE \u2014 PASS100"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 12,
+      "routine": null,
+      "text": "-- NON-DEPLOYABLE. Unresolved executable spans are preserved as comments, never silently omitted."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 13,
+      "routine": null,
+      "text": "-- PC-resident global/routine names are exact; local/formal names are synthetic when source names are absent."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 14,
+      "routine": null,
+      "text": "-- Header directives are emitted only for compiler-roundtrip-proved V8.33 config images."
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 15,
+      "routine": null
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 36,
+      "routine": "CA0071"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 37,
+      "routine": "CA0071"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 38,
+      "routine": "CA0071",
+      "text": "-- LOCAL ROUTINE FORWARD DECLARATIONS (synthetic formal names)"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 41,
+      "routine": "F(P1 : INTEGER; P2 : REAL; P3 : BOOLEAN; P4 : STRING; P5 : INTEGER; P6 : REAL; P7 : BOOLEAN; P8 : STRING; P9 : INTEGER; P10 : REAL; P11 : BOOLEAN; P12 : STRING; P13 : INTEGER; P14 : REAL; P15 : BOOLEAN; P16 : STRING; P17 : INTEGER;"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 45,
+      "routine": "F",
+      "text": "-- STRUCTURAL_PC line 53 opcodes [7F] marker_code=20"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 47,
+      "routine": "F"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 59,
+      "routine": "F",
+      "text": "--ARG_20_UNRESOLVED, I, ARG_22_UNRESOLVED, B, ARG_24_UNRESOLVED, I, ARG_26_UNRESOLVED, B, ARG_28_UNRESOLVED, I, ARG_30_UNRESOLVED, B, ARG_32_UNRESOLVED)"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 60,
+      "routine": "F",
+      "text": "-- STRUCTURAL_PC line 96 opcodes [7F] marker_code=390"
+    }
+  ],
+  "remaining_declaration_warning_comments": 0,
+  "remaining_issue_comments": [
+    {
+      "kind": "UNSAFE_SOURCE_IR",
+      "kl_line": 35,
+      "routine": "F",
+      "text": "-- UNSAFE_SOURCE_IR line 62: ST.A = 5"
+    },
+    {
+      "kind": "UNSAFE_SOURCE_IR",
+      "kl_line": 36,
+      "routine": "F",
+      "text": "-- UNSAFE_SOURCE_IR line 63: ST.B = 6.5"
+    },
+    {
+      "kind": "UNSAFE_SOURCE_IR",
+      "kl_line": 37,
+      "routine": "F",
+      "text": "-- UNSAFE_SOURCE_IR line 64: F(I, ARG_2_UNRESOLVED, B, ARG_4_UNRESOLVED, I, ARG_6_UNRESOLVED, B, ARG_8_UNRESOLVED, I, ARG_10_UNRESOLVED, B, ARG_12_UNRESOLVED, I, ARG_14_UNRESOLVED, B, ARG_16_UNRESOLVED, I, ARG_18_UNRESOLVED, B,"
+    }
+  ],
+  "remaining_unresolved_pc_comments": 0,
+  "remaining_unsafe_source_ir_comments": 3,
+  "removed_blank_line_count": 6,
+  "review_layout_policy": "compact_spacing_and_missing_content_comments_only",
+  "robot_deployable": false,
+  "runtime_equivalence_proved": false,
+  "source_safe_statements_from_existing_renderer": 8,
+  "status": "V833_maximal_KL_uncertainty_report",
+  "still_untyped_cells_with_direct_references": 0,
+  "still_untyped_compact_cells": 0,
+  "strict_source_eligible": false,
+  "unlocated_untyped_compact_cells": 0,
+  "unreferenced_cell_hypotheses": [],
+  "untyped_local_reference_sites": [],
+  "whole_pc_equality_proved": false
+}

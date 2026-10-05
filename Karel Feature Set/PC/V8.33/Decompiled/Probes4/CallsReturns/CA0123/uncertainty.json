@@ -1,0 +1,587 @@
+{
+  "all_untyped_cell_constraints": [],
+  "assumed_compact_cells": 0,
+  "candidate_compact_concat_source_rewrite_count": 0,
+  "candidate_compact_concat_source_rewrites": [],
+  "candidate_named_local_declarations": [],
+  "candidate_named_structure_declarations": [
+    {
+      "blob_sha256": "435a97f517ad671206830308460636114f4c35d1f2c9bc0b19b7bf1c19c95157",
+      "candidate_storage_bytes": 8,
+      "fields": [
+        {
+          "candidate_offset_bytes": 0,
+          "candidate_storage_bytes": 4,
+          "dimension_u16_be": [],
+          "name": "A",
+          "source_type": "INTEGER",
+          "type_u16": 16
+        },
+        {
+          "candidate_offset_bytes": 4,
+          "candidate_storage_bytes": 4,
+          "dimension_u16_be": [],
+          "name": "B",
+          "source_type": "REAL",
+          "type_u16": 17
+        }
+      ],
+      "name": "T",
+      "omitted_padding_fields": [],
+      "required_type_descriptors": [],
+      "rule_status": "compiler_correlated_unproven"
+    }
+  ],
+  "candidate_unreachable_terminal_classifications": [
+    {
+      "code_sha256": "ec3fcaeeb1f70801f9a1a227555fe27f60b7cebe7dc150c9b77c9c8f42a52365",
+      "evidence": "candidate_scalar_expression_unreachable_terminal_7f",
+      "explicit_return_code_offset": 38,
+      "formal_cleanup_cells": 1,
+      "original_source_text_recovered": false,
+      "routine": "H1",
+      "routine_index": 1,
+      "rule_status": "compiler_correlated_unproven",
+      "terminal_code_offset": 47,
+      "terminal_record_sha256": "88e92225ce3466242293982a8311aa2081599af18f58987b674b637c2d26bcff",
+      "typed_return": {
+        "code_sha256": "ec3fcaeeb1f70801f9a1a227555fe27f60b7cebe7dc150c9b77c9c8f42a52365",
+        "kind": "RETURN",
+        "record_evidence": [
+          {
+            "code_offset": 25,
+            "end_exclusive": 31,
+            "expanded_offset": 59,
+            "index": 7,
+            "last_seen_source_byte_offset_mod65536": 325,
+            "last_seen_source_line": 22,
+            "last_source_marker_offset": 20,
+            "length": 6,
+            "opcode_hex": "2D",
+            "record_sha256": "cb0814925c0d075317b4b20cb986cfa9a1ae1a24593dac3a3121dd8ead645369",
+            "width_rule": "native_fixed_width"
+          },
+          {
+            "code_offset": 31,
+            "end_exclusive": 37,
+            "expanded_offset": 65,
+            "index": 8,
+            "last_seen_source_byte_offset_mod65536": 325,
+            "last_seen_source_line": 22,
+            "last_source_marker_offset": 20,
+            "length": 6,
+            "opcode_hex": "21",
+            "record_sha256": "ebca9089da31383e3da799d8eee3fc53a443d27f143445af732c00aa87125098",
+            "width_rule": "native_fixed_width"
+          },
+          {
+            "code_offset": 37,
+            "end_exclusive": 38,
+            "expanded_offset": 71,
+            "index": 9,
+            "last_seen_source_byte_offset_mod65536": 325,
+            "last_seen_source_line": 22,
+            "last_source_marker_offset": 20,
+            "length": 1,
+            "opcode_hex": "52",
+            "record_sha256": "8c2574892063f995fdf756bce07f46c1a5193e54cd52837ed91e32008ccf41ac",
+            "width_rule": "native_fixed_width"
+          },
+          {
+            "code_offset": 38,
+            "end_exclusive": 42,
+            "expanded_offset": 72,
+            "index": 10,
+            "last_seen_source_byte_offset_mod65536": 325,
+            "last_seen_source_line": 22,
+            "last_source_marker_offset": 20,
+            "length": 4,
+            "opcode_hex": "7F",
+            "record_sha256": "c04633aad8db8c9489791de13f8195d9ab755c66c8bcbe37ced72a962f49d585",
+            "routine_boundary_candidate_only": true,
+            "width_rule": "native_fixed_width"
+          }
+        ],
+        "return_argument_stack_cells": 1,
+        "return_evidence": "bounded_typed_postfix_expression_before_7f",
+        "return_type_u16": 16,
+        "routine_name": "H1",
+        "rule_status": "compiler_correlated_unproven",
+        "scalar_use_constraints": [],
+        "text": "RETURN((P1 + G))"
+      }
+    },
+    {
+      "code_sha256": "ec3fcaeeb1f70801f9a1a227555fe27f60b7cebe7dc150c9b77c9c8f42a52365",
+      "evidence": "candidate_scalar_expression_unreachable_terminal_7f",
+      "explicit_return_code_offset": 93,
+      "formal_cleanup_cells": 1,
+      "original_source_text_recovered": false,
+      "routine": "H2",
+      "routine_index": 2,
+      "rule_status": "compiler_correlated_unproven",
+      "terminal_code_offset": 102,
+      "terminal_record_sha256": "88e92225ce3466242293982a8311aa2081599af18f58987b674b637c2d26bcff",
+      "typed_return": {
+        "code_sha256": "ec3fcaeeb1f70801f9a1a227555fe27f60b7cebe7dc150c9b77c9c8f42a52365",
+        "kind": "RETURN",
+        "record_evidence": [
+          {
+            "code_offset": 80,
+            "end_exclusive": 86,
+            "expanded_offset": 114,
+            "index": 20,
+            "last_seen_source_byte_offset_mod65536": 404,
+            "last_seen_source_line": 27,
+            "last_source_marker_offset": 75,
+            "length": 6,
+            "opcode_hex": "2D",
+            "record_sha256": "cb0814925c0d075317b4b20cb986cfa9a1ae1a24593dac3a3121dd8ead645369",
+            "width_rule": "native_fixed_width"
+          },
+          {
+            "code_offset": 86,
+            "end_exclusive": 92,
+            "expanded_offset": 120,
+            "index": 21,
+            "last_seen_source_byte_offset_mod65536": 404,
+            "last_seen_source_line": 27,
+            "last_source_marker_offset": 75,
+            "length": 6,
+            "opcode_hex": "21",
+            "record_sha256": "ebca9089da31383e3da799d8eee3fc53a443d27f143445af732c00aa87125098",
+            "width_rule": "native_fixed_width"
+          },
+          {
+            "code_offset": 92,
+            "end_exclusive": 93,
+            "expanded_offset": 126,
+            "index": 22,
+            "last_seen_source_byte_offset_mod65536": 404,
+            "last_seen_source_line": 27,
+            "last_source_marker_offset": 75,
+            "length": 1,
+            "opcode_hex": "52",
+            "record_sha256": "8c2574892063f995fdf756bce07f46c1a5193e54cd52837ed91e32008ccf41ac",
+            "width_rule": "native_fixed_width"
+          },
+          {
+            "code_offset": 93,
+            "end_exclusive": 97,
+            "expanded_offset": 127,
+            "index": 23,
+            "last_seen_source_byte_offset_mod65536": 404,
+            "last_seen_source_line": 27,
+            "last_source_marker_offset": 75,
+            "length": 4,
+            "opcode_hex": "7F",
+            "record_sha256": "c04633aad8db8c9489791de13f8195d9ab755c66c8bcbe37ced72a962f49d585",
+            "routine_boundary_candidate_only": true,
+            "width_rule": "native_fixed_width"
+          }
+        ],
+        "return_argument_stack_cells": 1,
+        "return_evidence": "bounded_typed_postfix_expression_before_7f",
+        "return_type_u16": 16,
+        "routine_name": "H2",
+        "rule_status": "compiler_correlated_unproven",
+        "scalar_use_constraints": [],
+        "text": "RETURN((P1 + G))"
+      }
+    },
+    {
+      "code_sha256": "ec3fcaeeb1f70801f9a1a227555fe27f60b7cebe7dc150c9b77c9c8f42a52365",
+      "evidence": "candidate_scalar_expression_unreachable_terminal_7f",
+      "explicit_return_code_offset": 148,
+      "formal_cleanup_cells": 1,
+      "original_source_text_recovered": false,
+      "routine": "H3",
+      "routine_index": 3,
+      "rule_status": "compiler_correlated_unproven",
+      "terminal_code_offset": 157,
+      "terminal_record_sha256": "88e92225ce3466242293982a8311aa2081599af18f58987b674b637c2d26bcff",
+      "typed_return": {
+        "code_sha256": "ec3fcaeeb1f70801f9a1a227555fe27f60b7cebe7dc150c9b77c9c8f42a52365",
+        "kind": "RETURN",
+        "record_evidence": [
+          {
+            "code_offset": 135,
+            "end_exclusive": 141,
+            "expanded_offset": 169,
+            "index": 33,
+            "last_seen_source_byte_offset_mod65536": 483,
+            "last_seen_source_line": 32,
+            "last_source_marker_offset": 130,
+            "length": 6,
+            "opcode_hex": "2D",
+            "record_sha256": "cb0814925c0d075317b4b20cb986cfa9a1ae1a24593dac3a3121dd8ead645369",
+            "width_rule": "native_fixed_width"
+          },
+          {
+            "code_offset": 141,
+            "end_exclusive": 147,
+            "expanded_offset": 175,
+            "index": 34,
+            "last_seen_source_byte_offset_mod65536": 483,
+            "last_seen_source_line": 32,
+            "last_source_marker_offset": 130,
+            "length": 6,
+            "opcode_hex": "21",
+            "record_sha256": "ebca9089da31383e3da799d8eee3fc53a443d27f143445af732c00aa87125098",
+            "width_rule": "native_fixed_width"
+          },
+          {
+            "code_offset": 147,
+            "end_exclusive": 148,
+            "expanded_offset": 181,
+            "index": 35,
+            "last_seen_source_byte_offset_mod65536": 483,
+            "last_seen_source_line": 32,
+            "last_source_marker_offset": 130,
+            "length": 1,
+            "opcode_hex": "52",
+            "record_sha256": "8c2574892063f995fdf756bce07f46c1a5193e54cd52837ed91e32008ccf41ac",
+            "width_rule": "native_fixed_width"
+          },
+          {
+            "code_offset": 148,
+            "end_exclusive": 152,
+            "expanded_offset": 182,
+            "index": 36,
+            "last_seen_source_byte_offset_mod65536": 483,
+            "last_seen_source_line": 32,
+            "last_source_marker_offset": 130,
+            "length": 4,
+            "opcode_hex": "7F",
+            "record_sha256": "c04633aad8db8c9489791de13f8195d9ab755c66c8bcbe37ced72a962f49d585",
+            "routine_boundary_candidate_only": true,
+            "width_rule": "native_fixed_width"
+          }
+        ],
+        "return_argument_stack_cells": 1,
+        "return_evidence": "bounded_typed_postfix_expression_before_7f",
+        "return_type_u16": 16,
+        "routine_name": "H3",
+        "rule_status": "compiler_correlated_unproven",
+        "scalar_use_constraints": [],
+        "text": "RETURN((P1 + G))"
+      }
+    }
+  ],
+  "code_sha256": "ec3fcaeeb1f70801f9a1a227555fe27f60b7cebe7dc150c9b77c9c8f42a52365",
+  "compact_2c_source_type_choices": null,
+  "compact_hypothesis_inventory_complete": true,
+  "compact_hypothesis_withheld_routines": [],
+  "direct_reference_sites_to_untyped_cells": 0,
+  "emitted_executable_statement_count": 14,
+  "environment_inference": {
+    "method": "none",
+    "reason": "PC module/link preconditions not met"
+  },
+  "existing_renderer_unproved_rule_count": 5,
+  "existing_renderer_unproved_rule_fraction_of_emitted_statements": 0.35714285714285715,
+  "existing_renderer_unproved_rules": [
+    {
+      "call_kind": null,
+      "marker_code_offset": 20,
+      "method": "rule_status",
+      "pc_source_line": 22,
+      "rendered_code": "RETURN((P1 + G))",
+      "routine": "H1",
+      "status": "compiler_correlated_unproven"
+    },
+    {
+      "call_kind": null,
+      "marker_code_offset": 75,
+      "method": "rule_status",
+      "pc_source_line": 27,
+      "rendered_code": "RETURN((P1 + G))",
+      "routine": "H2",
+      "status": "compiler_correlated_unproven"
+    },
+    {
+      "call_kind": null,
+      "marker_code_offset": 130,
+      "method": "rule_status",
+      "pc_source_line": 32,
+      "rendered_code": "RETURN((P1 + G))",
+      "routine": "H3",
+      "status": "compiler_correlated_unproven"
+    },
+    {
+      "marker_code_offset": 294,
+      "method": "named_field_rule_status",
+      "pc_source_line": 48,
+      "rendered_code": "ST.A = 5",
+      "routine": "CA0123",
+      "status": "compiler_correlated_unproven"
+    },
+    {
+      "marker_code_offset": 314,
+      "method": "named_field_rule_status",
+      "pc_source_line": 49,
+      "rendered_code": "ST.B = 6.5",
+      "routine": "CA0123",
+      "status": "compiler_correlated_unproven"
+    }
+  ],
+  "extra_unproved_fraction_of_emitted_statements": 0.21428571428571427,
+  "extra_unproved_method_counts": {
+    "bounded_scalar_expression_return": 3
+  },
+  "extra_unproved_statements": [
+    {
+      "kl_line": 28,
+      "methods_needing_proof": [
+        "bounded_scalar_expression_return"
+      ],
+      "original_ir": "RETURN((P1 + G))",
+      "pc_source_line": 22,
+      "rendered_code": "RETURN((P1 + G))",
+      "routine": "H1",
+      "source_type_proved": false
+    },
+    {
+      "kl_line": 33,
+      "methods_needing_proof": [
+        "bounded_scalar_expression_return"
+      ],
+      "original_ir": "RETURN((P1 + G))",
+      "pc_source_line": 27,
+      "rendered_code": "RETURN((P1 + G))",
+      "routine": "H2",
+      "source_type_proved": false
+    },
+    {
+      "kl_line": 38,
+      "methods_needing_proof": [
+        "bounded_scalar_expression_return"
+      ],
+      "original_ir": "RETURN((P1 + G))",
+      "pc_source_line": 32,
+      "rendered_code": "RETURN((P1 + G))",
+      "routine": "H3",
+      "source_type_proved": false
+    }
+  ],
+  "extra_unproved_statements_emitted": 3,
+  "kl_sha256": "bdc0742f97cc3c737b899502a4db22fbce59d1d36102e72314e33f1a130c92fe",
+  "layout_assumption_withholding_reason": null,
+  "native_source_marker_coverage": {
+    "authenticated_marker_count": 22,
+    "body_geometry_policy": "fresh_native_3E_intervals_with_verified_successor_prologue",
+    "code_sha256": "ec3fcaeeb1f70801f9a1a227555fe27f60b7cebe7dc150c9b77c9c8f42a52365",
+    "complete": true,
+    "issue_count": 0,
+    "issues": [],
+    "native_marker_count": 22,
+    "source_row_count": 22,
+    "status": "generic_V833_native_source_marker_coverage"
+  },
+  "original_declaration_blocker_routines": 0,
+  "original_pc_sha256": "693aeb21c6071c4bcc1d7a329004991fbad3c9bf76face0b70d06ebfbbefecb6",
+  "original_source_diagnostic_units": 13,
+  "original_unresolved_executable_spans": 3,
+  "original_unsafe_source_ir_lines": 9,
+  "program": "CA0123",
+  "provenance_note": "Existing source-safe statements are compiler-correlated candidates, not authenticated original source. Extra emitted statements use listed methods needing proof. Unknown PC spans remain comments.",
+  "referenced_cell_constraints": [],
+  "relocated_comment_count": 16,
+  "relocated_kl_diagnostics": [
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 1,
+      "routine": null,
+      "text": "-- INCOMPLETE PC DECOMPILATION - REVIEW DRAFT ONLY"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 2,
+      "routine": null,
+      "text": "-- This is compiler-correlated candidate text, not recovered original KL."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 3,
+      "routine": null,
+      "text": "-- Unknown instructions remain as UNRESOLVED_PC comments in the body."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 4,
+      "routine": null,
+      "text": "-- Compilation may succeed while unresolved behavior is omitted."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 5,
+      "routine": null,
+      "text": "-- Resolve every blocker and verify the result before using this source."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 6,
+      "routine": null,
+      "text": "-- Original PC SHA-256: 693aeb21c6071c4bcc1d7a329004991fbad3c9bf76face0b70d06ebfbbefecb6"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 7,
+      "routine": null,
+      "text": "-- Remaining source blockers: 13"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 8,
+      "routine": null,
+      "text": "-- Unknown special local cells: 0"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 9,
+      "routine": null,
+      "text": "-- Unresolved executable marker lines: 3"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 10,
+      "routine": null
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 11,
+      "routine": null,
+      "text": "-- GENERIC V8.33 WHOLE-PROGRAM KAREL CANDIDATE \u2014 PASS100"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 12,
+      "routine": null,
+      "text": "-- NON-DEPLOYABLE. Unresolved executable spans are preserved as comments, never silently omitted."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 13,
+      "routine": null,
+      "text": "-- PC-resident global/routine names are exact; local/formal names are synthetic when source names are absent."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 14,
+      "routine": null,
+      "text": "-- Header directives are emitted only for compiler-roundtrip-proved V8.33 config images."
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 15,
+      "routine": null
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 36,
+      "routine": "CA0123"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 37,
+      "routine": "CA0123"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 38,
+      "routine": "CA0123",
+      "text": "-- LOCAL ROUTINE FORWARD DECLARATIONS (synthetic formal names)"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 43,
+      "routine": "F(P1 : INTEGER; P2 : INTEGER; P3 : INTEGER) FROM CA0123"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 49,
+      "routine": "H1"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 55,
+      "routine": "H2"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 61,
+      "routine": "H3"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 65,
+      "routine": "F",
+      "text": "-- STRUCTURAL_PC line 39 opcodes [7F] marker_code=181"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 67,
+      "routine": "F"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 82,
+      "routine": "F",
+      "text": "-- STRUCTURAL_PC line 53 opcodes [7F] marker_code=376"
+    }
+  ],
+  "remaining_declaration_warning_comments": 0,
+  "remaining_issue_comments": [
+    {
+      "kind": "UNSAFE_SOURCE_IR",
+      "kl_line": 52,
+      "routine": "F",
+      "text": "-- UNSAFE_SOURCE_IR line 48: ST.A = 5"
+    },
+    {
+      "kind": "UNSAFE_SOURCE_IR",
+      "kl_line": 53,
+      "routine": "F",
+      "text": "-- UNSAFE_SOURCE_IR line 49: ST.B = 6.5"
+    },
+    {
+      "kind": "UNSAFE_SOURCE_IR",
+      "kl_line": 54,
+      "routine": "F",
+      "text": "-- UNSAFE_SOURCE_IR line 50: CALL_RESULT H1(ARG_1_UNRESOLVED)"
+    },
+    {
+      "kind": "UNSAFE_SOURCE_IR",
+      "kl_line": 55,
+      "routine": "F",
+      "text": "-- UNSAFE_SOURCE_IR line 50: CALL_RESULT H1(ARG_1_UNRESOLVED)"
+    },
+    {
+      "kind": "UNSAFE_SOURCE_IR",
+      "kl_line": 56,
+      "routine": "F",
+      "text": "-- UNSAFE_SOURCE_IR line 50: CALL_RESULT H1(ARG_1_UNRESOLVED)"
+    },
+    {
+      "kind": "UNSAFE_SOURCE_IR",
+      "kl_line": 57,
+      "routine": "F",
+      "text": "-- UNSAFE_SOURCE_IR line 50: F(ARG_1_UNRESOLVED, ARG_2_UNRESOLVED, ARG_3_UNRESOLVED)"
+    }
+  ],
+  "remaining_unresolved_pc_comments": 0,
+  "remaining_unsafe_source_ir_comments": 6,
+  "removed_blank_line_count": 9,
+  "review_layout_policy": "compact_spacing_and_missing_content_comments_only",
+  "robot_deployable": false,
+  "runtime_equivalence_proved": false,
+  "source_safe_statements_from_existing_renderer": 11,
+  "status": "V833_maximal_KL_uncertainty_report",
+  "still_untyped_cells_with_direct_references": 0,
+  "still_untyped_compact_cells": 0,
+  "strict_source_eligible": false,
+  "unlocated_untyped_compact_cells": 0,
+  "unreferenced_cell_hypotheses": [],
+  "untyped_local_reference_sites": [],
+  "whole_pc_equality_proved": false
+}

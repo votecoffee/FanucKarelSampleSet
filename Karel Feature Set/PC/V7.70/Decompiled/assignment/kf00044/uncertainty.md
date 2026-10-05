@@ -1,0 +1,7 @@
+# V770-1 provisional KL uncertainty
+
+Original PC SHA-256: `1835ff49591dc37668cde435dd8c4b7acf54cfbd4506f42be724b186050de5e2`.
+
+Executable statements emitted: 0; unresolved nonmarker records: 8; unresolved declarations: 9.
+
+The candidate may compile while omitting behavior. Source spelling, runtime equivalence and deployability are unproved.

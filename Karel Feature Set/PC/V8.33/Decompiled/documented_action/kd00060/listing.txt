@@ -1,0 +1,176 @@
+KAREL .PC OFFLINE RESEARCH LISTING — NOT EXECUTABLE
+No motion has been verified; do not load any reconstructed text onto a robot.
+File SHA-256: 2fdfcf7dbca54543936d0c9f9abb2309a07f782e752b2c429c67a61bf3158d41
+Status: partial_instruction_evidence
+Exact release selected: V833-1
+Build authenticated: NO
+Candidate releases from observed tag: V810-1, V813-1, V820-1, V823-1, V830-1, V833-1
+Observed program: KD00060
+
+EXACT-RELEASE ROUTES:
+  envelope: supported
+  record_walk: supported
+  controlled_layout: supported
+  maximal_review_kl: supported
+  shared_review_semantics: supported
+  v9_bounded_semantics: unsupported — bounded V9 semantic gates are admitted only for V910-1/V916-1/V930-1/V940-1
+  bounded_ast: supported
+  v833_native_pipeline: supported
+  recursive_source_regions: supported
+  complete_kl: unsupported — no arbitrary-PC complete KL source guarantee for this exact release
+  Known breakpoints through selected release:
+    V720-1: STRING 2B descriptor and FILE 37 selector change from 08 to 1F; zero-offset special member access gains the explicit 32 pair; source grammar changes from G1 to G2
+    V730-1: record-width family changes L1 to L2 (B6 becomes dispatchable AA alias); source grammar changes to G3
+    V740-1: source grammar changes to G4
+    V750-1: source grammar changes to G5 and structural epoch to C5a
+    V810-1: runtime opcode 77 is retired
+  Feature support (guarded route / provisional review / unsupported):
+    envelope_and_code_window: supported — exact tag plus independently checked expanded-code window
+    record_segmentation: supported — L2 width profile; complete walk is guarded per file
+      expanded_code_window: supported — strict envelope and bounded expanded code
+      release_width_table: supported — L2 exact 256-entry record widths
+      complete_profile_walk: supported — all record boundaries must account for the code window
+      native_dispatch_annotation: supported — V8.33 native execution dispatch evidence
+    source_marker_segmentation: supported — complete profile record walk and exact 3E marker bytes required
+      marker_record_extraction: supported — exact 3E record width and offset
+      marker_triplet_decode: supported — line, byte-position, and source-marker fields
+      marker_owned_source_regions: supported — V8.33 graph-associated source intervals
+    declaration_metadata: provisional — C1/C2/C3/C4/C5a/C5b/C6 epochs; STRING/FILE changes at V720-1
+    local_frame_layout: supported — V833-1 typed two-pass local-frame recovery
+    control_region_recovery: supported — V8.33 guarded native graph and recursive regions
+      branch_target_graph: supported — verified native branch targets and routine ownership
+      source_region_intervals: supported — marker-owned IF/FOR/WHILE/SELECT intervals
+      nested_region_tree: supported — recursive region and arm rendering with leaf guards
+    expression_recovery: supported — guarded V8.33 typed motifs
+      raw_record_motifs: supported — record-local observations; no general expression semantics
+      bound_operands: supported — V8.33 symbol, formal, and local-frame reference binding
+      typed_scalar_and_predicate: supported — guarded scalar, comparison, and predicate forms
+      call_arguments_and_results: supported — guarded call bundle and result-consumer forms
+      string_array_and_composite: supported — guarded STRING, indexed, and composite forms
+    statement_recovery: supported — guarded V8.33 source statements
+      raw_statement_motifs: supported — bounded record motifs; unknown behavior remains explicit
+      assignment_and_call: supported — guarded stores and CALL statements
+      flow_and_return: supported — guarded IF/FOR/WHILE/SELECT and RETURN statements
+      io_file_and_builtin: supported — guarded native I/O, file, and builtin statements
+    kl_assembly: supported — V8.33 maximal review KL
+      program_and_declarations: supported — synthetic names and declarations remain uncertainty-tracked
+      ordered_statement_emission: supported — marker-order source assembly; gaps retained as comments where needed
+      recursive_region_emission: supported — verified region tree; no cross-release transfer
+      uncertainty_sidecar: supported — report records missing, unsafe, and unproved source claims
+      arbitrary_pc_complete_source: unsupported — no exact release has an arbitrary-PC original-source guarantee
+    dependency_elements: supported — V833-1 generic symbol/link graph
+    roundtrip_analysis: supported — optional; exact-release KTRANS must be available and compilation must succeed
+      compiler_invocation: supported — conditional on available exact-release KTRANS; robot.ini is optional
+      opcode_alignment: supported — release-profile record walk; source-marker opcodes excluded
+      raw_record_comparison: supported — raw bytes compared inside aligned opcode blocks
+      source_marker_triplets: supported — decoded 3E triplet sequence compared separately
+      whole_pc_bytes: supported — compiled physical PC bytes compared exactly
+      source_marker_layout_fitting: supported — V8.33 optional KL whitespace/comment filler fit; requires whole-PC replay
+      behavior_equivalence: unsupported — compile and physical equality do not prove runtime equivalence
+    complete_source_guarantee: unsupported — no arbitrary-PC original-source or semantic-equivalence guarantee
+
+V8.33 NATIVE STAGE READINESS:
+  loader_alignment: passed
+  weighted_framing: passed
+  native_record_walk: passed
+  execution_dispatch: passed
+  composite_byte_patterns: passed
+  guarded native source route: eligible
+
+EXPANDED RECORD RANGES — observational; code is not authenticated:
+  [0x000000,0x000023)       35 bytes sha256=13edcfee3238034ed91ac26850f770c29e13cc0f03e5c3b7720b16f864296011 header and pre-code bytes
+  [0x000023,0x00003f)       28 bytes sha256=a5e44f3c4d0fba98082f721380532b23447edd6adab7d6669be37700aabb2858 CRC-matched candidate P-code block; executable-only content NOT proven
+  [0x00003f,0x000043)        4 bytes sha256=b40711a88c7039756fb8a73827eabe2c0fe5a0346ca7e0a104adc0fc764f528d between-code metadata; NEVER decode as instructions
+  [0x000043,0x00004c)        9 bytes sha256=95e9b8c013f9cbc63e077f55291ba2253fc0b50865cb570e75271e033e70ad7a observed ID/checksum record
+  [0x00004c,0x000386)      826 bytes sha256=631d450df8e8b9daac6d351fe99ef0969fe53aea4167e5a10257aa7d8e9c3e9e opaque post-ID metadata
+  [0x000386,0x000389)        3 bytes sha256=163f0beb9f723006a9bac40451815cf6a230c76a7d5ee0390b9d08a26552addf observed terminal length mirror plus LF
+
+RELEASE-SCOPED COMPILER LAYOUT CONTRASTS — NOT SOURCE TYPES OR KL:
+  Status: release_scoped_controlled_layout_contrasts
+  STRING/FILE control epoch: V720_and_later; position geometry epoch: through_V836
+  Matching 2B STRING-like descriptors: 0; 37 FILE-control bytes: 0; 32 zero-offset bytes: 0
+  Widths and byte motifs alone do not identify anonymous source declarations.
+
+V8.33 FOUR-DLL NATIVE RECORD SCAN — LENGTHS/ANCHORS, NOT EXECUTION:
+  Status: native_static_full_span_record_boundaries
+  Exact static records: 14; bytes: 28; 0x3E source markers: 2; 0x7F boundary candidates: 1
+  Original-source offsets in 3E records: zero-based bytes modulo 65536, NOT columns or PC offsets.
+  Legacy proposed records vs native scan: all_records_match_exactly
+  Recovered KL / runtime opcode dispatch / branch targets: NO / NO / NO
+
+V8.33 GENERIC PC SYMBOL/LINK BINDING — PC METADATA, NOT GUESSED SOURCE:
+  Status: generic_V833_pc_metadata_and_reference_links_verified
+  declarations=6; links=1; reference records=0
+  mode-01 exact PC link bindings=0; mode-FF local-frame refs=0; unresolved modes=0
+  Numeric reference operands are now resolved through the on-disk link table rather than guessed from source semantics.
+
+V8.33 ROUTINE LOCAL-FRAME DESCRIPTORS — SYNTHETIC NAMES ONLY:
+  Status: generic_V833_routine_local_frame_descriptors
+  routines=1; mode-FF refs=0; uniquely typed matches=0
+  Original local variable names are NOT claimed.
+
+V8.33 COMPILER SUPPORT ROUTINES — SHIPPED EV METADATA CLASSIFICATION:
+  Status: V833_compiler_support_routine_classification
+  compiler-known=0/0; unclassified/user-library=0
+  Known support calls should not be redundantly emitted as explicit ROUTINE declarations.
+
+SYMBOL DESCRIPTORS (names/types are observed metadata, not verified operand ABI):
+  {"array_bound_bytes": "", "name": "I", "offset": 839, "type_bytes": "000010"}
+  {"array_bound_bytes": "", "name": "J", "offset": 845, "type_bytes": "000010"}
+  {"array_bound_bytes": "", "name": "B", "offset": 851, "type_bytes": "000012"}
+  {"array_bound_bytes": "", "name": "R", "offset": 857, "type_bytes": "000011"}
+  {"array_bound_bytes": "", "name": "S", "offset": 863, "type_bytes": "001f50"}
+
+V8.33 NATIVE COMPILER TYPE HINTS — CONDITIONAL, NOT VM/STORAGE TYPES:
+  raw symbol fields with context-free native comparison: 0; routine parameter fields: 0; withheld: 0
+  Descriptor-to-native ABI: UNVERIFIED; no array allocation, opcode, or KL declaration inferred.
+
+V8.33 CANDIDATE FLOW LANDMARKS — NOT EXECUTABLE BASIC BLOCKS:
+  Status: withheld
+
+V8.33 LOSSLESS CANDIDATE IR (NOT SOURCE OR VERIFIED VM SEMANTICS):
+  Status: withheld
+  Reason: complete source/routine/record joins required; raw-only index insufficient
+
+V8.33 ISOLATED INTEGER ASSIGNMENT SHAPES — SOURCE CANDIDATES ONLY:
+  Status: withheld
+
+INSTRUCTION RECOVERY: best_effort_partial
+
+V8.33 INDEPENDENT CANDIDATE-BOUNDARY CROSS-CHECK (NOT VM/CFG PROOF):
+  Status: cross_view_candidate_only
+  footer raw words at proposed record starts: 0/0
+  source marker byte spans at proposed records: 0/0
+  branch origins at proposed records: 0/0
+  branch targets at proposed records: 0/0
+  call bundles with aligned boundaries: 0/0
+  routine entries at proposed records: 0/0
+  three-byte motif instances: 0 standalone candidate record, 0 embedded in larger record
+  conditional native-type base-size correspondences: 0; disagreement candidates: 0 (not VM type proof)
+
+V8.33 SOURCE-POSITION-ORGANIZED RAW LISTING (NOT KL OR AN INSTRUCTION DISASSEMBLY):
+  Status: withheld
+  Reason: no independently bounded source marker observations
+
+V8.33 ROUTINE-SCOPED RAW CANDIDATES — NOT RECOVERED BODIES/CFG:
+  Status: withheld
+  Reason: complete candidate framing, source map and counted routine metadata required
+
+V8.33 BYTE-EXACT RECORD NAVIGATION — NOT VM INSTRUCTIONS:
+  Status: byte_exact_raw_record_index_only
+  Indexed 14 proposed records, None source segments, None candidate routine regions.
+  Cross-referenced calls? None, branches? None, unframed legacy bytes: None
+  Raw-only: source/routine/call/branch/unknown-suffix joins withheld.
+  Use --records to export the per-record offset/hex navigation listing.
+
+V8.33 NATIVE-WEIGHT PROPOSED RECORDS — NOT VM INSTRUCTIONS:
+  14 candidates; byte coverage 28/28; strings 0
+  Verified VM opcode meanings: ZERO; original opaque instruction ledger unchanged.
+
+V8.33 SOURCE-CORRELATED RAW COMPOSITE MOTIFS (not opcodes):
+  counts: {}
+  continuations: {}
+
+UNRESOLVED CANDIDATE CODE WINDOW:
+  expanded offsets [35,63); sha256=a5e44f3c4d0fba98082f721380532b23447edd6adab7d6669be37700aabb2858
+  Unknown bytes are preserved in the original input .PC; no KL is invented.

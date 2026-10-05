@@ -1,0 +1,29 @@
+-- PROVISIONAL review KL for V940-1; original PC SHA256 1fa8cecf2a6d3162c2d617edf2c5084655849540067a0ab2fd232f36eb82c474
+-- Incomplete behavior may be omitted. Consult companion uncertainty JSON. Do not deploy.
+PROGRAM NC0085
+%NOLOCKGROUP
+-- UNRESOLVED_LOCAL_POOL 2 cells at code offset 3; source declarations unknown
+-- DIRECT_LOCAL_WORD_ACCESS alone does not prove INTEGER, REAL, or BOOLEAN
+BEGIN
+  -- V9_OWNER_INTERVAL_HINT [23,48); structural only; source/VM held
+  -- V9_FOOTER_20_HINT 1 numerical footer links; VM transfer unproved
+  -- UNRESOLVED_PC offsets 0-8; opcodes 2B,2C,7B
+  -- UNRESOLVED_PC offsets 13-20; opcodes 9D,23
+  -- UNRESOLVED_PC offsets 25-38; opcodes 21,9D,57,79
+  -- UNRESOLVED_PC offsets 43-60; opcodes 21,40,41,42
+  -- UNRESOLVED_PC offsets 65-94; opcodes 9D,23,9E,2E,22,7A
+  -- UNRESOLVED_PC offsets 99-116; opcodes 21,2E,59,79
+  -- UNRESOLVED_PC offsets 121-134; opcodes 21,9D,57,79
+  -- UNRESOLVED_PC offsets 139-153; opcodes 21,9D,52,23
+  -- UNRESOLVED_PC offsets 158-163; opcodes 7A
+  -- UNRESOLVED_PC offsets 168-186; opcodes 21,2E,52,23
+  -- UNRESOLVED_PC offsets 196-201; opcodes 7A
+  -- UNRESOLVED_PC offsets 206-237; opcodes 20,2C,23,7A,40,41,42
+  -- UNRESOLVED_PC offsets 242-266; opcodes 21,2E,52,23,7A,43
+  -- UNRESOLVED_PC offsets 271-289; opcodes 21,2E,52,23
+  -- UNRESOLVED_PC offsets 299-304; opcodes 7A
+  -- UNRESOLVED_PC offsets 309-327; opcodes 21,2E,52,23
+  -- UNRESOLVED_PC offsets 337-341; opcodes 7F
+  -- UNRESOLVED_PC offsets 346-350; opcodes 27,AA
+  -- UNRESOLVED_PC offsets 355-359; opcodes 7F
+END NC0085

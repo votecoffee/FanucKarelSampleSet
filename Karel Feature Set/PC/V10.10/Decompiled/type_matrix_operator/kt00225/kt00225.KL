@@ -1,0 +1,15 @@
+-- PROVISIONAL review KL for V1013-1; original PC SHA256 4fb01b83fc1f580c4bfe129e3681ca130a23977edd36ae97476e8e72e4debaf2
+-- Incomplete behavior may be omitted. Consult companion uncertainty JSON. Do not deploy.
+PROGRAM KT00225
+%NOLOCKGROUP
+VAR
+  B1 : BOOLEAN
+  B2 : BOOLEAN
+  OUT : BOOLEAN
+BEGIN
+  B1 = TRUE
+  B2 = FALSE
+  B1 = TRUE
+  B2 = FALSE
+  OUT = (B1 OR B2)
+END KT00225

@@ -1,0 +1,12 @@
+-- PROVISIONAL review KL for V770-1; original PC SHA256 378e2ba46a3f764787a10a0efb913faf334ce8bb429f1853d5247e6dfc5d9325
+-- Incomplete behavior may be omitted. Consult companion uncertainty JSON. Do not deploy.
+PROGRAM KA00040
+%NOLOCKGROUP
+VAR
+  SRC : STRING[80]
+  DST : STRING[80]
+BEGIN
+  -- UNRESOLVED_PC offsets 5-14; opcodes 3F,75
+  -- UNRESOLVED_PC offsets 19-31; opcodes 73,75
+  -- UNRESOLVED_PC offsets 36-40; opcodes 7F
+END KA00040

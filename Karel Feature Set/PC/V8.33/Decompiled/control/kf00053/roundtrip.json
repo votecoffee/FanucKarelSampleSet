@@ -1,0 +1,137 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "kf00053.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_exit_code": 0,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\control\\rt\\kf00053\\86d8ccbc\\compile.log",
+  "compiler_log_sha256": "a26f931aba596c35b9bf66f258205c63007fcaa14deac7cc87122d162f5455d7",
+  "compiler_release": "V833-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": true,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\control\\rt\\kf00053\\86d8ccbc\\kf00053.pc",
+  "generated_pc_sha256": "28f317e323983afcb9b29753f3ed030c1bea7e2cc20a88e803eda8c8a7165618",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Decompiled\\control\\kf00053\\kf00053.KL",
+  "kl_sha256": "e8b3d34a0ea1b0be678ffdb466b5310a1a1721bffc4baffa3e92fbfada9cf17a",
+  "native_alignment": {
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+    "code_bytes_equal": false,
+    "exact_native_record_stream": false,
+    "first_differences": [
+      {
+        "generated_opcodes": [],
+        "generated_record_span": [
+          6,
+          6
+        ],
+        "kind": "delete",
+        "original_opcodes": [
+          "21",
+          "2E",
+          "5C",
+          "79"
+        ],
+        "original_record_span": [
+          6,
+          10
+        ]
+      }
+    ],
+    "generated_code_sha256": "7e225cf9f5adcff124078d390fd2e894576b70efc19db640596cd00adbe17b71",
+    "generated_records": 8,
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "opcode_agreement_pct": 66.67,
+    "opcode_aligned": 8,
+    "original_code_sha256": "cd483d886257fa23f4b5b45a08d0c3790dda39ff4cdd14a4d8cae1f115e27d92",
+    "original_records": 12,
+    "raw_agreement_pct": 66.67,
+    "raw_equal_in_opcode_alignment": 8
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\control\\kf00053.pc",
+  "original_pc_sha256": "0111e5f1c6bbfe7b635bf9862de615a00ada1630ffa766152cb8a7c120a6cb84",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "name": "kf00053.pc",
+    "observed_tag": "27",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\control\\kf00053.pc",
+    "size": 669,
+    "status": "tag_observed"
+  },
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\control\\rt\\kf00053\\86d8ccbc",
+  "source_marker_alignment": {
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+    "code_offset_equal_count": 2,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "generated": [
+          0,
+          23,
+          304
+        ],
+        "ordinal": 0,
+        "original": [
+          0,
+          21,
+          306
+        ]
+      },
+      {
+        "generated": [
+          12,
+          24,
+          308
+        ],
+        "ordinal": 1,
+        "original": [
+          12,
+          22,
+          315
+        ]
+      },
+      {
+        "generated": [
+          31,
+          26,
+          380
+        ],
+        "ordinal": 2,
+        "original": [
+          17,
+          23,
+          325
+        ]
+      },
+      {
+        "generated_count": 3,
+        "kind": "marker_count_difference",
+        "original_count": 5
+      }
+    ],
+    "generated_count": 3,
+    "line_equal_count": 0,
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 5,
+    "paired_count": 3,
+    "source_byte_offset_equal_count": 0
+  },
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Decompiled\\control\\kf00053\\kf00053.recompiled.pc",
+  "status": "compared",
+  "whole_pc_bytes_equal": false
+}

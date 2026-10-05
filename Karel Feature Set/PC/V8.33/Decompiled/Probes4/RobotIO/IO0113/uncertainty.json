@@ -1,0 +1,837 @@
+{
+  "all_untyped_cell_constraints": [
+    {
+      "cell_index": 1,
+      "constraint_scope": "Exact cell and native reference sites; scalar/vector alternatives are storage geometry only and no source type is selected.",
+      "direct_reference_count": 1,
+      "frame_cell_offset": 37,
+      "native_reference_sites": [
+        {
+          "code_offset": 24,
+          "opcode_hex": "23",
+          "record_index": 5
+        }
+      ],
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          37,
+          38,
+          39
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    },
+    {
+      "cell_index": 4,
+      "constraint_scope": "Exact cell and native reference sites; scalar/vector alternatives are storage geometry only and no source type is selected.",
+      "direct_reference_count": 1,
+      "frame_cell_offset": 40,
+      "native_reference_sites": [
+        {
+          "code_offset": 55,
+          "opcode_hex": "23",
+          "record_index": 14
+        }
+      ],
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          38,
+          39,
+          40
+        ],
+        [
+          39,
+          40,
+          41
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    },
+    {
+      "cell_index": 5,
+      "constraint_scope": "Exact cell and native reference sites; scalar/vector alternatives are storage geometry only and no source type is selected.",
+      "direct_reference_count": 1,
+      "frame_cell_offset": 41,
+      "native_reference_sites": [
+        {
+          "code_offset": 71,
+          "opcode_hex": "23",
+          "record_index": 17
+        }
+      ],
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          39,
+          40,
+          41
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    },
+    {
+      "cell_index": 2,
+      "direct_reference_count": 0,
+      "frame_cell_offset": 38,
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          37,
+          38,
+          39
+        ],
+        [
+          38,
+          39,
+          40
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    },
+    {
+      "cell_index": 3,
+      "direct_reference_count": 0,
+      "frame_cell_offset": 39,
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          37,
+          38,
+          39
+        ],
+        [
+          38,
+          39,
+          40
+        ],
+        [
+          39,
+          40,
+          41
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    }
+  ],
+  "assumed_compact_cells": 5,
+  "candidate_compact_concat_source_rewrite_count": 0,
+  "candidate_compact_concat_source_rewrites": [],
+  "candidate_named_local_declarations": [],
+  "candidate_named_structure_declarations": [],
+  "candidate_unreachable_terminal_classifications": [],
+  "code_sha256": "01c48eb7660a9e6225e273eebf333605d379d6cc1dd0882216a4d3f5c77dfa2b",
+  "compact_2c_source_type_choices": {
+    "cell_count": 5,
+    "cells": [
+      {
+        "active_use_lines": [
+          49
+        ],
+        "address_reference_count": 0,
+        "chosen_source_candidate_type": "BOOLEAN",
+        "conflicting_effective_call_types": false,
+        "conflicting_scalar_use_constraints": false,
+        "direct_native_reference_count": 1,
+        "effective_typed_call_constraints": [],
+        "emitted_active_use_count": 1,
+        "frame_cell_offset": 37,
+        "native_scalar_use_constraints": [],
+        "original_source_type_proved": false,
+        "possible_composite_partition_excluded": false,
+        "preference_order": [
+          "BOOLEAN",
+          "INTEGER",
+          "REAL"
+        ],
+        "routine_name": "RTEST",
+        "selection_reason": "all_direct_uses_rendered_as_zero_one_equality_or_store",
+        "unmet_native_scalar_use_types": [],
+        "unrepresented_direct_use_count": 0
+      },
+      {
+        "active_use_lines": [],
+        "address_reference_count": 0,
+        "chosen_source_candidate_type": "REAL",
+        "conflicting_effective_call_types": false,
+        "conflicting_scalar_use_constraints": false,
+        "direct_native_reference_count": 0,
+        "effective_typed_call_constraints": [],
+        "emitted_active_use_count": 0,
+        "frame_cell_offset": 38,
+        "native_scalar_use_constraints": [],
+        "original_source_type_proved": false,
+        "possible_composite_partition_excluded": false,
+        "preference_order": [
+          "BOOLEAN",
+          "INTEGER",
+          "REAL"
+        ],
+        "routine_name": "RTEST",
+        "selection_reason": "no_direct_or_emitted_use_broadest_scalar_candidate",
+        "unmet_native_scalar_use_types": [],
+        "unrepresented_direct_use_count": 0
+      },
+      {
+        "active_use_lines": [],
+        "address_reference_count": 0,
+        "chosen_source_candidate_type": "REAL",
+        "conflicting_effective_call_types": false,
+        "conflicting_scalar_use_constraints": false,
+        "direct_native_reference_count": 0,
+        "effective_typed_call_constraints": [],
+        "emitted_active_use_count": 0,
+        "frame_cell_offset": 39,
+        "native_scalar_use_constraints": [],
+        "original_source_type_proved": false,
+        "possible_composite_partition_excluded": false,
+        "preference_order": [
+          "BOOLEAN",
+          "INTEGER",
+          "REAL"
+        ],
+        "routine_name": "RTEST",
+        "selection_reason": "no_direct_or_emitted_use_broadest_scalar_candidate",
+        "unmet_native_scalar_use_types": [],
+        "unrepresented_direct_use_count": 0
+      },
+      {
+        "active_use_lines": [
+          51
+        ],
+        "address_reference_count": 0,
+        "chosen_source_candidate_type": "BOOLEAN",
+        "conflicting_effective_call_types": false,
+        "conflicting_scalar_use_constraints": false,
+        "direct_native_reference_count": 1,
+        "effective_typed_call_constraints": [],
+        "emitted_active_use_count": 1,
+        "frame_cell_offset": 40,
+        "native_scalar_use_constraints": [],
+        "original_source_type_proved": false,
+        "possible_composite_partition_excluded": false,
+        "preference_order": [
+          "BOOLEAN",
+          "INTEGER",
+          "REAL"
+        ],
+        "routine_name": "RTEST",
+        "selection_reason": "all_direct_uses_rendered_as_zero_one_equality_or_store",
+        "unmet_native_scalar_use_types": [],
+        "unrepresented_direct_use_count": 0
+      },
+      {
+        "active_use_lines": [
+          52
+        ],
+        "address_reference_count": 0,
+        "chosen_source_candidate_type": "REAL",
+        "conflicting_effective_call_types": false,
+        "conflicting_scalar_use_constraints": false,
+        "direct_native_reference_count": 1,
+        "effective_typed_call_constraints": [],
+        "emitted_active_use_count": 1,
+        "frame_cell_offset": 41,
+        "native_scalar_use_constraints": [],
+        "original_source_type_proved": false,
+        "possible_composite_partition_excluded": false,
+        "preference_order": [
+          "BOOLEAN",
+          "INTEGER",
+          "REAL"
+        ],
+        "routine_name": "RTEST",
+        "selection_reason": "store_only_compact_word_short_real_candidate",
+        "unmet_native_scalar_use_types": [],
+        "unrepresented_direct_use_count": 0
+      }
+    ],
+    "effective_typed_call_cell_count": 0,
+    "literal_rewrite_count": 3,
+    "literal_rewrites": [
+      {
+        "after": "  U2C_37 = TRUE",
+        "before": "  U2C_37 = 1",
+        "kl_line": 49,
+        "method": "heuristic_boolean_source_literal",
+        "routine_name": "RTEST"
+      },
+      {
+        "after": "  U2C_40 = TRUE",
+        "before": "  U2C_40 = 1",
+        "kl_line": 51,
+        "method": "heuristic_boolean_source_literal",
+        "routine_name": "RTEST"
+      },
+      {
+        "after": "  U2C_41 = 1.0",
+        "before": "  U2C_41 = 1065353216",
+        "kl_line": 52,
+        "method": "candidate_real_literal_from_native_word",
+        "routine_name": "RTEST"
+      }
+    ],
+    "scope": "maximal WIP KL only; not strict source or original declaration proof",
+    "selection_order": [
+      "BOOLEAN",
+      "INTEGER",
+      "REAL"
+    ],
+    "status": "heuristic_compact_2c_source_choices",
+    "type_counts": {
+      "BOOLEAN": 2,
+      "REAL": 3
+    }
+  },
+  "compact_hypothesis_inventory_complete": true,
+  "compact_hypothesis_withheld_routines": [],
+  "direct_reference_sites_to_untyped_cells": 3,
+  "emitted_executable_statement_count": 5,
+  "environment_inference": {
+    "method": "none",
+    "reason": "PC module/link preconditions not met"
+  },
+  "existing_renderer_unproved_rule_count": 0,
+  "existing_renderer_unproved_rule_fraction_of_emitted_statements": 0.0,
+  "existing_renderer_unproved_rules": [],
+  "extra_unproved_fraction_of_emitted_statements": 0.6,
+  "extra_unproved_method_counts": {
+    "assumed_compact_2c_source_type": 3
+  },
+  "extra_unproved_statements": [
+    {
+      "kl_line": 18,
+      "methods_needing_proof": [
+        "assumed_compact_2c_source_type"
+      ],
+      "original_ir": "FRAME[RTEST+0x25] = 1",
+      "pc_source_line": 15,
+      "rendered_code": "U2C_37=TRUE",
+      "routine": "RTEST",
+      "source_type_proved": false
+    },
+    {
+      "kl_line": 20,
+      "methods_needing_proof": [
+        "assumed_compact_2c_source_type"
+      ],
+      "original_ir": "FRAME[RTEST+0x28] = 1",
+      "pc_source_line": 17,
+      "rendered_code": "U2C_40=TRUE",
+      "routine": "RTEST",
+      "source_type_proved": false
+    },
+    {
+      "kl_line": 21,
+      "methods_needing_proof": [
+        "assumed_compact_2c_source_type"
+      ],
+      "original_ir": "FRAME[RTEST+0x29] = 1065353216",
+      "pc_source_line": 18,
+      "rendered_code": "U2C_41=1.0",
+      "routine": "RTEST",
+      "source_type_proved": false
+    }
+  ],
+  "extra_unproved_statements_emitted": 3,
+  "kl_sha256": "06cc31c7d08737e1af29bab553997602dd7e3c41628916c2a94f678d3513ca3a",
+  "layout_assumption_withholding_reason": null,
+  "native_source_marker_coverage": {
+    "authenticated_marker_count": 8,
+    "body_geometry_policy": "fresh_native_3E_intervals_with_verified_successor_prologue",
+    "code_sha256": "01c48eb7660a9e6225e273eebf333605d379d6cc1dd0882216a4d3f5c77dfa2b",
+    "complete": true,
+    "issue_count": 0,
+    "issues": [],
+    "native_marker_count": 8,
+    "source_row_count": 8,
+    "status": "generic_V833_native_source_marker_coverage"
+  },
+  "original_declaration_blocker_routines": 1,
+  "original_pc_sha256": "7bb50bde39503969f8bd5b526b32e8e722e1c906c69fff310dc6dc786eb714b4",
+  "original_source_diagnostic_units": 5,
+  "original_unresolved_executable_spans": 1,
+  "original_unsafe_source_ir_lines": 3,
+  "program": "IO0113",
+  "provenance_note": "Existing source-safe statements are compiler-correlated candidates, not authenticated original source. Extra emitted statements use listed methods needing proof. Unknown PC spans remain comments.",
+  "referenced_cell_constraints": [
+    {
+      "cell_index": 1,
+      "constraint_scope": "Exact cell and native reference sites; scalar/vector alternatives are storage geometry only and no source type is selected.",
+      "direct_reference_count": 1,
+      "frame_cell_offset": 37,
+      "native_reference_sites": [
+        {
+          "code_offset": 24,
+          "opcode_hex": "23",
+          "record_index": 5
+        }
+      ],
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          37,
+          38,
+          39
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    },
+    {
+      "cell_index": 4,
+      "constraint_scope": "Exact cell and native reference sites; scalar/vector alternatives are storage geometry only and no source type is selected.",
+      "direct_reference_count": 1,
+      "frame_cell_offset": 40,
+      "native_reference_sites": [
+        {
+          "code_offset": 55,
+          "opcode_hex": "23",
+          "record_index": 14
+        }
+      ],
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          38,
+          39,
+          40
+        ],
+        [
+          39,
+          40,
+          41
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    },
+    {
+      "cell_index": 5,
+      "constraint_scope": "Exact cell and native reference sites; scalar/vector alternatives are storage geometry only and no source type is selected.",
+      "direct_reference_count": 1,
+      "frame_cell_offset": 41,
+      "native_reference_sites": [
+        {
+          "code_offset": 71,
+          "opcode_hex": "23",
+          "record_index": 17
+        }
+      ],
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          39,
+          40,
+          41
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    }
+  ],
+  "relocated_comment_count": 33,
+  "relocated_kl_diagnostics": [
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 1,
+      "routine": null,
+      "text": "-- RESEARCH LOCAL LAYOUT: 5 untyped 2C cells; candidate BOOLEAN=2 INTEGER=0 REAL=3."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 2,
+      "routine": null,
+      "text": "-- Placeholder types and declaration partitions are unproved; compare compiler output only."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 3,
+      "routine": null,
+      "text": "-- INCOMPLETE PC DECOMPILATION - REVIEW DRAFT ONLY"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 4,
+      "routine": null,
+      "text": "-- This is compiler-correlated candidate text, not recovered original KL."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 5,
+      "routine": null,
+      "text": "-- Unknown instructions remain as UNRESOLVED_PC comments in the body."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 6,
+      "routine": null,
+      "text": "-- Compilation may succeed while unresolved behavior is omitted."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 7,
+      "routine": null,
+      "text": "-- Resolve every blocker and verify the result before using this source."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 8,
+      "routine": null,
+      "text": "-- Original PC SHA-256: 7bb50bde39503969f8bd5b526b32e8e722e1c906c69fff310dc6dc786eb714b4"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 9,
+      "routine": null,
+      "text": "-- Remaining source blockers: 5"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 10,
+      "routine": null,
+      "text": "-- Unknown special local cells: 5"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 11,
+      "routine": null,
+      "text": "-- Unresolved executable marker lines: 1"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 12,
+      "routine": null
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 13,
+      "routine": null,
+      "text": "-- UNREFERENCED 2C CELLS: 2 geometry-only type alternatives; none selected."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 14,
+      "routine": null,
+      "text": "-- Matched Build25 RS controls give different types for byte-identical unused-local PCs."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 15,
+      "routine": null,
+      "text": "-- A matching authenticated original PC/RS pair could identify compact declarations."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 16,
+      "routine": null,
+      "text": "-- RS can retain compact order, but need not retain interleaving with typed 2B locals."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 17,
+      "routine": null,
+      "text": "-- Nominal aliases with the same storage width are also possible; names are not recovered."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 18,
+      "routine": null,
+      "text": "-- 2C HYPOTHESIS RTEST cell 2 frame +38: INTEGER / REAL / BOOLEAN; VECTOR within +37..+39,+38..+40."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 19,
+      "routine": null,
+      "text": "--   No nearby proved 2C local; no direct local reference here."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 20,
+      "routine": null,
+      "text": "-- 2C HYPOTHESIS RTEST cell 3 frame +39: INTEGER / REAL / BOOLEAN; VECTOR within +37..+39,+38..+40,+39..+41."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 21,
+      "routine": null,
+      "text": "--   No nearby proved 2C local; no direct local reference here."
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 22,
+      "routine": null
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 23,
+      "routine": null,
+      "text": "-- GENERIC V8.33 WHOLE-PROGRAM KAREL CANDIDATE \u2014 PASS100"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 24,
+      "routine": null,
+      "text": "-- NON-DEPLOYABLE. Unresolved executable spans are preserved as comments, never silently omitted."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 25,
+      "routine": null,
+      "text": "-- PC-resident global/routine names are exact; local/formal names are synthetic when source names are absent."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 26,
+      "routine": null,
+      "text": "-- Header directives are emitted only for compiler-roundtrip-proved V8.33 config images."
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 27,
+      "routine": null
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 32,
+      "routine": "IO0113"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 33,
+      "routine": "IO0113",
+      "text": "-- LOCAL ROUTINE FORWARD DECLARATIONS (synthetic formal names)"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 35,
+      "routine": "RTEST FROM IO0113"
+    },
+    {
+      "kind": "inline_assumption_comment",
+      "old_kl_line": 42,
+      "routine": "RTEST",
+      "text": "-- ASSUMED 2C source type; see uncertainty report"
+    },
+    {
+      "kind": "inline_assumption_comment",
+      "old_kl_line": 43,
+      "routine": "RTEST",
+      "text": "-- ASSUMED 2C source type; see uncertainty report"
+    },
+    {
+      "kind": "inline_assumption_comment",
+      "old_kl_line": 44,
+      "routine": "RTEST",
+      "text": "-- ASSUMED 2C source type; see uncertainty report"
+    },
+    {
+      "kind": "inline_assumption_comment",
+      "old_kl_line": 45,
+      "routine": "RTEST",
+      "text": "-- ASSUMED 2C source type; see uncertainty report"
+    },
+    {
+      "kind": "inline_assumption_comment",
+      "old_kl_line": 46,
+      "routine": "RTEST",
+      "text": "-- ASSUMED 2C source type; see uncertainty report"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 47,
+      "routine": "RTEST",
+      "text": "-- RESEARCH 2C LAYOUT: scalar source choices preserve one cell each; all types unproved."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 54,
+      "routine": "RTEST",
+      "text": "-- STRUCTURAL_PC line 20 opcodes [7F] marker_code=90"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 56,
+      "routine": "RTEST"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 59,
+      "routine": "RTEST",
+      "text": "-- STRUCTURAL_PC line 23 opcodes [7F] marker_code=108"
+    }
+  ],
+  "remaining_declaration_warning_comments": 0,
+  "remaining_issue_comments": [
+    {
+      "kind": "UNRESOLVED_PC",
+      "kl_line": 22,
+      "routine": "RTEST",
+      "text": "-- UNRESOLVED_PC line 19 opcodes [9D 2E 1A] marker_code=77"
+    }
+  ],
+  "remaining_unresolved_pc_comments": 1,
+  "remaining_unsafe_source_ir_comments": 0,
+  "removed_blank_line_count": 6,
+  "review_layout_policy": "compact_spacing_and_missing_content_comments_only",
+  "robot_deployable": false,
+  "runtime_equivalence_proved": false,
+  "source_safe_statements_from_existing_renderer": 2,
+  "status": "V833_maximal_KL_uncertainty_report",
+  "still_untyped_cells_with_direct_references": 3,
+  "still_untyped_compact_cells": 5,
+  "strict_source_eligible": false,
+  "unlocated_untyped_compact_cells": 0,
+  "unreferenced_cell_hypotheses": [
+    {
+      "cell_index": 2,
+      "direct_reference_count": 0,
+      "frame_cell_offset": 38,
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          37,
+          38,
+          39
+        ],
+        [
+          38,
+          39,
+          40
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    },
+    {
+      "cell_index": 3,
+      "direct_reference_count": 0,
+      "frame_cell_offset": 39,
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [
+        [
+          37,
+          38,
+          39
+        ],
+        [
+          38,
+          39,
+          40
+        ],
+        [
+          39,
+          40,
+          41
+        ]
+      ],
+      "routine_name": "RTEST",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    }
+  ],
+  "untyped_local_reference_sites": [
+    {
+      "code_offset": 24,
+      "frame_cell_offset": 37,
+      "kl_lines": [
+        18
+      ],
+      "opcode_hex": "23",
+      "pc_source_marker_line": 15,
+      "record_index": 5,
+      "routine": "RTEST",
+      "type_proved": false
+    },
+    {
+      "code_offset": 55,
+      "frame_cell_offset": 40,
+      "kl_lines": [
+        20
+      ],
+      "opcode_hex": "23",
+      "pc_source_marker_line": 17,
+      "record_index": 14,
+      "routine": "RTEST",
+      "type_proved": false
+    },
+    {
+      "code_offset": 71,
+      "frame_cell_offset": 41,
+      "kl_lines": [
+        21
+      ],
+      "opcode_hex": "23",
+      "pc_source_marker_line": 18,
+      "record_index": 17,
+      "routine": "RTEST",
+      "type_proved": false
+    }
+  ],
+  "whole_pc_equality_proved": false
+}

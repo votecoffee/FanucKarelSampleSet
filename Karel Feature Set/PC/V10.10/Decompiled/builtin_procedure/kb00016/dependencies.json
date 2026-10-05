@@ -1,0 +1,72 @@
+{
+  "claim_limit": "Exact PC metadata references; loader binding, source and runtime behavior unproved.",
+  "incoming_element_count": 0,
+  "incoming_element_references": [],
+  "incoming_later_pc_references": [],
+  "outgoing_element_count": 1,
+  "outgoing_element_references": [
+    {
+      "claim_limit": "Embedded reference/signature metadata only; runtime binding and source are unproved.",
+      "consumer_pc": "builtin_procedure/kb00016.pc",
+      "consumer_processed_after_provider": false,
+      "consumer_program": "KB00016",
+      "element_kind": "routine",
+      "element_name": "CALL_PROGLIN",
+      "expected_type_from_consumer_pc": {
+        "argument_types_u16": [
+          7936,
+          16,
+          16,
+          18
+        ],
+        "extended_argument_types": [],
+        "return_type_u16": 0
+      },
+      "later_pc_reference_note": null,
+      "metadata_comparison": "provider_pc_absent",
+      "provider_pc_candidates": [],
+      "provider_pc_in_folder": null,
+      "provider_program_from_consumer_pc": "BYNAM",
+      "provider_type_from_provider_pc": null,
+      "site_count": 1,
+      "sites": [
+        {
+          "caller_routine_name": "KB00016",
+          "code_offset": 82,
+          "opcode_hex": "31",
+          "record_index": 19,
+          "record_sha256": "9a102241e6e9da51379499f89435b90c127a8f5238601b58a15209406eb56538",
+          "source_line_context": 14
+        }
+      ]
+    }
+  ],
+  "pc_dependency_names": [
+    {
+      "matching_workspace_pcs": [
+        "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V10.10\\builtin_procedure\\kb00016.pc"
+      ],
+      "name_from_pc": "KB00016",
+      "relationship": "PC metadata dependency name; source/include ownership not proven",
+      "same_folder_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V10.10\\builtin_procedure\\kb00016.pc"
+    },
+    {
+      "matching_workspace_pcs": [],
+      "name_from_pc": "BYNAM",
+      "relationship": "PC metadata dependency name; source/include ownership not proven",
+      "same_folder_pc": null
+    },
+    {
+      "matching_workspace_pcs": [],
+      "name_from_pc": "*ID*7ffc",
+      "relationship": "PC metadata dependency name; source/include ownership not proven",
+      "same_folder_pc": null
+    }
+  ],
+  "pc_file": "builtin_procedure/kb00016.pc",
+  "program_name": "KB00016",
+  "robot_ini": null,
+  "same_stem_sidecars": [],
+  "schema": "KAREL_PC_dependency_report_v2",
+  "sidecar_authentication": "names and paths only; no PC/sidecar producer identity proven"
+}

@@ -1,0 +1,16 @@
+-- PROVISIONAL review KL for V1013-1; original PC SHA256 8ed6ef3c0ba26b81760986bb7c89484e7b86ab14bb2e5f432cb08f419894011e
+-- Incomplete behavior may be omitted. Consult companion uncertainty JSON. Do not deploy.
+PROGRAM KB00189
+%NOLOCKGROUP
+VAR
+  P1 : STRING[80]
+  P2 : INTEGER
+  P3 : INTEGER
+  RESULT : STRING[80]
+BEGIN
+  -- UNRESOLVED_PC offsets 5-14; opcodes 3F,75
+  -- UNRESOLVED_PC offsets 19-26; opcodes 9D,23
+  -- UNRESOLVED_PC offsets 31-38; opcodes 9D,23
+  -- UNRESOLVED_PC offsets 43-72; opcodes 27,22,2A,22,22,76,75
+  -- UNRESOLVED_PC offsets 77-81; opcodes 7F
+END KB00189

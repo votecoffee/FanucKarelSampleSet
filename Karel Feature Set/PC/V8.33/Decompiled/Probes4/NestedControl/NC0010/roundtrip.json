@@ -1,0 +1,975 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "NC0010.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_exit_code": 0,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\NestedControl\\rt\\NC0010\\f995db0d\\compile.log",
+  "compiler_log_sha256": "39853752802edd4d460aa9cded607d487a85e132e4f2a48b9aa5e650fc802745",
+  "compiler_release": "V833-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": true,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\NestedControl\\rt\\NC0010\\f995db0d\\nc0010.pc",
+  "generated_pc_sha256": "24dee1a5a908c0b864827bcaa070b1c6911aa33861096025282af5dee7d1e57e",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Decompiled\\Probes4\\NestedControl\\NC0010\\NC0010.KL",
+  "kl_sha256": "1575215ea929ea2c7a4e409659a917f88ff8dd6741d1defa0fe1ecd897a1737d",
+  "layout_fit": {
+    "compact_kl": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Decompiled\\Probes4\\NestedControl\\NC0010\\NC0010.compact.KL",
+    "filler_operations": [
+      {
+        "decisions": [
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 8,
+            "prior_line_trailing_spaces": 9,
+            "source_byte_offset_mod65536": 68,
+            "source_line_u16": 7,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 68
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 20,
+            "prior_line_trailing_spaces": 4,
+            "source_byte_offset_mod65536": 77,
+            "source_line_u16": 8,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 77
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 38,
+            "prior_line_trailing_spaces": 2,
+            "source_byte_offset_mod65536": 94,
+            "source_line_u16": 9,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 94
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 56,
+            "prior_line_trailing_spaces": 4,
+            "source_byte_offset_mod65536": 113,
+            "source_line_u16": 10,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 113
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 74,
+            "prior_line_trailing_spaces": 6,
+            "source_byte_offset_mod65536": 134,
+            "source_line_u16": 11,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 134
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 92,
+            "prior_line_trailing_spaces": 8,
+            "source_byte_offset_mod65536": 157,
+            "source_line_u16": 12,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 157
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 110,
+            "prior_line_trailing_spaces": 10,
+            "source_byte_offset_mod65536": 182,
+            "source_line_u16": 13,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 182
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 128,
+            "prior_line_trailing_spaces": 12,
+            "source_byte_offset_mod65536": 209,
+            "source_line_u16": 14,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 209
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 146,
+            "prior_line_trailing_spaces": 14,
+            "source_byte_offset_mod65536": 238,
+            "source_line_u16": 15,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 238
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 164,
+            "prior_line_trailing_spaces": 16,
+            "source_byte_offset_mod65536": 269,
+            "source_line_u16": 16,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 269
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 182,
+            "prior_line_trailing_spaces": 18,
+            "source_byte_offset_mod65536": 302,
+            "source_line_u16": 17,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 302
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 200,
+            "prior_line_trailing_spaces": 20,
+            "source_byte_offset_mod65536": 337,
+            "source_line_u16": 18,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 337
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 218,
+            "prior_line_trailing_spaces": 22,
+            "source_byte_offset_mod65536": 374,
+            "source_line_u16": 19,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 374
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 236,
+            "prior_line_trailing_spaces": 24,
+            "source_byte_offset_mod65536": 413,
+            "source_line_u16": 20,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 413
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 254,
+            "prior_line_trailing_spaces": 26,
+            "source_byte_offset_mod65536": 454,
+            "source_line_u16": 21,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 454
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 272,
+            "prior_line_trailing_spaces": 28,
+            "source_byte_offset_mod65536": 497,
+            "source_line_u16": 22,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 497
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 290,
+            "prior_line_trailing_spaces": 30,
+            "source_byte_offset_mod65536": 542,
+            "source_line_u16": 23,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 542
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 308,
+            "prior_line_trailing_spaces": 32,
+            "source_byte_offset_mod65536": 589,
+            "source_line_u16": 24,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 589
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 326,
+            "prior_line_trailing_spaces": 34,
+            "source_byte_offset_mod65536": 638,
+            "source_line_u16": 25,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 638
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 344,
+            "prior_line_trailing_spaces": 36,
+            "source_byte_offset_mod65536": 689,
+            "source_line_u16": 26,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 689
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 363,
+            "prior_line_trailing_spaces": 39,
+            "source_byte_offset_mod65536": 738,
+            "source_line_u16": 27,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 738
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 373,
+            "prior_line_trailing_spaces": 37,
+            "source_byte_offset_mod65536": 780,
+            "source_line_u16": 28,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 780
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 396,
+            "prior_line_trailing_spaces": 39,
+            "source_byte_offset_mod65536": 829,
+            "source_line_u16": 29,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 829
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 401,
+            "prior_line_trailing_spaces": 37,
+            "source_byte_offset_mod65536": 872,
+            "source_line_u16": 30,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 872
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 411,
+            "prior_line_trailing_spaces": 35,
+            "source_byte_offset_mod65536": 912,
+            "source_line_u16": 31,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 912
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 434,
+            "prior_line_trailing_spaces": 37,
+            "source_byte_offset_mod65536": 959,
+            "source_line_u16": 32,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 959
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 439,
+            "prior_line_trailing_spaces": 35,
+            "source_byte_offset_mod65536": 1000,
+            "source_line_u16": 33,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1000
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 449,
+            "prior_line_trailing_spaces": 33,
+            "source_byte_offset_mod65536": 1038,
+            "source_line_u16": 34,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1038
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 472,
+            "prior_line_trailing_spaces": 35,
+            "source_byte_offset_mod65536": 1083,
+            "source_line_u16": 35,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1083
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 477,
+            "prior_line_trailing_spaces": 33,
+            "source_byte_offset_mod65536": 1122,
+            "source_line_u16": 36,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1122
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 487,
+            "prior_line_trailing_spaces": 31,
+            "source_byte_offset_mod65536": 1158,
+            "source_line_u16": 37,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1158
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 510,
+            "prior_line_trailing_spaces": 33,
+            "source_byte_offset_mod65536": 1201,
+            "source_line_u16": 38,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1201
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 515,
+            "prior_line_trailing_spaces": 31,
+            "source_byte_offset_mod65536": 1238,
+            "source_line_u16": 39,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1238
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 525,
+            "prior_line_trailing_spaces": 29,
+            "source_byte_offset_mod65536": 1272,
+            "source_line_u16": 40,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1272
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 548,
+            "prior_line_trailing_spaces": 31,
+            "source_byte_offset_mod65536": 1313,
+            "source_line_u16": 41,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1313
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 553,
+            "prior_line_trailing_spaces": 29,
+            "source_byte_offset_mod65536": 1348,
+            "source_line_u16": 42,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1348
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 563,
+            "prior_line_trailing_spaces": 27,
+            "source_byte_offset_mod65536": 1380,
+            "source_line_u16": 43,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1380
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 586,
+            "prior_line_trailing_spaces": 29,
+            "source_byte_offset_mod65536": 1419,
+            "source_line_u16": 44,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1419
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 591,
+            "prior_line_trailing_spaces": 27,
+            "source_byte_offset_mod65536": 1452,
+            "source_line_u16": 45,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1452
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 601,
+            "prior_line_trailing_spaces": 25,
+            "source_byte_offset_mod65536": 1482,
+            "source_line_u16": 46,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1482
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 624,
+            "prior_line_trailing_spaces": 27,
+            "source_byte_offset_mod65536": 1519,
+            "source_line_u16": 47,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1519
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 629,
+            "prior_line_trailing_spaces": 25,
+            "source_byte_offset_mod65536": 1550,
+            "source_line_u16": 48,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1550
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 639,
+            "prior_line_trailing_spaces": 23,
+            "source_byte_offset_mod65536": 1578,
+            "source_line_u16": 49,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1578
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 662,
+            "prior_line_trailing_spaces": 25,
+            "source_byte_offset_mod65536": 1613,
+            "source_line_u16": 50,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1613
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 667,
+            "prior_line_trailing_spaces": 23,
+            "source_byte_offset_mod65536": 1642,
+            "source_line_u16": 51,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1642
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 677,
+            "prior_line_trailing_spaces": 21,
+            "source_byte_offset_mod65536": 1668,
+            "source_line_u16": 52,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1668
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 700,
+            "prior_line_trailing_spaces": 23,
+            "source_byte_offset_mod65536": 1701,
+            "source_line_u16": 53,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1701
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 705,
+            "prior_line_trailing_spaces": 21,
+            "source_byte_offset_mod65536": 1728,
+            "source_line_u16": 54,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1728
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 715,
+            "prior_line_trailing_spaces": 19,
+            "source_byte_offset_mod65536": 1752,
+            "source_line_u16": 55,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1752
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 738,
+            "prior_line_trailing_spaces": 21,
+            "source_byte_offset_mod65536": 1783,
+            "source_line_u16": 56,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1783
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 743,
+            "prior_line_trailing_spaces": 19,
+            "source_byte_offset_mod65536": 1808,
+            "source_line_u16": 57,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1808
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 753,
+            "prior_line_trailing_spaces": 17,
+            "source_byte_offset_mod65536": 1830,
+            "source_line_u16": 58,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1830
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 776,
+            "prior_line_trailing_spaces": 19,
+            "source_byte_offset_mod65536": 1859,
+            "source_line_u16": 59,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1859
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 781,
+            "prior_line_trailing_spaces": 17,
+            "source_byte_offset_mod65536": 1882,
+            "source_line_u16": 60,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1882
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 791,
+            "prior_line_trailing_spaces": 15,
+            "source_byte_offset_mod65536": 1902,
+            "source_line_u16": 61,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1902
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 814,
+            "prior_line_trailing_spaces": 17,
+            "source_byte_offset_mod65536": 1929,
+            "source_line_u16": 62,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1929
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 819,
+            "prior_line_trailing_spaces": 15,
+            "source_byte_offset_mod65536": 1950,
+            "source_line_u16": 63,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1950
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 829,
+            "prior_line_trailing_spaces": 13,
+            "source_byte_offset_mod65536": 1968,
+            "source_line_u16": 64,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1968
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 852,
+            "prior_line_trailing_spaces": 15,
+            "source_byte_offset_mod65536": 1993,
+            "source_line_u16": 65,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 1993
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 857,
+            "prior_line_trailing_spaces": 13,
+            "source_byte_offset_mod65536": 2012,
+            "source_line_u16": 66,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 2012
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 867,
+            "prior_line_trailing_spaces": 11,
+            "source_byte_offset_mod65536": 2028,
+            "source_line_u16": 67,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 2028
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 890,
+            "prior_line_trailing_spaces": 13,
+            "source_byte_offset_mod65536": 2051,
+            "source_line_u16": 68,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 2051
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 895,
+            "prior_line_trailing_spaces": 11,
+            "source_byte_offset_mod65536": 2068,
+            "source_line_u16": 69,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 2068
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 905,
+            "prior_line_trailing_spaces": 9,
+            "source_byte_offset_mod65536": 2082,
+            "source_line_u16": 70,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 2082
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 928,
+            "prior_line_trailing_spaces": 11,
+            "source_byte_offset_mod65536": 2103,
+            "source_line_u16": 71,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 2103
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 933,
+            "prior_line_trailing_spaces": 9,
+            "source_byte_offset_mod65536": 2118,
+            "source_line_u16": 72,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 2118
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 943,
+            "prior_line_trailing_spaces": 7,
+            "source_byte_offset_mod65536": 2130,
+            "source_line_u16": 73,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 2130
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 966,
+            "prior_line_trailing_spaces": 9,
+            "source_byte_offset_mod65536": 2149,
+            "source_line_u16": 74,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 2149
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 971,
+            "prior_line_trailing_spaces": 7,
+            "source_byte_offset_mod65536": 2162,
+            "source_line_u16": 75,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 2162
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 981,
+            "prior_line_trailing_spaces": 5,
+            "source_byte_offset_mod65536": 2172,
+            "source_line_u16": 76,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 2172
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 1004,
+            "prior_line_trailing_spaces": 7,
+            "source_byte_offset_mod65536": 2189,
+            "source_line_u16": 77,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 2189
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 1009,
+            "prior_line_trailing_spaces": 5,
+            "source_byte_offset_mod65536": 2200,
+            "source_line_u16": 78,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 2200
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 1019,
+            "prior_line_trailing_spaces": 3,
+            "source_byte_offset_mod65536": 2208,
+            "source_line_u16": 79,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 2208
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 1042,
+            "prior_line_trailing_spaces": 5,
+            "source_byte_offset_mod65536": 2223,
+            "source_line_u16": 80,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 2223
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 1047,
+            "prior_line_trailing_spaces": 3,
+            "source_byte_offset_mod65536": 2232,
+            "source_line_u16": 81,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 2232
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 1056,
+            "prior_line_trailing_spaces": 2,
+            "source_byte_offset_mod65536": 2246,
+            "source_line_u16": 83,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 2246
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 1065,
+            "prior_line_trailing_spaces": 3,
+            "source_byte_offset_mod65536": 2251,
+            "source_line_u16": 84,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 2251
+          }
+        ],
+        "separator": "LF",
+        "source_compactions": [
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 26
+          },
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 28
+          },
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 31
+          },
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 34
+          },
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 37
+          },
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 40
+          },
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 43
+          },
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 46
+          },
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 49
+          },
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 52
+          },
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 55
+          },
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 58
+          },
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 61
+          },
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 64
+          },
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 67
+          },
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 70
+          },
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 73
+          },
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 76
+          },
+          {
+            "kind": "atomic_expression_spelling",
+            "removed_bytes": 2,
+            "template_line": 79
+          }
+        ],
+        "synthetic_comment_count": 0,
+        "synthetic_line_count": 0,
+        "trailing_space_count": 1515
+      }
+    ],
+    "preamble_compactions": [
+      {
+        "definition_line": 6,
+        "kind": "inline_local_routine_signature",
+        "prototype_line": 5,
+        "routine": "R"
+      },
+      {
+        "kind": "omit_sentinel_directive_candidate",
+        "template_line": 2,
+        "text": "%STACKSIZE=65535"
+      },
+      {
+        "kind": "omit_sentinel_directive_candidate",
+        "template_line": 3,
+        "text": "%PRIORITY=65535"
+      }
+    ],
+    "report": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Decompiled\\Probes4\\NestedControl\\NC0010\\marker_fit\\marker_fit.json",
+    "source_authentication": false,
+    "statement_line_numbers_refer_to_compact_kl": true,
+    "status": "whole_pc_equal"
+  },
+  "native_alignment": {
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+    "code_bytes_equal": true,
+    "exact_native_record_stream": true,
+    "first_differences": [],
+    "generated_code_sha256": "5494d9ade6725bbe31b805b1da32a27e24c2bf791108d9b19f53b2c3be65c688",
+    "generated_records": 176,
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "opcode_agreement_pct": 100.0,
+    "opcode_aligned": 176,
+    "original_code_sha256": "5494d9ade6725bbe31b805b1da32a27e24c2bf791108d9b19f53b2c3be65c688",
+    "original_records": 176,
+    "raw_agreement_pct": 100.0,
+    "raw_equal_in_opcode_alignment": 176
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\NestedControl\\NC0010.pc",
+  "original_pc_sha256": "24dee1a5a908c0b864827bcaa070b1c6911aa33861096025282af5dee7d1e57e",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "name": "NC0010.pc",
+    "observed_tag": "27",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\NestedControl\\NC0010.pc",
+    "size": 1266,
+    "status": "tag_observed"
+  },
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Probes4\\NestedControl\\rt\\NC0010\\f995db0d",
+  "source_marker_alignment": {
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+    "code_offset_equal_count": 77,
+    "complete_triplet_equal_count": 77,
+    "exact_triplet_stream": true,
+    "first_differences": [],
+    "generated_count": 77,
+    "line_equal_count": 77,
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 77,
+    "paired_count": 77,
+    "source_byte_offset_equal_count": 77
+  },
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\~Github\\KarelPCDecompileSampleSet\\Karel Feature Set\\PC\\V8.33\\Decompiled\\Probes4\\NestedControl\\NC0010\\NC0010.recompiled.pc",
+  "status": "compared",
+  "whole_pc_bytes_equal": true
+}

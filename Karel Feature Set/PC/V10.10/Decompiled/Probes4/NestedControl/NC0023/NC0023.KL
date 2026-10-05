@@ -1,0 +1,21 @@
+-- PROVISIONAL review KL for V1013-1; original PC SHA256 0ae89a676035a3f8e6dd0e93f15a10114adebd87624723712991d72179a831a5
+-- Incomplete behavior may be omitted. Consult companion uncertainty JSON. Do not deploy.
+PROGRAM NC0023
+%NOLOCKGROUP
+-- UNRESOLVED_LOCAL_POOL 1 cells at code offset 3; source declarations unknown
+-- DIRECT_LOCAL_WORD_ACCESS alone does not prove INTEGER, REAL, or BOOLEAN
+BEGIN
+  -- UNRESOLVED_PC offsets 0-8; opcodes 2B,2C,7B
+  -- UNRESOLVED_PC offsets 13-20; opcodes 9D,23
+  -- UNRESOLVED_PC offsets 25-42; opcodes 21,40,41,42
+  -- UNRESOLVED_PC offsets 47-64; opcodes 21,40,41,42
+  -- UNRESOLVED_PC offsets 69-99; opcodes 21,9D,52,23,7A,40,41,42
+  -- UNRESOLVED_PC offsets 104-128; opcodes 21,2E,52,23,7A,43
+  -- UNRESOLVED_PC offsets 133-151; opcodes 21,2E,52,23
+  -- UNRESOLVED_PC offsets 156-172; opcodes 7A,40,41,42
+  -- UNRESOLVED_PC offsets 177-201; opcodes 21,2E,52,23,7A,43
+  -- UNRESOLVED_PC offsets 206-224; opcodes 21,2E,52,23
+  -- UNRESOLVED_PC offsets 234-238; opcodes 7F
+  -- UNRESOLVED_PC offsets 243-247; opcodes 27,AA
+  -- UNRESOLVED_PC offsets 252-256; opcodes 7F
+END NC0023
