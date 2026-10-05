@@ -1,0 +1,807 @@
+{
+  "byte_interpretation": "All expanded bytes retained in original .PC; sections below are empirical candidate boundaries.",
+  "candidate_footer": {
+    "error": "unsupported/ambiguous V9.40 jump footer (0 matches)",
+    "status": "unsupported"
+  },
+  "candidate_layout": {
+    "candidate_code_window_end_exclusive": 105,
+    "candidate_code_window_length": 73,
+    "candidate_code_window_sha256": "6fdfff58be5d335b17b1fde28d6d40ed6bda83769929ae12f203e75c93433d43",
+    "candidate_code_window_start": 32,
+    "candidate_crc_integrity": {
+      "candidate_end_exclusive": 105,
+      "candidate_length": 73,
+      "candidate_sha256": "6fdfff58be5d335b17b1fde28d6d40ed6bda83769929ae12f203e75c93433d43",
+      "candidate_start": 32,
+      "crc_byte_order": "swapped",
+      "crc_match": true,
+      "crc_register_hex": "7019",
+      "cryptographic_authentication": false,
+      "executable_only_section_verified": false,
+      "expected_id_hex": "1970",
+      "marker_offset": 117,
+      "metadata_gap_bytes": 12,
+      "observed_id_hex": "1970",
+      "observed_id_width": 4,
+      "status": "empirical_crc_match",
+      "vm_opcode_semantics_verified": false
+    },
+    "complete_expanded_byte_accounting": true,
+    "executable_extent_authenticated": false,
+    "old_start_is_not_a_code_boundary": false,
+    "previous_marker_minus_length_start": 44,
+    "previous_start_displacement": 12,
+    "regions": [
+      {
+        "end_exclusive": 32,
+        "first_32_bytes_hex": "00290049495043490000000000000000000000ffffffffffff00000000000801",
+        "interpretation": "header and pre-code bytes",
+        "length": 32,
+        "sha256": "7be6654b5dca1f77685782bcdfd033db61b55b2c7519a3d2cab5ddef2ddb6c12",
+        "start": 0
+      },
+      {
+        "end_exclusive": 105,
+        "first_32_bytes_hex": "2b2010000200002c0100017b3e000b00a49d23ff000000043e000c00ac2722ff",
+        "interpretation": "CRC-matched candidate P-code block; executable-only content NOT proven",
+        "length": 73,
+        "sha256": "6fdfff58be5d335b17b1fde28d6d40ed6bda83769929ae12f203e75c93433d43",
+        "start": 32
+      },
+      {
+        "end_exclusive": 117,
+        "first_32_bytes_hex": "0000000249504350524f5600",
+        "interpretation": "between-code metadata; NEVER decode as instructions",
+        "length": 12,
+        "sha256": "3fa688c164b798d727277dae30711d89508dd423a745d2d97694970d5759e9c2",
+        "start": 105
+      },
+      {
+        "end_exclusive": 126,
+        "first_32_bytes_hex": "2a49442a3139373000",
+        "interpretation": "observed ID/checksum record",
+        "length": 9,
+        "sha256": "62cd7a2466d7b06e248e1598c121df9e5c3d3c0c568df9e1d6027d3ecbc490be",
+        "start": 117
+      },
+      {
+        "end_exclusive": 950,
+        "first_32_bytes_hex": "0006000fff4d4f545950455f450001000300100011ff5445524d545950455f45",
+        "interpretation": "opaque post-ID metadata",
+        "length": 824,
+        "sha256": "b7f756c74cd38506657d9bff541cc98af70f3f9d6ef88d042eac1863a091fb27",
+        "start": 126
+      },
+      {
+        "end_exclusive": 953,
+        "first_32_bytes_hex": "00490a",
+        "interpretation": "observed terminal length mirror plus LF",
+        "length": 3,
+        "sha256": "80b9343a5aff340f6484cfb3ef0a1996c43cf7179c97ae77ca71192d26f1d111",
+        "start": 950
+      }
+    ]
+  },
+  "candidate_releases_from_tag": [
+    "V910-1",
+    "V916-1",
+    "V930-1",
+    "V940-1"
+  ],
+  "candidate_source": null,
+  "candidate_symbols": {
+    "error": "unsupported routine metadata layout",
+    "status": "unsupported"
+  },
+  "envelope": {
+    "alternative_space_ring": {
+      "diagnostic_only": true,
+      "different_byte_positions": 51,
+      "sha256": "a497ecd30c14e89cbb4e00926db8f6a2edc1b5591f27d02df510687bc5300857",
+      "terminal_length_mirror": true
+    },
+    "authenticated_executable_section": false,
+    "candidate_integrity": {
+      "candidate_end_exclusive": 105,
+      "candidate_length": 73,
+      "candidate_sha256": "6fdfff58be5d335b17b1fde28d6d40ed6bda83769929ae12f203e75c93433d43",
+      "candidate_start": 32,
+      "crc_byte_order": "swapped",
+      "crc_match": true,
+      "crc_register_hex": "7019",
+      "cryptographic_authentication": false,
+      "executable_only_section_verified": false,
+      "expected_id_hex": "1970",
+      "marker_offset": 117,
+      "metadata_gap_bytes": 12,
+      "observed_id_hex": "1970",
+      "observed_id_width": 4,
+      "status": "empirical_crc_match",
+      "vm_opcode_semantics_verified": false
+    },
+    "checksum_record": {
+      "algorithm_verified": false,
+      "decimal_observed_value": 6512,
+      "hex": "1970",
+      "hex_offset": 121,
+      "hex_width": 4,
+      "marker_offset": 117,
+      "record_end_exclusive": 126
+    },
+    "expanded_release_associated_byte_hex": "29",
+    "expanded_size": 953,
+    "expanded_zero_sha256": "a4c7fc8795d37e9c464fe734199b3aabe8cb30d66d8b8e7a72837dc56255ab13",
+    "observed_pcode_length_field_u16": 73,
+    "preserved_opaque_regions": [
+      {
+        "end_exclusive": 117,
+        "interpretation": "header/possible code/metadata UNSEGMENTED",
+        "sha256": "6a7cf78a2834dce53b51fa2f9070a43bc7e5e5ea859e5f97b86cd71ca021b35a",
+        "start": 0
+      },
+      {
+        "end_exclusive": 953,
+        "interpretation": "post-ID records UNSEGMENTED",
+        "sha256": "6286f95968da9d558845549e423ea1dd2f3b63a6af78a474a64720a8923f6052",
+        "start": 126
+      }
+    ],
+    "raw_sha256": "9ef71be49f46d6316f1e42b18f0b5f938e0fc1998a3cf66f0b62b54dc00a85b8",
+    "raw_size": 629,
+    "terminal_bytes_hex": "00490a",
+    "vendor_loader_ring_initialization_verified": false,
+    "wrapper_decoded_length": 953,
+    "zero_ring_terminal_length_mirror": true
+  },
+  "full_decompilation": false,
+  "gates": {
+    "instruction_grammar_full_version_coverage": false,
+    "motion_verified": false,
+    "recompile_semantic_equivalence_for_this_file": false,
+    "robot_execution_authorized": false,
+    "wrapper_accepted_empirically": true
+  },
+  "identified_release": "V940-1",
+  "instruction_reconstruction": {
+    "complex_calls_or_motion_semantics_verified": false,
+    "decoder_profile": "9.40",
+    "error": "unsupported/ambiguous V9.40 jump footer (0 matches)",
+    "source_reconstruction_available": false,
+    "status": "unsupported_full_source",
+    "stream_error": "unsupported/ambiguous V9.40 jump footer (0 matches)"
+  },
+  "instruction_semantics_verified_for_arbitrary_programs": false,
+  "motion_semantics_verified": false,
+  "multiversion_layout_evidence": {
+    "code_sha256": "6fdfff58be5d335b17b1fde28d6d40ed6bda83769929ae12f203e75c93433d43",
+    "note": "Byte matches are release-scoped leads only. In particular a 320000 record is not independently a structure-member access, and a transfer width alone does not name a position type.",
+    "observed_control_byte_matches": {
+      "compact_local_pools": [
+        {
+          "cell_count": 1,
+          "code_offset": 7,
+          "declaration_inventory_recoverable_from_pc": false,
+          "raw_hex": "2C010001",
+          "record_index": 1,
+          "source_declarations_inferred": false
+        }
+      ],
+      "direct_local_word_accesses": [
+        {
+          "code_offset": 18,
+          "coordinate_u32": 4,
+          "nominal_source_type_proved_by_this_record": false,
+          "opcode_hex": "23",
+          "record_index": 5
+        }
+      ],
+      "file_37_selectors": [],
+      "string_2b_descriptors": [],
+      "zero_offset_32_record_indices": []
+    },
+    "profile": {
+      "basis": "Known-source compiler controls at V6.43/V7.20 and V8.36/V9.10; applies as a release-scoped contrast, not a universal semantic decoder.",
+      "controlled_XYZWPREXT_CONFIG_DATA_offset": 32,
+      "controlled_XYZWPR_XYZWPREXT_member_offsets": {
+        "P": 24,
+        "R": 28,
+        "W": 20,
+        "X": 8,
+        "Y": 12,
+        "Z": 16
+      },
+      "controlled_file_37_selector_hex": "1F00",
+      "controlled_string_2b_prefix_hex": "1F",
+      "controlled_whole_value_bytes": {
+        "JOINTPOS9": 44,
+        "POSITION": 60,
+        "XYZWPR": 36,
+        "XYZWPREXT": 48
+      },
+      "controlled_zero_offset_member_extra_32_pair": true,
+      "position_geometry_epoch": "V910_and_later",
+      "release": "V940-1",
+      "source_KL_enabled_by_this_profile": false,
+      "source_type_inference_from_width": false,
+      "string_file_descriptor_epoch": "V720_and_later",
+      "support_environment_note": "System-type member offsets also depend on versioned EV/support files; a PC tag or opcode alone does not authenticate those files."
+    },
+    "release": "V940-1",
+    "source_KL_enabled": false,
+    "source_type_or_member_owner_proved": false,
+    "status": "release_scoped_controlled_layout_contrasts"
+  },
+  "multiversion_record_walk": {
+    "bytes_accounted": 73,
+    "code_length": 73,
+    "code_sha256": "6fdfff58be5d335b17b1fde28d6d40ed6bda83769929ae12f203e75c93433d43",
+    "length_family": "L2",
+    "note": "Record framing only. Source semantics require separately established handler/compiler lineage evidence.",
+    "observed_source_byte_offset_wraps": 0,
+    "opcode_frequency": {
+      "22": 1,
+      "23": 2,
+      "27": 2,
+      "2B": 1,
+      "2C": 1,
+      "3E": 5,
+      "7B": 1,
+      "7F": 2,
+      "9D": 1,
+      "AA": 2,
+      "FF": 1
+    },
+    "record_count": 19,
+    "records": [
+      {
+        "code_offset": 0,
+        "end_exclusive": 7,
+        "expanded_offset": 32,
+        "index": 0,
+        "length": 7,
+        "opcode_hex": "2B",
+        "record_sha256": "3f2382deeb33534a806940d7fe2ac7eb8284439bc4f36cb648e540dbfdf10b77",
+        "width_rule": "typed_list_2B"
+      },
+      {
+        "code_offset": 7,
+        "end_exclusive": 11,
+        "expanded_offset": 39,
+        "index": 1,
+        "length": 4,
+        "opcode_hex": "2C",
+        "record_sha256": "9682faacd647bd69a22cc75cbcf1856e0957adcb05b3ccd0fea244cddee3347c",
+        "width_rule": "fixed_width"
+      },
+      {
+        "code_offset": 11,
+        "end_exclusive": 12,
+        "expanded_offset": 43,
+        "index": 2,
+        "length": 1,
+        "opcode_hex": "7B",
+        "record_sha256": "021fb596db81e6d02bf3d2586ee3981fe519f275c0ac9ca76bbcf2ebb4097d96",
+        "width_rule": "fixed_width"
+      },
+      {
+        "code_offset": 12,
+        "end_exclusive": 17,
+        "expanded_offset": 44,
+        "index": 3,
+        "length": 5,
+        "opcode_hex": "3E",
+        "record_sha256": "7a37699d09fa4fdbf3704a34aa152e5ac4a3d0948fb1b02d34cde7ead824ad57",
+        "source_byte_offset_mod65536": 164,
+        "source_line_u16": 11,
+        "width_rule": "fixed_width"
+      },
+      {
+        "code_offset": 17,
+        "end_exclusive": 18,
+        "expanded_offset": 49,
+        "index": 4,
+        "length": 1,
+        "opcode_hex": "9D",
+        "record_sha256": "9d277175737fb50041e75f641acf94d10df9b9721db8fffe874ab57f8ffb062e",
+        "width_rule": "fixed_width"
+      },
+      {
+        "code_offset": 18,
+        "end_exclusive": 24,
+        "expanded_offset": 50,
+        "index": 5,
+        "length": 6,
+        "opcode_hex": "23",
+        "record_sha256": "ce67faf2a0458f4283662b261e347ad1a9eb171ab9f364170f863a37ad6d6f5d",
+        "width_rule": "fixed_width"
+      },
+      {
+        "code_offset": 24,
+        "end_exclusive": 29,
+        "expanded_offset": 56,
+        "index": 6,
+        "length": 5,
+        "opcode_hex": "3E",
+        "record_sha256": "83ebb11bd3e98f84facf98274da452aed59d14fa31f91a976220372c5aef0654",
+        "source_byte_offset_mod65536": 172,
+        "source_line_u16": 12,
+        "width_rule": "fixed_width"
+      },
+      {
+        "code_offset": 29,
+        "end_exclusive": 30,
+        "expanded_offset": 61,
+        "index": 7,
+        "length": 1,
+        "opcode_hex": "27",
+        "record_sha256": "265fda17a34611b1533d8a281ff680dc5791b0ce0a11c25b35e11c8e75685509",
+        "width_rule": "fixed_width"
+      },
+      {
+        "code_offset": 30,
+        "end_exclusive": 36,
+        "expanded_offset": 62,
+        "index": 8,
+        "length": 6,
+        "opcode_hex": "22",
+        "record_sha256": "9a086dde261937232201ce8b26527557cad7b5ff56464645904b4a0269f77df4",
+        "width_rule": "fixed_width"
+      },
+      {
+        "code_offset": 36,
+        "end_exclusive": 39,
+        "expanded_offset": 68,
+        "index": 9,
+        "length": 3,
+        "opcode_hex": "AA",
+        "record_sha256": "c44bc64a66f3a5da2e37b7ef874985b85958fcf203a18f34af60abae5d6ecc2c",
+        "width_rule": "fixed_width"
+      },
+      {
+        "code_offset": 39,
+        "end_exclusive": 45,
+        "expanded_offset": 71,
+        "index": 10,
+        "length": 6,
+        "opcode_hex": "23",
+        "record_sha256": "e1d8376218b5bcd5f4bd1ede71190eb903a663b02f3ebe0cfd65e7cabf19adf8",
+        "width_rule": "fixed_width"
+      },
+      {
+        "code_offset": 45,
+        "end_exclusive": 50,
+        "expanded_offset": 77,
+        "index": 11,
+        "length": 5,
+        "opcode_hex": "3E",
+        "record_sha256": "b6050cb7b63bbd62d1f6adbcb082a4fbb4e8e8749c226cb7c02e8190fcde51d1",
+        "source_byte_offset_mod65536": 188,
+        "source_line_u16": 13,
+        "width_rule": "fixed_width"
+      },
+      {
+        "code_offset": 50,
+        "end_exclusive": 54,
+        "expanded_offset": 82,
+        "index": 12,
+        "length": 4,
+        "opcode_hex": "7F",
+        "record_sha256": "8d12d9fcf1bb74eb413e34f28b96439b1260da900a2c70af2440c5c7dbb43c03",
+        "width_rule": "fixed_width"
+      },
+      {
+        "code_offset": 54,
+        "end_exclusive": 59,
+        "expanded_offset": 86,
+        "index": 13,
+        "length": 5,
+        "opcode_hex": "3E",
+        "record_sha256": "ba9fa55157c964204ffaf05519f58d6a2db3b361c012f2a1e01373c9616695fc",
+        "source_byte_offset_mod65536": 202,
+        "source_line_u16": 15,
+        "width_rule": "fixed_width"
+      },
+      {
+        "code_offset": 59,
+        "end_exclusive": 60,
+        "expanded_offset": 91,
+        "index": 14,
+        "length": 1,
+        "opcode_hex": "27",
+        "record_sha256": "265fda17a34611b1533d8a281ff680dc5791b0ce0a11c25b35e11c8e75685509",
+        "width_rule": "fixed_width"
+      },
+      {
+        "code_offset": 60,
+        "end_exclusive": 63,
+        "expanded_offset": 92,
+        "index": 15,
+        "length": 3,
+        "opcode_hex": "AA",
+        "record_sha256": "6731124549c7d5e2fc8b9aded5f38f27cd080f55c7eea8355b3e875d07820013",
+        "width_rule": "fixed_width"
+      },
+      {
+        "code_offset": 63,
+        "end_exclusive": 68,
+        "expanded_offset": 95,
+        "index": 16,
+        "length": 5,
+        "opcode_hex": "3E",
+        "record_sha256": "523c929151205cf149ee0aac09c07a4e407eb86c06b1464955ada54096ec6ae2",
+        "source_byte_offset_mod65536": 206,
+        "source_line_u16": 16,
+        "width_rule": "fixed_width"
+      },
+      {
+        "code_offset": 68,
+        "end_exclusive": 72,
+        "expanded_offset": 100,
+        "index": 17,
+        "length": 4,
+        "opcode_hex": "7F",
+        "record_sha256": "8d12d9fcf1bb74eb413e34f28b96439b1260da900a2c70af2440c5c7dbb43c03",
+        "width_rule": "fixed_width"
+      },
+      {
+        "code_offset": 72,
+        "end_exclusive": 73,
+        "expanded_offset": 104,
+        "index": 18,
+        "length": 1,
+        "opcode_hex": "FF",
+        "record_sha256": "a8100ae6aa1940d0b663bb31cd466142ebbdbd5187131b92d93818987832eb89",
+        "width_rule": "fixed_width"
+      }
+    ],
+    "release": "V940-1",
+    "semantic_names_inherited_across_versions": false,
+    "source_marker_count": 5,
+    "source_markers": [
+      {
+        "code_offset": 12,
+        "minimum_unwrapped_source_byte_offset": 164,
+        "observed_wrap_count": 0,
+        "record_index": 3,
+        "source_byte_offset_mod65536": 164,
+        "source_line_u16": 11
+      },
+      {
+        "code_offset": 24,
+        "minimum_unwrapped_source_byte_offset": 172,
+        "observed_wrap_count": 0,
+        "record_index": 6,
+        "source_byte_offset_mod65536": 172,
+        "source_line_u16": 12
+      },
+      {
+        "code_offset": 45,
+        "minimum_unwrapped_source_byte_offset": 188,
+        "observed_wrap_count": 0,
+        "record_index": 11,
+        "source_byte_offset_mod65536": 188,
+        "source_line_u16": 13
+      },
+      {
+        "code_offset": 54,
+        "minimum_unwrapped_source_byte_offset": 202,
+        "observed_wrap_count": 0,
+        "record_index": 13,
+        "source_byte_offset_mod65536": 202,
+        "source_line_u16": 15
+      },
+      {
+        "code_offset": 63,
+        "minimum_unwrapped_source_byte_offset": 206,
+        "observed_wrap_count": 0,
+        "record_index": 16,
+        "source_byte_offset_mod65536": 206,
+        "source_line_u16": 16
+      }
+    ],
+    "status": "cross_version_profile_record_boundaries",
+    "width_table_sha256": "fb694faa8a91507b3d9363cf531879643510910d69db0d5d23f30a7e6ae5edf5"
+  },
+  "observed_tag": "29",
+  "program_name_observed": "IPCI",
+  "raw_sha256": "9ef71be49f46d6316f1e42b18f0b5f938e0fc1998a3cf66f0b62b54dc00a85b8",
+  "raw_size": 629,
+  "recompile_verified_for_this_file": false,
+  "release_authenticated": false,
+  "release_profile": {
+    "capability_routes": {
+      "bounded_ast": {
+        "reason": null,
+        "status": "supported"
+      },
+      "complete_kl": {
+        "reason": "no arbitrary-PC complete KL source guarantee for this exact release",
+        "status": "unsupported"
+      },
+      "controlled_layout": {
+        "reason": null,
+        "status": "supported"
+      },
+      "envelope": {
+        "reason": null,
+        "status": "supported"
+      },
+      "maximal_review_kl": {
+        "reason": null,
+        "status": "supported"
+      },
+      "record_walk": {
+        "reason": null,
+        "status": "supported"
+      },
+      "recursive_source_regions": {
+        "reason": "verified source regions and statement renderer are currently available for V833-1 only",
+        "status": "unsupported"
+      },
+      "v833_native_pipeline": {
+        "reason": "native graph and source semantics are currently admitted for V833-1 only",
+        "status": "unsupported"
+      }
+    },
+    "compiler_runtime_compatibility_profile": {
+      "compiler_name_slot_bytes": 37,
+      "compiler_position_limit": 65534,
+      "grammar_family": "G5",
+      "length_family": "L2",
+      "length_table_sha256": "fb694faa8a91507b3d9363cf531879643510910d69db0d5d23f30a7e6ae5edf5",
+      "release": "V940-1",
+      "runtime_lineage_note": "180/182 opcode lineages stable wherever dispatchable; B6 introduced as AA alias at V7.30; 77 retired at V8.10",
+      "runtime_opcode_77_dispatchable": false,
+      "runtime_opcode_B6_dispatchable": true,
+      "stack_contract_note": "lineage-based with version-local overrides; V10.10 opcodes 32/33 are explicit overrides; 7F and AA/B6 are frame-dynamic",
+      "structural_epoch": "C5b"
+    },
+    "compiler_version_inventory": "not authenticated; compiler binary not bundled",
+    "feature_support": {
+      "complete_source_guarantee": {
+        "boundary": "no arbitrary-PC original-source or semantic-equivalence guarantee",
+        "status": "unsupported"
+      },
+      "control_region_recovery": {
+        "boundary": "no release-local verified branch graph admitted",
+        "components": {
+          "branch_target_graph": {
+            "boundary": "no release-local semantic route admitted",
+            "status": "unsupported"
+          },
+          "nested_region_tree": {
+            "boundary": "no release-local semantic route admitted",
+            "status": "unsupported"
+          },
+          "source_region_intervals": {
+            "boundary": "no release-local semantic route admitted",
+            "status": "unsupported"
+          }
+        },
+        "status": "unsupported"
+      },
+      "declaration_metadata": {
+        "boundary": "C1/C2/C3/C4/C5a/C5b/C6 epochs; STRING/FILE changes at V720-1",
+        "status": "provisional"
+      },
+      "dependency_elements": {
+        "boundary": "no release-local element dependency graph admitted",
+        "status": "unsupported"
+      },
+      "envelope_and_code_window": {
+        "boundary": "exact tag plus independently checked expanded-code window",
+        "status": "supported"
+      },
+      "expression_recovery": {
+        "boundary": "bounded raw review motifs only",
+        "components": {
+          "bound_operands": {
+            "boundary": "no release-local semantic route admitted",
+            "status": "unsupported"
+          },
+          "call_arguments_and_results": {
+            "boundary": "no release-local semantic route admitted",
+            "status": "unsupported"
+          },
+          "raw_record_motifs": {
+            "boundary": "record-local observations; no general expression semantics",
+            "status": "provisional"
+          },
+          "string_array_and_composite": {
+            "boundary": "no release-local semantic route admitted",
+            "status": "unsupported"
+          },
+          "typed_scalar_and_predicate": {
+            "boundary": "no release-local semantic route admitted",
+            "status": "unsupported"
+          }
+        },
+        "status": "provisional"
+      },
+      "kl_assembly": {
+        "boundary": "provisional review KL",
+        "components": {
+          "arbitrary_pc_complete_source": {
+            "boundary": "no exact release has an arbitrary-PC original-source guarantee",
+            "status": "unsupported"
+          },
+          "ordered_statement_emission": {
+            "boundary": "marker-order source assembly; gaps retained as comments where needed",
+            "status": "provisional"
+          },
+          "program_and_declarations": {
+            "boundary": "synthetic names and declarations remain uncertainty-tracked",
+            "status": "provisional"
+          },
+          "recursive_region_emission": {
+            "boundary": "no release-local semantic route admitted",
+            "status": "unsupported"
+          },
+          "uncertainty_sidecar": {
+            "boundary": "report records missing, unsafe, and unproved source claims",
+            "status": "supported"
+          }
+        },
+        "status": "provisional"
+      },
+      "local_frame_layout": {
+        "boundary": "record-level 2B/2C pool observations only; typed source locals unsupported",
+        "status": "provisional"
+      },
+      "record_segmentation": {
+        "boundary": "L2 width profile; complete walk is guarded per file",
+        "components": {
+          "complete_profile_walk": {
+            "boundary": "all record boundaries must account for the code window",
+            "status": "supported"
+          },
+          "expanded_code_window": {
+            "boundary": "strict envelope and bounded expanded code",
+            "status": "supported"
+          },
+          "native_dispatch_annotation": {
+            "boundary": "no release-local semantic route admitted",
+            "status": "unsupported"
+          },
+          "release_width_table": {
+            "boundary": "L2 exact 256-entry record widths",
+            "status": "supported"
+          }
+        },
+        "status": "supported"
+      },
+      "roundtrip_analysis": {
+        "boundary": "optional; exact-release KTRANS must be available and compilation must succeed",
+        "components": {
+          "behavior_equivalence": {
+            "boundary": "compile and physical equality do not prove runtime equivalence",
+            "status": "unsupported"
+          },
+          "compiler_invocation": {
+            "boundary": "conditional on available exact-release KTRANS; robot.ini is optional",
+            "status": "supported"
+          },
+          "opcode_alignment": {
+            "boundary": "release-profile record walk; source-marker opcodes excluded",
+            "status": "supported"
+          },
+          "raw_record_comparison": {
+            "boundary": "raw bytes compared inside aligned opcode blocks",
+            "status": "supported"
+          },
+          "source_marker_layout_fitting": {
+            "boundary": "no release-local semantic route admitted",
+            "status": "unsupported"
+          },
+          "source_marker_triplets": {
+            "boundary": "decoded 3E triplet sequence compared separately",
+            "status": "supported"
+          },
+          "whole_pc_bytes": {
+            "boundary": "compiled physical PC bytes compared exactly",
+            "status": "supported"
+          }
+        },
+        "status": "supported"
+      },
+      "source_marker_segmentation": {
+        "boundary": "complete profile record walk and exact 3E marker bytes required",
+        "components": {
+          "marker_owned_source_regions": {
+            "boundary": "no release-local semantic route admitted",
+            "status": "unsupported"
+          },
+          "marker_record_extraction": {
+            "boundary": "exact 3E record width and offset",
+            "status": "supported"
+          },
+          "marker_triplet_decode": {
+            "boundary": "line, byte-position, and source-marker fields",
+            "status": "supported"
+          }
+        },
+        "status": "supported"
+      },
+      "statement_recovery": {
+        "boundary": "bounded raw review motifs only",
+        "components": {
+          "assignment_and_call": {
+            "boundary": "no release-local semantic route admitted",
+            "status": "unsupported"
+          },
+          "flow_and_return": {
+            "boundary": "no release-local semantic route admitted",
+            "status": "unsupported"
+          },
+          "io_file_and_builtin": {
+            "boundary": "no release-local semantic route admitted",
+            "status": "unsupported"
+          },
+          "raw_statement_motifs": {
+            "boundary": "bounded record motifs; unknown behavior remains explicit",
+            "status": "provisional"
+          }
+        },
+        "status": "provisional"
+      }
+    },
+    "instruction_decoder": "9.40",
+    "known_breaking_points": [
+      {
+        "changes": [
+          "STRING 2B descriptor and FILE 37 selector change from 08 to 1F",
+          "zero-offset special member access gains the explicit 32 pair",
+          "source grammar changes from G1 to G2"
+        ],
+        "starts_at": "V720-1"
+      },
+      {
+        "changes": [
+          "record-width family changes L1 to L2 (B6 becomes dispatchable AA alias)",
+          "source grammar changes to G3"
+        ],
+        "starts_at": "V730-1"
+      },
+      {
+        "changes": [
+          "source grammar changes to G4"
+        ],
+        "starts_at": "V740-1"
+      },
+      {
+        "changes": [
+          "source grammar changes to G5 and structural epoch to C5a"
+        ],
+        "starts_at": "V750-1"
+      },
+      {
+        "changes": [
+          "runtime opcode 77 is retired"
+        ],
+        "starts_at": "V810-1"
+      },
+      {
+        "changes": [
+          "structural epoch changes C5a to C5b",
+          "compiler name slot grows from 13 to 37 bytes and position limit changes"
+        ],
+        "starts_at": "V836-1"
+      },
+      {
+        "changes": [
+          "POSITION-family whole values and member offsets gain four bytes"
+        ],
+        "starts_at": "V910-1"
+      }
+    ],
+    "observed_tag": "29",
+    "release": "V940-1",
+    "version_claim_authenticated": false
+  },
+  "release_selection_basis": "explicit caller selection, tag corroborated; NOT build authentication",
+  "requested_release": "V940-1",
+  "robot_deployable": false,
+  "source_lookup_used": false,
+  "status": "partial_instruction_evidence"
+}

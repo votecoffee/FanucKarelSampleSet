@@ -1,0 +1,13 @@
+PROGRAM EV0014
+%STACKSIZE=65535
+%PRIORITY=65535
+%NOLOCKGROUP
+ROUTINE R FROM EV0014
+ROUTINE R
+-- LOCAL DECLARATIONS WITHHELD: local source type has no canonical declaration proof; non-special native local storage width unresolved; anonymous special local storage has unproved source types
+BEGIN
+-- UNSAFE_SOURCE_IR line 9: FRAME[R+0x9] = field_offset(FRAME[R+0x8],0)
+END R
+BEGIN
+R
+END EV0014

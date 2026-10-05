@@ -1,0 +1,92 @@
+PROGRAM NC0091
+%NOLOCKGROUP
+ROUTINE R
+VAR
+  X : INTEGER
+  I3 : INTEGER
+  I7 : INTEGER
+  I11 : INTEGER
+  I15 : INTEGER
+  I19 : INTEGER
+BEGIN
+  X = 1
+  IF X = 1 THEN
+    SELECT X OF
+      CASE(1):
+        FOR I3 = 1 TO 2 DO
+          WHILE X < 2 DO
+            IF X = 1 THEN
+              SELECT X OF
+                CASE(1):
+                  FOR I7 = 1 TO 2 DO
+                    WHILE X < 2 DO
+                      IF X = 1 THEN
+                        SELECT X OF
+                          CASE(1):
+                            FOR I11 = 1 TO 2 DO
+                              WHILE X < 2 DO
+                                IF X = 1 THEN
+                                  SELECT X OF
+                                    CASE(1):
+                                      FOR I15 = 1 TO 2 DO
+                                        WHILE X < 2 DO
+                                          IF X = 1 THEN
+                                            SELECT X OF
+                                              CASE(1):
+                                                FOR I19 = 1 TO 2 DO
+                                                  WHILE X < 2 DO
+                                                    X = X + 1
+                                                  ENDWHILE
+                                                ENDFOR
+                                              CASE(2):
+                                                X = X + 2
+                                              ELSE:
+                                                X = X + 3
+                                            ENDSELECT
+                                          ELSE
+                                            X = X + 2
+                                          ENDIF
+                                        ENDWHILE
+                                      ENDFOR
+                                    CASE(2):
+                                      X = X + 2
+                                    ELSE:
+                                      X = X + 3
+                                  ENDSELECT
+                                ELSE
+                                  X = X + 2
+                                ENDIF
+                              ENDWHILE
+                            ENDFOR
+                          CASE(2):
+                            X = X + 2
+                          ELSE:
+                            X = X + 3
+                        ENDSELECT
+                      ELSE
+                        X = X + 2
+                      ENDIF
+                    ENDWHILE
+                  ENDFOR
+                CASE(2):
+                  X = X + 2
+                ELSE:
+                  X = X + 3
+              ENDSELECT
+            ELSE
+              X = X + 2
+            ENDIF
+          ENDWHILE
+        ENDFOR
+      CASE(2):
+        X = X + 2
+      ELSE:
+        X = X + 3
+    ENDSELECT
+  ELSE
+    X = X + 2
+  ENDIF
+END R
+BEGIN
+  R
+END NC0091

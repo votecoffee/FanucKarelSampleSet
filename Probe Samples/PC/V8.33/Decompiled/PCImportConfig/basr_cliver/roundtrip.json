@@ -1,0 +1,154 @@
+{
+  "status": "compared",
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\PCImportConfig\\basr_cliver.pc",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Decompiled\\PCImportConfig\\basr_cliver\\basr_cliver.KL",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\robot.ini",
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_release": "V833-1",
+  "compiler_exit_code": 0,
+  "compiler_success": true,
+  "whole_pc_bytes_equal": false,
+  "native_alignment": {
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "original_records": 12,
+    "generated_records": 13,
+    "opcode_aligned": 12,
+    "raw_equal_in_opcode_alignment": 12,
+    "opcode_agreement_pct": 92.31,
+    "raw_agreement_pct": 92.31,
+    "exact_native_record_stream": false,
+    "original_code_sha256": "1f21a5304d023590a75ebecbdd0e6f603667b78fed177beaf71122e524a44c52",
+    "generated_code_sha256": "5ce4af004f09b870779999810b46b86834c22bd45fba8399a44a3f0074903919",
+    "code_bytes_equal": false,
+    "first_differences": [
+      {
+        "kind": "insert",
+        "original_record_span": [
+          6,
+          6
+        ],
+        "generated_record_span": [
+          6,
+          7
+        ],
+        "original_opcodes": [],
+        "generated_opcodes": [
+          "64"
+        ]
+      }
+    ],
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof."
+  },
+  "source_marker_alignment": {
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 5,
+    "generated_count": 5,
+    "paired_count": 5,
+    "code_offset_equal_count": 2,
+    "line_equal_count": 0,
+    "source_byte_offset_equal_count": 0,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "ordinal": 0,
+        "original": [
+          12,
+          10,
+          107
+        ],
+        "generated": [
+          12,
+          13,
+          203
+        ]
+      },
+      {
+        "ordinal": 1,
+        "original": [
+          28,
+          11,
+          117
+        ],
+        "generated": [
+          28,
+          14,
+          220
+        ]
+      },
+      {
+        "ordinal": 2,
+        "original": [
+          45,
+          12,
+          125
+        ],
+        "generated": [
+          46,
+          15,
+          228
+        ]
+      },
+      {
+        "ordinal": 3,
+        "original": [
+          54,
+          14,
+          139
+        ],
+        "generated": [
+          55,
+          17,
+          240
+        ]
+      },
+      {
+        "ordinal": 4,
+        "original": [
+          63,
+          15,
+          143
+        ],
+        "generated": [
+          64,
+          18,
+          242
+        ]
+      }
+    ],
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified."
+  },
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "original_pc_sha256": "77ca25765372634d2c36328c7bb036587a60dc0943e844d13d033673fb42864d",
+  "kl_sha256": "55b0baee4d1cec25194a04949bb8a7c57969ad135d790c0aa42c82f98b2e597f",
+  "original_version_probe": {
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\PCImportConfig\\basr_cliver.pc",
+    "name": "basr_cliver.pc",
+    "status": "tag_observed",
+    "observed_tag": "27",
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "size": 608
+  },
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\PCImportConfig\\rt\\basr_cliver\\25955067",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "basr_cliver.KL"
+  ],
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "robot_ini_sha256": null,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\PCImportConfig\\rt\\basr_cliver\\25955067\\compile.log",
+  "compiler_log_sha256": "868f1581778c6c6b5fb0ab985fdc32be89f80c5817b6e1fe2bfadfcf8e061ad4",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\PCImportConfig\\rt\\basr_cliver\\25955067\\basr_cliver.pc",
+  "generated_pc_sha256": "0550e625e7c4fb7ba2c368399a1b97532085defe70a36a6894957aa36bb667a7"
+}

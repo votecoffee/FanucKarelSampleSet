@@ -1,0 +1,17 @@
+PROGRAM TF0008
+%NOLOCKGROUP
+VAR
+G:INTEGER;STATUS:INTEGER
+ROUTINE R
+VAR
+S1:BOOLEAN;S2:REAL;S3:INTEGER
+BEGIN
+--              
+--             
+--             
+GET_REG(1,S1,S3,S2,STATUS)                     
+G=S3          
+END R
+BEGIN  
+R 
+END TF0008

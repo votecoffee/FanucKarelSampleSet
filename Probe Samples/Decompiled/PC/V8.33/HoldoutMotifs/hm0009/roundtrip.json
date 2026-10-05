@@ -1,0 +1,45 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "hm0009.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_error_excerpt": "Notice: Unable to find 'robot.ini',\nUsing basic KAREL support files.\nKTRANS Version V8.33 (Build 25  10/28/2024)\nCopyright (C) FANUC America Corporation, 1985 through 2014.\nAll Rights Reserved.\n\n\n\nC:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\HoldoutMotifs\\rt\\hm0009\\c74e9669\\hm0009.kl(13)\n  13 U2C_4=P1\n         ^ ERROR\nData type of Id is incompatible with right hand side.  Id: U2C_4\n\n\n===============Translation not successful===============\nError executing KTrans: Error translating program: Code: 0xFFFFFFFF:  ",
+  "compiler_exit_code": 2147745896,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\HoldoutMotifs\\rt\\hm0009\\c74e9669\\compile.log",
+  "compiler_log_sha256": "67d3c8f0b67d39a278c7dd4c7aa467b6e5501cee569a25d1d73bbc6529728bdd",
+  "compiler_release": "V833-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": false,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\HoldoutMotifs\\hm0009\\hm0009.KL",
+  "kl_sha256": "26c1ffa4663d9dc4ae51cd13c61b4b7b140a1044138d10c0a0215905dbbc5d24",
+  "native_alignment": null,
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\HoldoutMotifs\\hm0009.pc",
+  "original_pc_sha256": "a731a18898ff767a9ad3eb9fa624116ce483edd84e44b13bb53b9b27f41b18fb",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "name": "hm0009.pc",
+    "observed_tag": "27",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\HoldoutMotifs\\hm0009.pc",
+    "size": 630,
+    "status": "tag_observed"
+  },
+  "reason": "KTRANS did not produce exactly one successful PC",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\HoldoutMotifs\\rt\\hm0009\\c74e9669",
+  "source_marker_alignment": null,
+  "status": "compile_failed",
+  "whole_pc_bytes_equal": false
+}

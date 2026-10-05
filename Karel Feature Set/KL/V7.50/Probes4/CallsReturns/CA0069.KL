@@ -1,0 +1,80 @@
+PROGRAM CA0069
+%NOLOCKGROUP
+TYPE
+  T = STRUCTURE
+    A : INTEGER
+    B : REAL
+  ENDSTRUCTURE
+VAR
+  G : INTEGER
+  I : INTEGER
+  R : REAL
+  B : BOOLEAN
+  S : STRING[16]
+  AI : ARRAY[2] OF INTEGER
+  AR : ARRAY[2] OF REAL
+  ST : T
+  P : XYZWPR
+  V : VECTOR
+ROUTINE F(P1 : INTEGER;
+  P2 : REAL;
+  P3 : BOOLEAN;
+  P4 : STRING;
+  P5 : ARRAY[*] OF INTEGER;
+  P6 : ARRAY[*] OF REAL;
+  P7 : T;
+  P8 : XYZWPR;
+  P9 : VECTOR;
+  P10 : INTEGER;
+  P11 : REAL;
+  P12 : BOOLEAN;
+  P13 : STRING;
+  P14 : ARRAY[*] OF INTEGER;
+  P15 : ARRAY[*] OF REAL;
+  P16 : T;
+  P17 : XYZWPR;
+  P18 : VECTOR;
+  P19 : INTEGER;
+  P20 : REAL;
+  P21 : BOOLEAN;
+  P22 : STRING;
+  P23 : ARRAY[*] OF INTEGER;
+  P24 : ARRAY[*] OF REAL)
+BEGIN
+  G = G + 1
+END F
+BEGIN
+  G = 0
+  I = 1
+  R = 2.5
+  B = TRUE
+  S = 'A'
+  AI[1] = 3
+  AR[1] = 4.5
+  ST.A = 5
+  ST.B = 6.5
+  F(I,
+  (R),
+  B,
+  (S),
+  AI,
+  AR,
+  ST,
+  P,
+  V,
+  (I),
+  R,
+  (B),
+  S,
+  AI,
+  AR,
+  ST,
+  P,
+  V,
+  I,
+  (R),
+  B,
+  (S),
+  AI,
+  AR)
+END CA0069

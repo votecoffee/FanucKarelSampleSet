@@ -1,0 +1,156 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "CMARK001.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_exit_code": 0,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\CommentMarkers\\CM0055\\rt\\CMARK001\\07f89b8f\\compile.log",
+  "compiler_log_sha256": "40d8b21a981d10798ca24de68020bfb81951aa9163e610e66fb639bc61893b1b",
+  "compiler_release": "V833-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": true,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\CommentMarkers\\CM0055\\rt\\CMARK001\\07f89b8f\\cmark001.pc",
+  "generated_pc_sha256": "b4903bce298f241551df588e6a62db5b2be963ea14924a68ceea7ad088aca589",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\CommentMarkers\\CM0055\\CMARK001\\CMARK001.KL",
+  "kl_sha256": "ee8bfec442485a5ede51684d65bd3e8eaf209b44f921804d376f72dbfb014dd0",
+  "native_alignment": {
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+    "code_bytes_equal": false,
+    "exact_native_record_stream": false,
+    "first_differences": [
+      {
+        "generated_opcodes": [],
+        "generated_record_span": [
+          5,
+          5
+        ],
+        "kind": "delete",
+        "original_opcodes": [
+          "AD",
+          "32",
+          "21",
+          "9C",
+          "9C",
+          "37",
+          "9C",
+          "9C",
+          "37",
+          "2C"
+        ],
+        "original_record_span": [
+          5,
+          15
+        ]
+      }
+    ],
+    "generated_code_sha256": "5b037067f8354ed004e2d2bd04e1424ba0404e9f3456befb520ccdd7cc4b52b3",
+    "generated_records": 12,
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "opcode_agreement_pct": 54.55,
+    "opcode_aligned": 12,
+    "original_code_sha256": "7d9133da16063df99e96f2d20403881b17f0c2a3dc76250c99bacc4006a972dc",
+    "original_records": 22,
+    "raw_agreement_pct": 54.55,
+    "raw_equal_in_opcode_alignment": 12
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\CommentMarkers\\CM0055\\CMARK001.pc",
+  "original_pc_sha256": "5d5a9445015590be14c7b5258a64f99c45c87872ac5f8a2e96e801561f656b8f",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "name": "CMARK001.pc",
+    "observed_tag": "27",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\CommentMarkers\\CM0055\\CMARK001.pc",
+    "size": 618,
+    "status": "tag_observed"
+  },
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\CommentMarkers\\CM0055\\rt\\CMARK001\\07f89b8f",
+  "source_marker_alignment": {
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+    "code_offset_equal_count": 2,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "generated": [
+          8,
+          10,
+          137
+        ],
+        "ordinal": 0,
+        "original": [
+          8,
+          7,
+          83
+        ]
+      },
+      {
+        "generated": [
+          25,
+          12,
+          225
+        ],
+        "ordinal": 1,
+        "original": [
+          25,
+          8,
+          92
+        ]
+      },
+      {
+        "generated": [
+          34,
+          14,
+          237
+        ],
+        "ordinal": 2,
+        "original": [
+          54,
+          9,
+          108
+        ]
+      },
+      {
+        "generated": [
+          45,
+          15,
+          242
+        ],
+        "ordinal": 3,
+        "original": [
+          63,
+          12,
+          132
+        ]
+      },
+      {
+        "generated_count": 4,
+        "kind": "marker_count_difference",
+        "original_count": 5
+      }
+    ],
+    "generated_count": 4,
+    "line_equal_count": 0,
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 5,
+    "paired_count": 4,
+    "source_byte_offset_equal_count": 0
+  },
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\CommentMarkers\\CM0055\\CMARK001\\CMARK001.recompiled.pc",
+  "status": "compared",
+  "whole_pc_bytes_equal": false
+}

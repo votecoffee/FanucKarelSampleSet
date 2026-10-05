@@ -1,0 +1,170 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "basi_cliver.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_exit_code": 0,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\PCImportConfig\\rt\\basi_cliver\\aeeafa19\\compile.log",
+  "compiler_log_sha256": "f25bbe37c03bbcee443a2fc94af3573c5aa00cf7cd645dff2278d55795aa3587",
+  "compiler_release": "V833-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": true,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\PCImportConfig\\rt\\basi_cliver\\aeeafa19\\basi_cliver.pc",
+  "generated_pc_sha256": "cdc35af7644a731a1b5c47cc3df277dd3c97b64c07740ceb6387112ab7eeadb8",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\PCImportConfig\\basi_cliver\\basi_cliver.KL",
+  "kl_sha256": "da577b6e82c965c7cfee6789fe51bf88758b8047ae3f567a264d8e2c55f39d88",
+  "layout_fit": {
+    "compact_kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\PCImportConfig\\basi_cliver\\basi_cliver.compact.KL",
+    "filler_operations": [
+      {
+        "decisions": [
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 12,
+            "prior_line_trailing_spaces": 0,
+            "source_byte_offset_mod65536": 113,
+            "source_line_u16": 10,
+            "synthetic_comment_count": 1,
+            "synthetic_line_count": 1,
+            "unwrapped_byte_offset": 113
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 24,
+            "prior_line_trailing_spaces": 4,
+            "source_byte_offset_mod65536": 121,
+            "source_line_u16": 11,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 121
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 41,
+            "prior_line_trailing_spaces": 4,
+            "source_byte_offset_mod65536": 129,
+            "source_line_u16": 12,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 129
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 50,
+            "prior_line_trailing_spaces": 2,
+            "source_byte_offset_mod65536": 143,
+            "source_line_u16": 14,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 143
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 59,
+            "prior_line_trailing_spaces": 2,
+            "source_byte_offset_mod65536": 147,
+            "source_line_u16": 15,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 147
+          }
+        ],
+        "separator": "LF",
+        "source_compactions": [],
+        "synthetic_comment_count": 1,
+        "synthetic_line_count": 1,
+        "trailing_space_count": 12
+      }
+    ],
+    "preamble_compactions": [
+      {
+        "definition_line": 8,
+        "kind": "inline_local_routine_signature",
+        "prototype_line": 7,
+        "routine": "R"
+      },
+      {
+        "kind": "omit_sentinel_directive_candidate",
+        "template_line": 2,
+        "text": "%STACKSIZE=65535"
+      },
+      {
+        "kind": "omit_sentinel_directive_candidate",
+        "template_line": 3,
+        "text": "%PRIORITY=65535"
+      },
+      {
+        "kind": "short_synthetic_local",
+        "new": "A",
+        "old": "U2C_4",
+        "routine": "R"
+      },
+      {
+        "declaration_count": 2,
+        "kind": "pack_var_declarations",
+        "template_line": 7
+      }
+    ],
+    "report": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\PCImportConfig\\basi_cliver\\marker_fit\\marker_fit.json",
+    "source_authentication": false,
+    "statement_line_numbers_refer_to_compact_kl": true,
+    "status": "whole_pc_equal"
+  },
+  "native_alignment": {
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+    "code_bytes_equal": true,
+    "exact_native_record_stream": true,
+    "first_differences": [],
+    "generated_code_sha256": "261d0d8bedc180bfc110758f7a023f7a4c5663cf8984ffcd7383db85ffe9c3f9",
+    "generated_records": 12,
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "opcode_agreement_pct": 100.0,
+    "opcode_aligned": 12,
+    "original_code_sha256": "261d0d8bedc180bfc110758f7a023f7a4c5663cf8984ffcd7383db85ffe9c3f9",
+    "original_records": 12,
+    "raw_agreement_pct": 100.0,
+    "raw_equal_in_opcode_alignment": 12
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\PCImportConfig\\basi_cliver.pc",
+  "original_pc_sha256": "cdc35af7644a731a1b5c47cc3df277dd3c97b64c07740ceb6387112ab7eeadb8",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "name": "basi_cliver.pc",
+    "observed_tag": "27",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\PCImportConfig\\basi_cliver.pc",
+    "size": 603,
+    "status": "tag_observed"
+  },
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\PCImportConfig\\rt\\basi_cliver\\aeeafa19",
+  "source_marker_alignment": {
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+    "code_offset_equal_count": 5,
+    "complete_triplet_equal_count": 5,
+    "exact_triplet_stream": true,
+    "first_differences": [],
+    "generated_count": 5,
+    "line_equal_count": 5,
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 5,
+    "paired_count": 5,
+    "source_byte_offset_equal_count": 5
+  },
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\PCImportConfig\\basi_cliver\\basi_cliver.recompiled.pc",
+  "status": "compared",
+  "whole_pc_bytes_equal": true
+}

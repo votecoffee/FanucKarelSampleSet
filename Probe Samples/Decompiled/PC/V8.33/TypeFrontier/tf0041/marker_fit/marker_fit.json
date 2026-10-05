@@ -1,0 +1,136 @@
+{
+  "claim_limit": "Only a whole-PC compiler byte comparison establishes physical equality.",
+  "fitted_kl": null,
+  "initial_roundtrip": {
+    "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+    "compile_command": [
+      "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+      "/ver",
+      "V8.33-1",
+      "tf0041.KL"
+    ],
+    "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "compiler_exit_code": 0,
+    "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\TypeFrontier\\rt\\tf0041\\7ca6b81b\\compile.log",
+    "compiler_log_sha256": "35958ffff0e0302820a0e30bb43c46ea738aae6b50a7b81d542b7f37a55aa612",
+    "compiler_release": "V833-1",
+    "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+    "compiler_success": true,
+    "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+    "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\TypeFrontier\\rt\\tf0041\\7ca6b81b\\tf0041.pc",
+    "generated_pc_sha256": "a1ffc352a4479d8897fed0b8c0706c112b8cb8d9db417a02dbbf654620a2aff7",
+    "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\TypeFrontier\\tf0041\\tf0041.KL",
+    "kl_sha256": "47ecec5e4bfd43a00c92d0ead0447c77e867c81eb789f7bf44a59e4a6baae61e",
+    "native_alignment": {
+      "alignment_seconds": 0.0,
+      "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+      "code_bytes_equal": false,
+      "exact_native_record_stream": true,
+      "first_differences": [],
+      "generated_code_sha256": "5fbe4f17ece56d3891983acc7a5ab6bbe9ce501a4707fc17700ba0744d096bdd",
+      "generated_records": 10,
+      "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+      "opcode_agreement_pct": 100.0,
+      "opcode_aligned": 10,
+      "original_code_sha256": "3757aeae227e669d2b09151ed9bde761d6b0d3bb060b66b4193fe2406d27da75",
+      "original_records": 10,
+      "raw_agreement_pct": 100.0,
+      "raw_equal_in_opcode_alignment": 10
+    },
+    "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\TypeFrontier\\tf0041.pc",
+    "original_pc_sha256": "b997b12dde9c205a4a8545fe0593fd69f5eec5014e0ce35f83465368b3e0ccb7",
+    "original_version_probe": {
+      "candidate_releases": [
+        "V810-1",
+        "V813-1",
+        "V820-1",
+        "V823-1",
+        "V830-1",
+        "V833-1"
+      ],
+      "name": "tf0041.pc",
+      "observed_tag": "27",
+      "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\TypeFrontier\\tf0041.pc",
+      "size": 600,
+      "status": "tag_observed"
+    },
+    "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+    "robot_ini_sha256": null,
+    "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\TypeFrontier\\rt\\tf0041\\7ca6b81b",
+    "source_marker_alignment": {
+      "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+      "code_offset_equal_count": 4,
+      "complete_triplet_equal_count": 0,
+      "exact_triplet_stream": false,
+      "first_differences": [
+        {
+          "generated": [
+            8,
+            12,
+            132
+          ],
+          "ordinal": 0,
+          "original": [
+            8,
+            12,
+            116
+          ]
+        },
+        {
+          "generated": [
+            20,
+            13,
+            136
+          ],
+          "ordinal": 1,
+          "original": [
+            20,
+            13,
+            125
+          ]
+        },
+        {
+          "generated": [
+            29,
+            15,
+            148
+          ],
+          "ordinal": 2,
+          "original": [
+            29,
+            15,
+            139
+          ]
+        },
+        {
+          "generated": [
+            38,
+            16,
+            150
+          ],
+          "ordinal": 3,
+          "original": [
+            38,
+            16,
+            144
+          ]
+        }
+      ],
+      "generated_count": 4,
+      "line_equal_count": 4,
+      "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+      "original_count": 4,
+      "paired_count": 4,
+      "source_byte_offset_equal_count": 0
+    },
+    "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\TypeFrontier\\tf0041\\marker_fit\\initial\\tf0041.recompiled.pc",
+    "status": "compared",
+    "whole_pc_bytes_equal": false
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\TypeFrontier\\tf0041.pc",
+  "reason": "MarkerFitError: pure marker layout solver found no bounded LF/CRLF solution; b'\\n': marker at template line 12 has no legal byte budget; b'\\r\\n': marker at template line 12 has no legal byte budget",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "source_kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\TypeFrontier\\tf0041\\tf0041.KL",
+  "status": "withheld",
+  "whole_pc_bytes_equal": false
+}

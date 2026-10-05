@@ -1,0 +1,13 @@
+-- PROVISIONAL review KL for V833-1; original PC SHA256 fa701ca7f1bfce3d9b9d46c6926da85bcd02b570613fa3478427974bf775e5e8
+-- Incomplete behavior may be omitted. Consult companion uncertainty JSON. Do not deploy.
+PROGRAM BYTEPROBE
+%NOLOCKGROUP
+VAR
+  G : INTEGER
+BEGIN
+  -- UNRESOLVED_PC offsets 0-12; opcodes 2B,7B
+  -- UNRESOLVED_PC offsets 17-31; opcodes 22,22,1E
+  -- UNRESOLVED_PC offsets 36-40; opcodes 7F
+  -- UNRESOLVED_PC offsets 45-49; opcodes 27,AA
+  -- UNRESOLVED_PC offsets 54-58; opcodes 7F
+END BYTEPROBE

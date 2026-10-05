@@ -1,0 +1,126 @@
+{
+  "status": "compared",
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\Consumer79Trace\\C790011.pc",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\Consumer79Trace\\C790011\\C790011.KL",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_release": "V833-1",
+  "compiler_exit_code": 0,
+  "compiler_success": true,
+  "whole_pc_bytes_equal": false,
+  "native_alignment": {
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "original_records": 10,
+    "generated_records": 10,
+    "opcode_aligned": 10,
+    "raw_equal_in_opcode_alignment": 10,
+    "opcode_agreement_pct": 100.0,
+    "raw_agreement_pct": 100.0,
+    "exact_native_record_stream": true,
+    "original_code_sha256": "4b84092b2e714421fc24deb32b7d1abe469fe0ad8b9f73a4728c452d52adce9c",
+    "generated_code_sha256": "276cd546f7956e89e367f4070ecb43394cb54e0dbbe922af2ed3de1499c516b1",
+    "code_bytes_equal": false,
+    "first_differences": [],
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof."
+  },
+  "source_marker_alignment": {
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 4,
+    "generated_count": 4,
+    "paired_count": 4,
+    "code_offset_equal_count": 4,
+    "line_equal_count": 0,
+    "source_byte_offset_equal_count": 0,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "ordinal": 0,
+        "original": [
+          8,
+          9,
+          120
+        ],
+        "generated": [
+          8,
+          12,
+          138
+        ]
+      },
+      {
+        "ordinal": 1,
+        "original": [
+          20,
+          10,
+          129
+        ],
+        "generated": [
+          20,
+          13,
+          142
+        ]
+      },
+      {
+        "ordinal": 2,
+        "original": [
+          29,
+          12,
+          143
+        ],
+        "generated": [
+          29,
+          15,
+          154
+        ]
+      },
+      {
+        "ordinal": 3,
+        "original": [
+          38,
+          13,
+          148
+        ],
+        "generated": [
+          38,
+          16,
+          156
+        ]
+      }
+    ],
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified."
+  },
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "original_pc_sha256": "c34a8ebd17fde613d46c4d4153e92ea7486a32162e0087c39967d69645cfed9d",
+  "kl_sha256": "fd888aca8888abc8b4a7994653a12d591da70d32c18f0b84619345490145d04b",
+  "original_version_probe": {
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\Consumer79Trace\\C790011.pc",
+    "name": "C790011.pc",
+    "status": "tag_observed",
+    "observed_tag": "27",
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "size": 590
+  },
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\Consumer79Trace\\rt\\C790011\\78327f0f",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "C790011.KL"
+  ],
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "robot_ini_sha256": null,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\Consumer79Trace\\rt\\C790011\\78327f0f\\compile.log",
+  "compiler_log_sha256": "15205da99b351103e24d82cb65de157161a685fea67461fea003977e6279c740",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\Consumer79Trace\\rt\\C790011\\78327f0f\\c790011.pc",
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\Consumer79Trace\\C790011\\marker_fit\\initial\\C790011.recompiled.pc",
+  "generated_pc_sha256": "8caf976ac2008298573232a5507c9d8e84a9cbedc995acba68a60a7d989208bb"
+}

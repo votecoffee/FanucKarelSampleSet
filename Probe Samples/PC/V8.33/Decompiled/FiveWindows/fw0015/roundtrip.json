@@ -1,0 +1,45 @@
+{
+  "status": "compile_failed",
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\fw0015.pc",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Decompiled\\FiveWindows\\fw0015\\fw0015.KL",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\robot.ini",
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_release": "V833-1",
+  "compiler_exit_code": 2147745896,
+  "compiler_success": false,
+  "whole_pc_bytes_equal": false,
+  "native_alignment": null,
+  "source_marker_alignment": null,
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "original_pc_sha256": "2ddc132f8fc949a2c8b93e258cad7956770d460a20626a46647fea28f995dc9b",
+  "kl_sha256": "38ead069b6c487718f1d2836030bca726066efe8f058bd0ab45d4691fbfac6bd",
+  "original_version_probe": {
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\fw0015.pc",
+    "name": "fw0015.pc",
+    "status": "tag_observed",
+    "observed_tag": "27",
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "size": 668
+  },
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\rt\\fw0015\\1d47888d",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "fw0015.KL"
+  ],
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "robot_ini_sha256": null,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\rt\\fw0015\\1d47888d\\compile.log",
+  "compiler_log_sha256": "d35ecd9fb98a65e88efdfe8d4ded68c54801e7a91b95f05684d77340cca39aa1",
+  "compiler_error_excerpt": "\nC:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\rt\\fw0015\\1d47888d\\fw0015.kl(25)\n  25 ELSE:\n     ^ ERROR\n\";\" or new line expected.\n\nC:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\rt\\fw0015\\1d47888d\\fw0015.kl(25)\n  25 ELSE:\n         ^ ERROR\nInvalid statement or \"ENDxxx\" or \"UNTIL\" expected.\n\nC:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\rt\\fw0015\\1d47888d\\fw0015.kl(27)\n  27 ENDSELECT\n     ^ ERROR\nInvalid statement or \"ENDxxx\" or \"UNTIL\" expected.\n\nC:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\rt\\fw0015\\1d47888d\\fw0015.kl(27)\n  27 ENDSELECT\n     ^ ERROR\nInvalid statement. \";\" or new line expected.\n\n\n===============Translation not successful===============\nError executing KTrans: Error translating program: Code: 0xFFFFFFFF:  ",
+  "reason": "KTRANS did not produce exactly one successful PC"
+}

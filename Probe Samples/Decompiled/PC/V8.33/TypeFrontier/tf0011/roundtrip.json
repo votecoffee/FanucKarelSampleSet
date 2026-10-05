@@ -1,0 +1,155 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "tf0011.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_exit_code": 0,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\TypeFrontier\\rt\\tf0011\\ee5def3e\\compile.log",
+  "compiler_log_sha256": "46e777184fb3bf6653987e666022af0bdf7f7e83c556a64b1415cd547bab3065",
+  "compiler_release": "V833-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": true,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\TypeFrontier\\rt\\tf0011\\ee5def3e\\tf0011.pc",
+  "generated_pc_sha256": "89c1c60618edd30e9ea08dc06cf325c5e329ebfe183315612e7f11bd6447472d",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\TypeFrontier\\tf0011\\tf0011.KL",
+  "kl_sha256": "6e4863b9b676c29c45ffddb430f40c54adc85cf14d78da1f13b7c39c0a7bbcd0",
+  "layout_fit": {
+    "compact_kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\TypeFrontier\\tf0011\\tf0011.compact.KL",
+    "filler_operations": [
+      {
+        "decisions": [
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 6,
+            "prior_line_trailing_spaces": 14,
+            "source_byte_offset_mod65536": 90,
+            "source_line_u16": 9,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 90
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 18,
+            "prior_line_trailing_spaces": 5,
+            "source_byte_offset_mod65536": 99,
+            "source_line_u16": 10,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 99
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 27,
+            "prior_line_trailing_spaces": 2,
+            "source_byte_offset_mod65536": 113,
+            "source_line_u16": 12,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 113
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 36,
+            "prior_line_trailing_spaces": 3,
+            "source_byte_offset_mod65536": 118,
+            "source_line_u16": 13,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 118
+          }
+        ],
+        "separator": "LF",
+        "source_compactions": [],
+        "synthetic_comment_count": 0,
+        "synthetic_line_count": 0,
+        "trailing_space_count": 24
+      }
+    ],
+    "preamble_compactions": [
+      {
+        "definition_line": 8,
+        "kind": "inline_local_routine_signature",
+        "prototype_line": 7,
+        "routine": "R"
+      },
+      {
+        "kind": "omit_sentinel_directive_candidate",
+        "template_line": 2,
+        "text": "%STACKSIZE=65535"
+      },
+      {
+        "kind": "omit_sentinel_directive_candidate",
+        "template_line": 3,
+        "text": "%PRIORITY=65535"
+      },
+      {
+        "kind": "short_synthetic_local",
+        "new": "A",
+        "old": "L1",
+        "routine": "R"
+      }
+    ],
+    "report": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\TypeFrontier\\tf0011\\marker_fit\\marker_fit.json",
+    "source_authentication": false,
+    "statement_line_numbers_refer_to_compact_kl": true,
+    "status": "whole_pc_equal"
+  },
+  "native_alignment": {
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+    "code_bytes_equal": true,
+    "exact_native_record_stream": true,
+    "first_differences": [],
+    "generated_code_sha256": "f9166b5d6e6f401b73d6024c842c711a35b3cedcf552e40f3509f750a0fc9fbf",
+    "generated_records": 9,
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "opcode_agreement_pct": 100.0,
+    "opcode_aligned": 9,
+    "original_code_sha256": "f9166b5d6e6f401b73d6024c842c711a35b3cedcf552e40f3509f750a0fc9fbf",
+    "original_records": 9,
+    "raw_agreement_pct": 100.0,
+    "raw_equal_in_opcode_alignment": 9
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\TypeFrontier\\tf0011.pc",
+  "original_pc_sha256": "89c1c60618edd30e9ea08dc06cf325c5e329ebfe183315612e7f11bd6447472d",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "name": "tf0011.pc",
+    "observed_tag": "27",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\TypeFrontier\\tf0011.pc",
+    "size": 586,
+    "status": "tag_observed"
+  },
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\TypeFrontier\\rt\\tf0011\\ee5def3e",
+  "source_marker_alignment": {
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+    "code_offset_equal_count": 4,
+    "complete_triplet_equal_count": 4,
+    "exact_triplet_stream": true,
+    "first_differences": [],
+    "generated_count": 4,
+    "line_equal_count": 4,
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 4,
+    "paired_count": 4,
+    "source_byte_offset_equal_count": 4
+  },
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\TypeFrontier\\tf0011\\tf0011.recompiled.pc",
+  "status": "compared",
+  "whole_pc_bytes_equal": true
+}

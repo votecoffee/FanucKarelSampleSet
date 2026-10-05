@@ -1,0 +1,17 @@
+-- PROVISIONAL review KL for V833-1; original PC SHA256 3f01e3079fbdb7551ffec01026ac728bf720375a5100e95e086b9f9575fa30cc
+-- Incomplete behavior may be omitted. Consult companion uncertainty JSON. Do not deploy.
+PROGRAM DX0057
+%NOLOCKGROUP
+VAR
+  G : INTEGER
+-- UNRESOLVED_LOCAL_POOL 1 cells at code offset 5; source declarations unknown
+-- DIRECT_LOCAL_WORD_ACCESS alone does not prove INTEGER, REAL, or BOOLEAN
+BEGIN
+  -- UNRESOLVED_PC offsets 0-10; opcodes 2B,2C,7B
+  -- UNRESOLVED_PC offsets 15-22; opcodes 9D,23
+  -- UNRESOLVED_PC offsets 27-50; opcodes 21,22,32,21,33,35
+  -- UNRESOLVED_PC offsets 55-78; opcodes 22,32,21,33,34,23
+  -- UNRESOLVED_PC offsets 83-87; opcodes 7F
+  -- UNRESOLVED_PC offsets 92-96; opcodes 27,AA
+  -- UNRESOLVED_PC offsets 101-105; opcodes 7F
+END DX0057

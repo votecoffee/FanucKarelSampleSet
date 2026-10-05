@@ -1,0 +1,52 @@
+PROGRAM NC0007
+%NOLOCKGROUP
+ROUTINE R
+VAR
+  X : INTEGER
+BEGIN
+  X = 1
+  IF X = 1 THEN
+    IF X = 1 THEN
+      IF X = 1 THEN
+        IF X = 1 THEN
+          IF X = 1 THEN
+            IF X = 1 THEN
+              IF X = 1 THEN
+                IF X = 1 THEN
+                  IF X = 1 THEN
+                    IF X = 1 THEN
+                      X = X + 1
+                    ELSE
+                      X = X + 2
+                    ENDIF
+                  ELSE
+                    X = X + 2
+                  ENDIF
+                ELSE
+                  X = X + 2
+                ENDIF
+              ELSE
+                X = X + 2
+              ENDIF
+            ELSE
+              X = X + 2
+            ENDIF
+          ELSE
+            X = X + 2
+          ENDIF
+        ELSE
+          X = X + 2
+        ENDIF
+      ELSE
+        X = X + 2
+      ENDIF
+    ELSE
+      X = X + 2
+    ENDIF
+  ELSE
+    X = X + 2
+  ENDIF
+END R
+BEGIN
+  R
+END NC0007

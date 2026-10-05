@@ -1,0 +1,22 @@
+PROGRAM BZ0015
+%NOLOCKGROUP
+VAR
+G:INTEGER
+ROUTINE R(P1:INTEGER;P2:INTEGER):INTEGER
+VAR
+A:BOOLEAN
+BEGIN                      
+A=TRUE  
+RETURN(P1)   
+END R
+ROUTINE S
+VAR
+B:REAL;C:REAL
+BEGIN
+--                   
+END S
+BEGIN  
+G=R(1,1)     
+S   
+END BZ0015
+-- UNRESOLVED_PC line 11 opcodes [7F] marker_code=35

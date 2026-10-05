@@ -1,0 +1,217 @@
+{
+  "status": "compared",
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier\\dx0039.pc",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\WIP972Frontier\\dx0039\\marker_fit\\compact_preamble.KL",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_release": "V833-1",
+  "compiler_exit_code": 0,
+  "compiler_success": true,
+  "whole_pc_bytes_equal": false,
+  "native_alignment": {
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "original_records": 26,
+    "generated_records": 26,
+    "opcode_aligned": 26,
+    "raw_equal_in_opcode_alignment": 26,
+    "opcode_agreement_pct": 100.0,
+    "raw_agreement_pct": 100.0,
+    "exact_native_record_stream": true,
+    "original_code_sha256": "df7b9c1d56e433dc188cb2f63959f7c6c544b3f6f7b776634f08b2f38be9a29f",
+    "generated_code_sha256": "e1bf0c8f80e8c4e8dc542004f9f00a730dc9959cdc81ad467456f748c390867c",
+    "code_bytes_equal": false,
+    "first_differences": [],
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof."
+  },
+  "source_marker_alignment": {
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 11,
+    "generated_count": 11,
+    "paired_count": 11,
+    "code_offset_equal_count": 11,
+    "line_equal_count": 5,
+    "source_byte_offset_equal_count": 0,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "ordinal": 0,
+        "original": [
+          12,
+          11,
+          130
+        ],
+        "generated": [
+          12,
+          9,
+          107
+        ]
+      },
+      {
+        "ordinal": 1,
+        "original": [
+          24,
+          12,
+          139
+        ],
+        "generated": [
+          24,
+          10,
+          111
+        ]
+      },
+      {
+        "ordinal": 2,
+        "original": [
+          36,
+          13,
+          148
+        ],
+        "generated": [
+          36,
+          11,
+          115
+        ]
+      },
+      {
+        "ordinal": 3,
+        "original": [
+          58,
+          14,
+          163
+        ],
+        "generated": [
+          58,
+          13,
+          136
+        ]
+      },
+      {
+        "ordinal": 4,
+        "original": [
+          76,
+          15,
+          190
+        ],
+        "generated": [
+          76,
+          14,
+          150
+        ]
+      },
+      {
+        "ordinal": 5,
+        "original": [
+          88,
+          16,
+          201
+        ],
+        "generated": [
+          88,
+          15,
+          154
+        ]
+      },
+      {
+        "ordinal": 6,
+        "original": [
+          99,
+          17,
+          211
+        ],
+        "generated": [
+          99,
+          17,
+          166
+        ]
+      },
+      {
+        "ordinal": 7,
+        "original": [
+          115,
+          18,
+          227
+        ],
+        "generated": [
+          115,
+          18,
+          170
+        ]
+      },
+      {
+        "ordinal": 8,
+        "original": [
+          120,
+          19,
+          240
+        ],
+        "generated": [
+          120,
+          19,
+          180
+        ]
+      },
+      {
+        "ordinal": 9,
+        "original": [
+          129,
+          21,
+          254
+        ],
+        "generated": [
+          129,
+          21,
+          192
+        ]
+      },
+      {
+        "ordinal": 10,
+        "original": [
+          138,
+          22,
+          259
+        ],
+        "generated": [
+          138,
+          22,
+          194
+        ]
+      }
+    ],
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified."
+  },
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "original_pc_sha256": "3c2b0e0dfb94db616691571c6537334def7d1424541137990725239d0ffd9cbc",
+  "kl_sha256": "fb4f2ceff539fcf92ece061e7b3f290393b4cabc4de7c508a3cbf707074185c1",
+  "original_version_probe": {
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier\\dx0039.pc",
+    "name": "dx0039.pc",
+    "status": "tag_observed",
+    "observed_tag": "27",
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "size": 677
+  },
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier\\rt\\dx0039\\76e7a5c5",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "compact_preamble.KL"
+  ],
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "robot_ini_sha256": null,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier\\rt\\dx0039\\76e7a5c5\\compile.log",
+  "compiler_log_sha256": "cde057899dea7a4a9320799f5a03f375202c6b40dabe1dffc51bc5d2f4a6e7c8",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier\\rt\\dx0039\\76e7a5c5\\compact_preamble.pc",
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\WIP972Frontier\\dx0039\\marker_fit\\compact_preamble_initial\\dx0039.recompiled.pc",
+  "generated_pc_sha256": "95cc2de6574b7791e8ea8643467a568fcdeadece9faffded2f60deb609a9c6c3"
+}

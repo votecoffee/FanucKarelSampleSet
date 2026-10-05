@@ -1,0 +1,24 @@
+PROGRAM DX0031
+%STACKSIZE=65535
+%PRIORITY=65535
+%NOLOCKGROUP
+VAR
+G : INTEGER
+ROUTINE R FROM DX0031
+ROUTINE R
+VAR
+L1 : ARRAY[2] OF INTEGER
+U2C_4 : BOOLEAN -- ASSUMED 2C source type; see uncertainty report
+U2C_5 : BOOLEAN -- ASSUMED 2C source type; see uncertainty report
+U2C_6 : BOOLEAN -- ASSUMED 2C source type; see uncertainty report
+U2C_7 : INTEGER -- ASSUMED 2C source type; see uncertainty report
+BEGIN
+U2C_4=FALSE
+U2C_5=FALSE
+U2C_6=FALSE
+U2C_7=0
+G=U2C_7
+END R
+BEGIN
+R
+END DX0031

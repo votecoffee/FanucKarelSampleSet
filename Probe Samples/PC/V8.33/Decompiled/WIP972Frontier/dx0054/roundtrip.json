@@ -1,0 +1,45 @@
+{
+  "status": "compile_failed",
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier\\dx0054.pc",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Decompiled\\WIP972Frontier\\dx0054\\dx0054.KL",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\robot.ini",
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_release": "V833-1",
+  "compiler_exit_code": 2147745896,
+  "compiler_success": false,
+  "whole_pc_bytes_equal": false,
+  "native_alignment": null,
+  "source_marker_alignment": null,
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "original_pc_sha256": "d36048ee6be627604e929a0effbf11225060e389a3b15d3339f6a6dadbf13fde",
+  "kl_sha256": "eb4e94b81ca4e76cc401bfc0ded910b8c01f9f1debe3bee7fd9e42bc95c8f95b",
+  "original_version_probe": {
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier\\dx0054.pc",
+    "name": "dx0054.pc",
+    "status": "tag_observed",
+    "observed_tag": "27",
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "size": 618
+  },
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier\\rt\\dx0054\\2f484d29",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "dx0054.KL"
+  ],
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "robot_ini_sha256": null,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier\\rt\\dx0054\\2f484d29\\compile.log",
+  "compiler_log_sha256": "54e188e5b7df680cffcbdf5001b79c51321b43fc342637983ab892fbd71cd8b9",
+  "compiler_error_excerpt": "Notice: Unable to find 'robot.ini',\nUsing basic KAREL support files.\nKTRANS Version V8.33 (Build 25  10/28/2024)\nCopyright (C) FANUC America Corporation, 1985 through 2014.\nAll Rights Reserved.\n\n\n\nC:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier\\rt\\dx0054\\2f484d29\\dx0054.kl(15)\n  15 U2C_5=L1[U2C_4]\n         ^ ERROR\nData type of Id is incompatible with right hand side.  Id: U2C_5\n\nC:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier\\rt\\dx0054\\2f484d29\\dx0054.kl(16)\n  16 L1[U2C_4]=(NOT U2C_5)\n             ^ ERROR\nData type of Id is incompatible with right hand side.  Id: L1\n\n\n===============Translation not successful===============\nError executing KTrans: Error translating program: Code: 0xFFFFFFFF:  ",
+  "reason": "KTRANS did not produce exactly one successful PC"
+}

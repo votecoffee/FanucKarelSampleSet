@@ -1,0 +1,72 @@
+PROGRAM NC0071
+%NOLOCKGROUP
+ROUTINE R
+VAR
+  X : INTEGER
+  I1 : INTEGER
+  I2 : INTEGER
+  I3 : INTEGER
+  I4 : INTEGER
+  I5 : INTEGER
+  I6 : INTEGER
+  I7 : INTEGER
+  I8 : INTEGER
+  I9 : INTEGER
+  I10 : INTEGER
+  I11 : INTEGER
+  I12 : INTEGER
+  I13 : INTEGER
+  I14 : INTEGER
+  I15 : INTEGER
+  I16 : INTEGER
+  I17 : INTEGER
+  I18 : INTEGER
+  I19 : INTEGER
+  I20 : INTEGER
+BEGIN
+  X = 1
+  FOR I1 = 1 TO 2 DO
+    FOR I2 = 1 TO 2 DO
+      FOR I3 = 1 TO 2 DO
+        FOR I4 = 1 TO 2 DO
+          FOR I5 = 1 TO 2 DO
+            FOR I6 = 1 TO 2 DO
+              FOR I7 = 1 TO 2 DO
+                FOR I8 = 1 TO 2 DO
+                  FOR I9 = 1 TO 2 DO
+                    FOR I10 = 1 TO 2 DO
+                      FOR I11 = 1 TO 2 DO
+                        FOR I12 = 1 TO 2 DO
+                          FOR I13 = 1 TO 2 DO
+                            FOR I14 = 1 TO 2 DO
+                              FOR I15 = 1 TO 2 DO
+                                FOR I16 = 1 TO 2 DO
+                                  FOR I17 = 1 TO 2 DO
+                                    FOR I18 = 1 TO 2 DO
+                                      FOR I19 = 1 TO 2 DO
+                                        FOR I20 = 1 TO 2 DO
+                                          X = X + 1
+                                        ENDFOR
+                                      ENDFOR
+                                    ENDFOR
+                                  ENDFOR
+                                ENDFOR
+                              ENDFOR
+                            ENDFOR
+                          ENDFOR
+                        ENDFOR
+                      ENDFOR
+                    ENDFOR
+                  ENDFOR
+                ENDFOR
+              ENDFOR
+            ENDFOR
+          ENDFOR
+        ENDFOR
+      ENDFOR
+    ENDFOR
+  ENDFOR
+END R
+BEGIN
+  R
+END NC0071

@@ -1,0 +1,126 @@
+{
+  "status": "compared",
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\TypeFrontier\\tf0055.pc",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\TypeFrontier\\tf0055\\marker_fit\\compact_preamble.KL",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_release": "V833-1",
+  "compiler_exit_code": 0,
+  "compiler_success": true,
+  "whole_pc_bytes_equal": false,
+  "native_alignment": {
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "original_records": 9,
+    "generated_records": 9,
+    "opcode_aligned": 9,
+    "raw_equal_in_opcode_alignment": 9,
+    "opcode_agreement_pct": 100.0,
+    "raw_agreement_pct": 100.0,
+    "exact_native_record_stream": true,
+    "original_code_sha256": "064c322e744ce48ef565b2daa07cb288e6915476a21dcd076a0a94a9a828708d",
+    "generated_code_sha256": "204be790f02fab275da54b9d991847e03336088ee6cb6d4202214bbc1599dd50",
+    "code_bytes_equal": false,
+    "first_differences": [],
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof."
+  },
+  "source_marker_alignment": {
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 4,
+    "generated_count": 4,
+    "paired_count": 4,
+    "code_offset_equal_count": 4,
+    "line_equal_count": 4,
+    "source_byte_offset_equal_count": 0,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "ordinal": 0,
+        "original": [
+          8,
+          9,
+          102
+        ],
+        "generated": [
+          8,
+          9,
+          89
+        ]
+      },
+      {
+        "ordinal": 1,
+        "original": [
+          20,
+          10,
+          111
+        ],
+        "generated": [
+          20,
+          10,
+          93
+        ]
+      },
+      {
+        "ordinal": 2,
+        "original": [
+          29,
+          12,
+          125
+        ],
+        "generated": [
+          29,
+          12,
+          105
+        ]
+      },
+      {
+        "ordinal": 3,
+        "original": [
+          38,
+          13,
+          130
+        ],
+        "generated": [
+          38,
+          13,
+          107
+        ]
+      }
+    ],
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified."
+  },
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "original_pc_sha256": "1af5a855df810ab04037489280c8b5f3d5aba038984ffff5325f7675ff26f18f",
+  "kl_sha256": "7f7463b4997f7e73d92d96908cf8c91a5f122eb0614f5f4aa11e207a61c0ed2c",
+  "original_version_probe": {
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\TypeFrontier\\tf0055.pc",
+    "name": "tf0055.pc",
+    "status": "tag_observed",
+    "observed_tag": "27",
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "size": 587
+  },
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\TypeFrontier\\rt\\tf0055\\3c68301d",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "compact_preamble.KL"
+  ],
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "robot_ini_sha256": null,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\TypeFrontier\\rt\\tf0055\\3c68301d\\compile.log",
+  "compiler_log_sha256": "28de940cc5725fd474dea89938b38a6025bca736e8fd9a3eab1a9ed7c1c37760",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\TypeFrontier\\rt\\tf0055\\3c68301d\\compact_preamble.pc",
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\TypeFrontier\\tf0055\\marker_fit\\compact_preamble_initial\\tf0055.recompiled.pc",
+  "generated_pc_sha256": "8a7d483459ba4ade621a8ff3e7082022a3c0fab127ab4150b108cf7d2af1583e"
+}

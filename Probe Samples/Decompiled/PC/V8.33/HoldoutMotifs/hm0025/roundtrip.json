@@ -1,0 +1,172 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "hm0025.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_exit_code": 0,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\HoldoutMotifs\\rt\\hm0025\\dd80d4fd\\compile.log",
+  "compiler_log_sha256": "a4c982d1582e89a0cf249b8559642cc41902077e684d4dd21cbeb027ec54b583",
+  "compiler_release": "V833-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": true,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\HoldoutMotifs\\rt\\hm0025\\dd80d4fd\\hm0025.pc",
+  "generated_pc_sha256": "11fa370dc237e8f27de2bb0953c10992c640e4fdb28183a59c0e20ba15afc120",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\HoldoutMotifs\\hm0025\\hm0025.KL",
+  "kl_sha256": "3b3434bff4b88205fe4462ec77aab6fb2f762d0bba08836859620057c5bc7b11",
+  "layout_fit": {
+    "compact_kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\HoldoutMotifs\\hm0025\\hm0025.compact.KL",
+    "filler_operations": [
+      {
+        "decisions": [
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 14,
+            "prior_line_trailing_spaces": 0,
+            "source_byte_offset_mod65536": 156,
+            "source_line_u16": 13,
+            "synthetic_comment_count": 3,
+            "synthetic_line_count": 3,
+            "unwrapped_byte_offset": 156
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 77,
+            "prior_line_trailing_spaces": 3,
+            "source_byte_offset_mod65536": 196,
+            "source_line_u16": 14,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 196
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 86,
+            "prior_line_trailing_spaces": 2,
+            "source_byte_offset_mod65536": 210,
+            "source_line_u16": 16,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 210
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 95,
+            "prior_line_trailing_spaces": 3,
+            "source_byte_offset_mod65536": 215,
+            "source_line_u16": 17,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 215
+          }
+        ],
+        "separator": "LF",
+        "source_compactions": [],
+        "synthetic_comment_count": 3,
+        "synthetic_line_count": 3,
+        "trailing_space_count": 8
+      }
+    ],
+    "preamble_compactions": [
+      {
+        "definition_line": 9,
+        "kind": "inline_local_routine_signature",
+        "prototype_line": 8,
+        "routine": "R"
+      },
+      {
+        "kind": "omit_sentinel_directive_candidate",
+        "template_line": 2,
+        "text": "%STACKSIZE=65535"
+      },
+      {
+        "kind": "omit_sentinel_directive_candidate",
+        "template_line": 3,
+        "text": "%PRIORITY=65535"
+      },
+      {
+        "kind": "short_synthetic_local",
+        "new": "A",
+        "old": "L2",
+        "routine": "R"
+      },
+      {
+        "kind": "short_synthetic_local",
+        "new": "B",
+        "old": "U2C_13",
+        "routine": "R"
+      },
+      {
+        "kind": "short_synthetic_local",
+        "new": "C",
+        "old": "U2C_14",
+        "routine": "R"
+      },
+      {
+        "declaration_count": 4,
+        "kind": "pack_var_declarations",
+        "template_line": 8
+      }
+    ],
+    "report": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\HoldoutMotifs\\hm0025\\marker_fit\\marker_fit.json",
+    "source_authentication": false,
+    "statement_line_numbers_refer_to_compact_kl": true,
+    "status": "whole_pc_equal"
+  },
+  "native_alignment": {
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+    "code_bytes_equal": true,
+    "exact_native_record_stream": true,
+    "first_differences": [],
+    "generated_code_sha256": "b17bc61a72d071d7da1db9b061289353d7d0b78a395d6b61a197167946c75468",
+    "generated_records": 27,
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "opcode_agreement_pct": 100.0,
+    "opcode_aligned": 27,
+    "original_code_sha256": "b17bc61a72d071d7da1db9b061289353d7d0b78a395d6b61a197167946c75468",
+    "original_records": 27,
+    "raw_agreement_pct": 100.0,
+    "raw_equal_in_opcode_alignment": 27
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\HoldoutMotifs\\hm0025.pc",
+  "original_pc_sha256": "11fa370dc237e8f27de2bb0953c10992c640e4fdb28183a59c0e20ba15afc120",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "name": "hm0025.pc",
+    "observed_tag": "27",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\HoldoutMotifs\\hm0025.pc",
+    "size": 672,
+    "status": "tag_observed"
+  },
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\HoldoutMotifs\\rt\\hm0025\\dd80d4fd",
+  "source_marker_alignment": {
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+    "code_offset_equal_count": 4,
+    "complete_triplet_equal_count": 4,
+    "exact_triplet_stream": true,
+    "first_differences": [],
+    "generated_count": 4,
+    "line_equal_count": 4,
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 4,
+    "paired_count": 4,
+    "source_byte_offset_equal_count": 4
+  },
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\HoldoutMotifs\\hm0025\\hm0025.recompiled.pc",
+  "status": "compared",
+  "whole_pc_bytes_equal": true
+}

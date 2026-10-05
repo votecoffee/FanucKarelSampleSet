@@ -1,0 +1,69 @@
+{
+  "input": {
+    "observed_tag": "29",
+    "release_selection_basis": "inferred_or_unknown",
+    "selected_release": "V940-1",
+    "sha256": "13b2af06fa5b3a0e2caeadf546cdbf5aa6543e5e48215b384f3fd6f71b62c36c",
+    "size_bytes": 624
+  },
+  "layout": {
+    "code_length": 85,
+    "code_sha256": "4851c91163b33693ea8fb0b0fcdd26a64d261fb6234f72c884afaf4d9fa49694",
+    "opcode_frequency": {
+      "2D": 3,
+      "3E": 7,
+      "7B": 3,
+      "7F": 7,
+      "FF": 1
+    },
+    "record_count": 21,
+    "record_width_family": "L2",
+    "source_marker_count": 7
+  },
+  "privacy": "Several expanded-code excerpts may be included, each within the configured byte cap. Together they are further limited to 25% of the PC and code block; they can contain literal data. No complete PC, KL text, names, robot.ini contents, filenames, or absolute paths are included. SHA-256 and size can identify a known file; inspect before sharing.",
+  "recovery": {
+    "decoder_status": "partial_instruction_evidence",
+    "extra_unproved_statements": 0,
+    "failure": {},
+    "native_preflight_stages": {},
+    "native_source_route_eligible": null,
+    "source_safe_statements": 0,
+    "source_stage_errors": [],
+    "stages": {
+      "candidate_footer": {
+        "status": "empirically_parsed"
+      },
+      "candidate_symbols": {
+        "failure": {
+          "message_sha256_16": "409ecde76de0cb7b"
+        },
+        "status": "unsupported"
+      },
+      "instruction_reconstruction": {
+        "failure": {
+          "message_sha256_16": "9491e39d8e33b3bb"
+        },
+        "status": "unsupported_full_source"
+      },
+      "multiversion_layout_evidence": {
+        "status": "release_scoped_controlled_layout_contrasts"
+      },
+      "multiversion_record_walk": {
+        "status": "cross_version_profile_record_boundaries"
+      }
+    },
+    "status": "partial_decompile",
+    "unresolved_pc_comments": 13,
+    "unsafe_expression_comments": 0
+  },
+  "request": "If you can share more later, the original PC plus exact compiler release and robot.ini enable controlled reproduction. This bundle alone is for triage and cannot reconstruct the PC.",
+  "roundtrip": {
+    "compiler_success": true,
+    "failure": {},
+    "opcode_agreement_pct": 14.29,
+    "raw_agreement_pct": 14.29,
+    "status": "compared",
+    "whole_pc_bytes_equal": false
+  },
+  "schema": "KAREL_shareable_failure_research_v1"
+}

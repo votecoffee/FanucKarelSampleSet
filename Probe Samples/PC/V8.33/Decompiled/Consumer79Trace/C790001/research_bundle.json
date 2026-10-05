@@ -1,0 +1,133 @@
+{
+  "bounded_byte_excerpts": [
+    {
+      "coordinate": "expanded_candidate_code_relative",
+      "focus_code_offset": 6,
+      "hex": "2B2010000C00002C0100017B3E000A007521FF0000000E9C5779",
+      "length": 26,
+      "selection_basis": "v833_weighted_candidate_framing",
+      "start_code_offset": 0
+    }
+  ],
+  "excerpt_cap_per_chunk_bytes": 2048,
+  "excerpt_total_bytes": 26,
+  "failure_sites": [
+    {
+      "code_offset": 6,
+      "stage": "v833_weighted_candidate_framing"
+    }
+  ],
+  "input": {
+    "observed_tag": "27",
+    "release_selection_basis": "inferred_or_unknown",
+    "selected_release": "V833-1",
+    "sha256": "4c9e1f2ef3021258766440a9870a6737802b2d9bcb708925c93bfe223ba1ae1f",
+    "size_bytes": 635
+  },
+  "layout": {
+    "code_length": 104,
+    "code_sha256": "0c5f6f4663e10f8007025ee15825c60d421ebadfb83a4e739521d455acd63974",
+    "opcode_frequency": {
+      "21": 1,
+      "23": 3,
+      "27": 1,
+      "2B": 1,
+      "2C": 1,
+      "3E": 8,
+      "57": 1,
+      "79": 1,
+      "7A": 1,
+      "7B": 1,
+      "7F": 2,
+      "9C": 2,
+      "9D": 2,
+      "AA": 1,
+      "FF": 1
+    },
+    "record_count": 27,
+    "record_width_family": "L2",
+    "source_marker_count": 8
+  },
+  "privacy": "Several expanded-code excerpts may be included, each within the configured byte cap. Together they are further limited to 25% of the PC and code block; they can contain literal data. No complete PC, KL text, names, robot.ini contents, filenames, or absolute paths are included. SHA-256 and size can identify a known file; inspect before sharing.",
+  "recovery": {
+    "decoder_status": "partial_instruction_evidence",
+    "extra_unproved_statements": 3,
+    "failure": {},
+    "native_preflight_stages": {
+      "composite_byte_patterns": true,
+      "execution_dispatch": true,
+      "loader_alignment": true,
+      "native_record_walk": true,
+      "weighted_framing": false
+    },
+    "native_source_route_eligible": true,
+    "source_safe_statements": 2,
+    "source_stage_errors": [],
+    "stages": {
+      "candidate_footer": {
+        "status": "empirically_parsed"
+      },
+      "candidate_symbols": {
+        "status": "empirically_parsed"
+      },
+      "instruction_reconstruction": {
+        "failure": {
+          "message_sha256_16": "9602782f8e45ecab"
+        },
+        "status": "unsupported_full_source"
+      },
+      "multiversion_layout_evidence": {
+        "status": "release_scoped_controlled_layout_contrasts"
+      },
+      "multiversion_record_walk": {
+        "status": "cross_version_profile_record_boundaries"
+      },
+      "v833_composite_byte_patterns": {
+        "status": "raw_source_correlated_patterns_only"
+      },
+      "v833_generic_call_arguments": {
+        "status": "generic_V833_call_argument_builder_ir"
+      },
+      "v833_generic_karel_candidate": {
+        "status": "generic_V833_whole_program_KAREL_candidate"
+      },
+      "v833_generic_source_render": {
+        "status": "generic_V833_expression_control_source_render_ir"
+      },
+      "v833_generic_symbols": {
+        "status": "generic_V833_pc_metadata_and_reference_links_verified"
+      },
+      "v833_local_frames": {
+        "status": "generic_V833_routine_local_frame_descriptors"
+      },
+      "v833_native_execution_dispatch": {
+        "status": "native_execution_dispatch_table_mapped_static_only"
+      },
+      "v833_native_loader_alignment": {
+        "status": "static_native_loader_read_window_correlated"
+      },
+      "v833_native_record_walk": {
+        "status": "native_static_full_span_record_boundaries"
+      },
+      "v833_native_verified_graph": {
+        "status": "native_disk_control_and_routine_links_verified"
+      },
+      "v833_weighted_candidate_framing": {
+        "status": "partial_candidate_only"
+      }
+    },
+    "status": "partial_decompile",
+    "unresolved_pc_comments": 0,
+    "unsafe_expression_comments": 0
+  },
+  "request": "If you can share more later, the original PC plus exact compiler release and robot.ini enable controlled reproduction. This bundle alone is for triage and cannot reconstruct the PC.",
+  "roundtrip": {
+    "compiler_success": null,
+    "failure": {},
+    "opcode_agreement_pct": null,
+    "raw_agreement_pct": null,
+    "status": "not_requested",
+    "whole_pc_bytes_equal": null
+  },
+  "schema": "KAREL_shareable_failure_research_v1"
+}

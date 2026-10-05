@@ -1,0 +1,20 @@
+PROGRAM NC0013
+%NOLOCKGROUP
+ROUTINE R
+VAR
+  X : INTEGER
+BEGIN
+  X = 1
+  IF X = 1 THEN
+    X = X + 2
+  ELSE
+    IF X = 1 THEN
+      X = X + 2
+    ELSE
+      X = X + 1
+    ENDIF
+  ENDIF
+END R
+BEGIN
+  R
+END NC0013

@@ -1,0 +1,217 @@
+{
+  "status": "compared",
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\fw0017.pc",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\FiveWindows\\fw0017\\marker_fit\\compact_preamble.KL",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_release": "V833-1",
+  "compiler_exit_code": 0,
+  "compiler_success": true,
+  "whole_pc_bytes_equal": false,
+  "native_alignment": {
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "original_records": 24,
+    "generated_records": 24,
+    "opcode_aligned": 24,
+    "raw_equal_in_opcode_alignment": 24,
+    "opcode_agreement_pct": 100.0,
+    "raw_agreement_pct": 100.0,
+    "exact_native_record_stream": true,
+    "original_code_sha256": "bc91ddf4d5a20ace0bb31ae16a48c310e87338be8af8e05d29b9cdae08e3e708",
+    "generated_code_sha256": "875ce9c36bb6d3f77b2059fe09856f689cea0701373bbc95b126889297bf645a",
+    "code_bytes_equal": false,
+    "first_differences": [],
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof."
+  },
+  "source_marker_alignment": {
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 11,
+    "generated_count": 11,
+    "paired_count": 11,
+    "code_offset_equal_count": 11,
+    "line_equal_count": 0,
+    "source_byte_offset_equal_count": 0,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "ordinal": 0,
+        "original": [
+          14,
+          13,
+          159
+        ],
+        "generated": [
+          14,
+          9,
+          143
+        ]
+      },
+      {
+        "ordinal": 1,
+        "original": [
+          26,
+          14,
+          167
+        ],
+        "generated": [
+          26,
+          10,
+          147
+        ]
+      },
+      {
+        "ordinal": 2,
+        "original": [
+          38,
+          15,
+          175
+        ],
+        "generated": [
+          38,
+          11,
+          151
+        ]
+      },
+      {
+        "ordinal": 3,
+        "original": [
+          56,
+          16,
+          191
+        ],
+        "generated": [
+          56,
+          12,
+          165
+        ]
+      },
+      {
+        "ordinal": 4,
+        "original": [
+          70,
+          17,
+          202
+        ],
+        "generated": [
+          70,
+          13,
+          171
+        ]
+      },
+      {
+        "ordinal": 5,
+        "original": [
+          75,
+          18,
+          210
+        ],
+        "generated": [
+          75,
+          14,
+          177
+        ]
+      },
+      {
+        "ordinal": 6,
+        "original": [
+          93,
+          19,
+          226
+        ],
+        "generated": [
+          93,
+          15,
+          191
+        ]
+      },
+      {
+        "ordinal": 7,
+        "original": [
+          105,
+          20,
+          235
+        ],
+        "generated": [
+          105,
+          16,
+          195
+        ]
+      },
+      {
+        "ordinal": 8,
+        "original": [
+          110,
+          21,
+          244
+        ],
+        "generated": [
+          110,
+          17,
+          201
+        ]
+      },
+      {
+        "ordinal": 9,
+        "original": [
+          119,
+          23,
+          258
+        ],
+        "generated": [
+          119,
+          19,
+          213
+        ]
+      },
+      {
+        "ordinal": 10,
+        "original": [
+          128,
+          24,
+          263
+        ],
+        "generated": [
+          128,
+          20,
+          215
+        ]
+      }
+    ],
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified."
+  },
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "original_pc_sha256": "5588ccdfe8a38647feb2a010c5e7c39375a5b2fd0dc2bee8a2fc211b182427f6",
+  "kl_sha256": "452c909e23b1ff3d51691a382353851191398c92ac9410e5d13c2161eeb1dd5b",
+  "original_version_probe": {
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\fw0017.pc",
+    "name": "fw0017.pc",
+    "status": "tag_observed",
+    "observed_tag": "27",
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "size": 668
+  },
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\rt\\fw0017\\8e8c2f5c",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "compact_preamble.KL"
+  ],
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "robot_ini_sha256": null,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\rt\\fw0017\\8e8c2f5c\\compile.log",
+  "compiler_log_sha256": "b2608c13751ea72bbe06b18246f8b56019ef141be7d68fb50a92af80d92df32b",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\rt\\fw0017\\8e8c2f5c\\compact_preamble.pc",
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\FiveWindows\\fw0017\\marker_fit\\compact_preamble_initial\\fw0017.recompiled.pc",
+  "generated_pc_sha256": "d8bdbaf8ab568f2b72cd80dbcbc6b4f2360987b73fce2c0208fb71d3f3a34b3b"
+}

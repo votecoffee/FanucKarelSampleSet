@@ -1,0 +1,291 @@
+{
+  "claim_limit": "Only a whole-PC compiler byte comparison establishes physical equality.",
+  "fitted_kl": null,
+  "initial_roundtrip": {
+    "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+    "compile_command": [
+      "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+      "/ver",
+      "V8.33-1",
+      "C790016.KL"
+    ],
+    "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "compiler_exit_code": 0,
+    "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Consumer79Trace\\rt\\C790016\\0d608879\\compile.log",
+    "compiler_log_sha256": "55ff90965658cdd9005abb9c11adce6fd6b526f1d335b7c71328b16918802e6b",
+    "compiler_release": "V833-1",
+    "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+    "compiler_success": true,
+    "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+    "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Consumer79Trace\\rt\\C790016\\0d608879\\c790016.pc",
+    "generated_pc_sha256": "34cffc6331dd3daac1cd93cf2cef20abc7366fe4abd2f5ca37f7e1f48d339b65",
+    "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Decompiled\\Consumer79Trace\\C790016\\C790016.KL",
+    "kl_sha256": "7b50c0870f52450617da5d59b4a0416ec539276944b6874b1c530a4437aa3258",
+    "native_alignment": {
+      "alignment_seconds": 0.0,
+      "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+      "code_bytes_equal": false,
+      "exact_native_record_stream": true,
+      "first_differences": [],
+      "generated_code_sha256": "ad413f0cff09b790e8cc1722be8065515be7a9b6d6a2cce4ff323f91a5fc74c9",
+      "generated_records": 43,
+      "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+      "opcode_agreement_pct": 100.0,
+      "opcode_aligned": 43,
+      "original_code_sha256": "a17b142ca1baf026383401d40d5860f5e3686aec624314e371adcd8992447270",
+      "original_records": 43,
+      "raw_agreement_pct": 100.0,
+      "raw_equal_in_opcode_alignment": 43
+    },
+    "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Consumer79Trace\\C790016.pc",
+    "original_pc_sha256": "fa4ec20a25beeaba161eeaae32211b75a746daa0ccb0a378ced8f66581face4f",
+    "original_version_probe": {
+      "candidate_releases": [
+        "V810-1",
+        "V813-1",
+        "V820-1",
+        "V823-1",
+        "V830-1",
+        "V833-1"
+      ],
+      "name": "C790016.pc",
+      "observed_tag": "27",
+      "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Consumer79Trace\\C790016.pc",
+      "size": 823,
+      "status": "tag_observed"
+    },
+    "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\robot.ini",
+    "robot_ini_sha256": null,
+    "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Consumer79Trace\\rt\\C790016\\0d608879",
+    "source_marker_alignment": {
+      "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+      "code_offset_equal_count": 16,
+      "complete_triplet_equal_count": 0,
+      "exact_triplet_stream": false,
+      "first_differences": [
+        {
+          "generated": [
+            12,
+            23,
+            388
+          ],
+          "ordinal": 0,
+          "original": [
+            12,
+            20,
+            320
+          ]
+        },
+        {
+          "generated": [
+            29,
+            24,
+            394
+          ],
+          "ordinal": 1,
+          "original": [
+            29,
+            21,
+            331
+          ]
+        },
+        {
+          "generated": [
+            46,
+            25,
+            400
+          ],
+          "ordinal": 2,
+          "original": [
+            46,
+            22,
+            342
+          ]
+        },
+        {
+          "generated": [
+            63,
+            26,
+            406
+          ],
+          "ordinal": 3,
+          "original": [
+            63,
+            23,
+            353
+          ]
+        },
+        {
+          "generated": [
+            80,
+            27,
+            412
+          ],
+          "ordinal": 4,
+          "original": [
+            80,
+            24,
+            364
+          ]
+        },
+        {
+          "generated": [
+            97,
+            28,
+            418
+          ],
+          "ordinal": 5,
+          "original": [
+            97,
+            25,
+            375
+          ]
+        },
+        {
+          "generated": [
+            114,
+            29,
+            424
+          ],
+          "ordinal": 6,
+          "original": [
+            114,
+            26,
+            386
+          ]
+        },
+        {
+          "generated": [
+            131,
+            30,
+            430
+          ],
+          "ordinal": 7,
+          "original": [
+            131,
+            27,
+            397
+          ]
+        },
+        {
+          "generated": [
+            148,
+            31,
+            436
+          ],
+          "ordinal": 8,
+          "original": [
+            148,
+            28,
+            408
+          ]
+        },
+        {
+          "generated": [
+            165,
+            32,
+            442
+          ],
+          "ordinal": 9,
+          "original": [
+            165,
+            29,
+            419
+          ]
+        },
+        {
+          "generated": [
+            177,
+            33,
+            450
+          ],
+          "ordinal": 10,
+          "original": [
+            177,
+            30,
+            428
+          ]
+        },
+        {
+          "generated": [
+            214,
+            34,
+            479
+          ],
+          "ordinal": 11,
+          "original": [
+            214,
+            31,
+            455
+          ]
+        },
+        {
+          "generated": [
+            226,
+            35,
+            483
+          ],
+          "ordinal": 12,
+          "original": [
+            226,
+            32,
+            465
+          ]
+        },
+        {
+          "generated": [
+            231,
+            36,
+            489
+          ],
+          "ordinal": 13,
+          "original": [
+            231,
+            33,
+            474
+          ]
+        },
+        {
+          "generated": [
+            240,
+            38,
+            501
+          ],
+          "ordinal": 14,
+          "original": [
+            240,
+            35,
+            488
+          ]
+        },
+        {
+          "generated": [
+            253,
+            39,
+            508
+          ],
+          "ordinal": 15,
+          "original": [
+            253,
+            36,
+            498
+          ]
+        }
+      ],
+      "generated_count": 16,
+      "line_equal_count": 0,
+      "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+      "original_count": 16,
+      "paired_count": 16,
+      "source_byte_offset_equal_count": 0
+    },
+    "status": "compared",
+    "whole_pc_bytes_equal": false
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Consumer79Trace\\C790016.pc",
+  "reason": "MarkerFitError: pure marker layout solver found no bounded LF/CRLF solution; b'\\n': marker at template line 23 needs earlier line or line wrap; b'\\r\\n': marker at template line 23 needs earlier line or line wrap",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\robot.ini",
+  "source_kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Decompiled\\Consumer79Trace\\C790016\\C790016.KL",
+  "status": "withheld",
+  "whole_pc_bytes_equal": false
+}

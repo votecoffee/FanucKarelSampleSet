@@ -1,0 +1,174 @@
+{
+  "claim_limit": "Only a whole-PC compiler byte comparison establishes physical equality.",
+  "fitted_kl": null,
+  "initial_roundtrip": {
+    "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+    "compile_command": [
+      "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+      "/ver",
+      "V8.33-1",
+      "b2c0055.KL"
+    ],
+    "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "compiler_exit_code": 0,
+    "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Probes\\rt\\b2c0055\\b2aadd98\\compile.log",
+    "compiler_log_sha256": "de58cd8be2262c2693948ad03f67d33022514a28ef2dbc5d88ef6551e750849e",
+    "compiler_release": "V833-1",
+    "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+    "compiler_success": true,
+    "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+    "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Probes\\rt\\b2c0055\\b2aadd98\\b2c0055.pc",
+    "generated_pc_sha256": "ea12b9879ef768e912e981f191836171b6f5d4be3b8bcced83089b44f59b6ed0",
+    "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Decompiled\\Probes\\b2c0055\\b2c0055.KL",
+    "kl_sha256": "7c1879ae51adaf7e81deb6e237158f951421d541aeff63716faa453e00675bd5",
+    "native_alignment": {
+      "alignment_seconds": 0.0,
+      "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+      "code_bytes_equal": false,
+      "exact_native_record_stream": true,
+      "first_differences": [],
+      "generated_code_sha256": "4f14f0a88df037c72d9de05b0585ae406169b6116238d81c04529975199389b2",
+      "generated_records": 16,
+      "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+      "opcode_agreement_pct": 100.0,
+      "opcode_aligned": 16,
+      "original_code_sha256": "b71e679563bac89eabe5929d6c56a5ca01f11d173843b2d970eda294a54fd340",
+      "original_records": 16,
+      "raw_agreement_pct": 100.0,
+      "raw_equal_in_opcode_alignment": 16
+    },
+    "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Probes\\b2c0055.pc",
+    "original_pc_sha256": "77db0b06df46bb4830413989632a3369ea6bb7e6e38778515162eaecb1563c2e",
+    "original_version_probe": {
+      "candidate_releases": [
+        "V810-1",
+        "V813-1",
+        "V820-1",
+        "V823-1",
+        "V830-1",
+        "V833-1"
+      ],
+      "name": "b2c0055.pc",
+      "observed_tag": "27",
+      "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Probes\\b2c0055.pc",
+      "size": 621,
+      "status": "tag_observed"
+    },
+    "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\robot.ini",
+    "robot_ini_sha256": null,
+    "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Probes\\rt\\b2c0055\\b2aadd98",
+    "source_marker_alignment": {
+      "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+      "code_offset_equal_count": 7,
+      "complete_triplet_equal_count": 0,
+      "exact_triplet_stream": false,
+      "first_differences": [
+        {
+          "generated": [
+            12,
+            11,
+            196
+          ],
+          "ordinal": 0,
+          "original": [
+            12,
+            8,
+            95
+          ]
+        },
+        {
+          "generated": [
+            28,
+            12,
+            204
+          ],
+          "ordinal": 1,
+          "original": [
+            28,
+            9,
+            103
+          ]
+        },
+        {
+          "generated": [
+            46,
+            13,
+            222
+          ],
+          "ordinal": 2,
+          "original": [
+            46,
+            10,
+            119
+          ]
+        },
+        {
+          "generated": [
+            62,
+            14,
+            230
+          ],
+          "ordinal": 3,
+          "original": [
+            62,
+            11,
+            129
+          ]
+        },
+        {
+          "generated": [
+            67,
+            15,
+            236
+          ],
+          "ordinal": 4,
+          "original": [
+            67,
+            12,
+            138
+          ]
+        },
+        {
+          "generated": [
+            76,
+            17,
+            248
+          ],
+          "ordinal": 5,
+          "original": [
+            76,
+            14,
+            152
+          ]
+        },
+        {
+          "generated": [
+            85,
+            18,
+            250
+          ],
+          "ordinal": 6,
+          "original": [
+            85,
+            15,
+            157
+          ]
+        }
+      ],
+      "generated_count": 7,
+      "line_equal_count": 0,
+      "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+      "original_count": 7,
+      "paired_count": 7,
+      "source_byte_offset_equal_count": 0
+    },
+    "status": "compared",
+    "whole_pc_bytes_equal": false
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Probes\\b2c0055.pc",
+  "reason": "MarkerFitError: pure marker layout solver found no bounded LF/CRLF solution; b'\\n': marker at template line 11 needs earlier line or line wrap; b'\\r\\n': marker at template line 11 needs earlier line or line wrap",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\robot.ini",
+  "source_kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Decompiled\\Probes\\b2c0055\\b2c0055.KL",
+  "status": "withheld",
+  "whole_pc_bytes_equal": false
+}

@@ -1,0 +1,45 @@
+{
+  "status": "compile_failed",
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier2\\FY0006.pc",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Decompiled\\WIP972Frontier2\\FY0006\\FY0006.KL",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\robot.ini",
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_release": "V833-1",
+  "compiler_exit_code": 2147745896,
+  "compiler_success": false,
+  "whole_pc_bytes_equal": false,
+  "native_alignment": null,
+  "source_marker_alignment": null,
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "original_pc_sha256": "f2ac7b48725992ff1c0c5e67925279f30eb8f9e861743c673de70eb2aa4674e7",
+  "kl_sha256": "752800bfc280a6cb070268a91f7a679d0bcec7d6713f66fd40c9cf738bf7096b",
+  "original_version_probe": {
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier2\\FY0006.pc",
+    "name": "FY0006.pc",
+    "status": "tag_observed",
+    "observed_tag": "27",
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "size": 644
+  },
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier2\\rt\\FY0006\\443287a5",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "FY0006.KL"
+  ],
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "robot_ini_sha256": null,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier2\\rt\\FY0006\\443287a5\\compile.log",
+  "compiler_log_sha256": "630e76b9d09410e70721301211eda33b28bb1bf6da3bee8a552e0f8122b46c0e",
+  "compiler_error_excerpt": "\nC:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier2\\rt\\FY0006\\443287a5\\fy0006.kl(18)\n  18 ELSE:\n     ^ ERROR\n\";\" or new line expected.\n\nC:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier2\\rt\\FY0006\\443287a5\\fy0006.kl(18)\n  18 ELSE:\n         ^ ERROR\nInvalid statement or \"ENDxxx\" or \"UNTIL\" expected.\n\nC:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier2\\rt\\FY0006\\443287a5\\fy0006.kl(20)\n  20 ENDSELECT\n     ^ ERROR\nInvalid statement or \"ENDxxx\" or \"UNTIL\" expected.\n\nC:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier2\\rt\\FY0006\\443287a5\\fy0006.kl(20)\n  20 ENDSELECT\n     ^ ERROR\nInvalid statement. \";\" or new line expected.\n\n\n===============Translation not successful===============\nError executing KTrans: Error translating program: Code: 0xFFFFFFFF:  ",
+  "reason": "KTRANS did not produce exactly one successful PC"
+}

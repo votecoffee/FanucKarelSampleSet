@@ -1,0 +1,31 @@
+Notice: Unable to find 'robot.ini',
+Using basic KAREL support files.
+KTRANS Version V8.33 (Build 25  10/28/2024)
+Copyright (C) FANUC America Corporation, 1985 through 2014.
+All Rights Reserved.
+
+
+
+C:\~LocalWork\Repos\Programming\KarelPCDecompile\WorkingData\Probe Samples\PC\V8.33\VersionFlagBreadth\rt\oi0019_cliver\e6220165\oi0019_cliver.kl(8)
+   8 ROUTINE R(P1 : TYPE_0x1100; P2 : TYPE_0x1101) FROM OI0019
+                              ^ ERROR
+Id is undefined, it must be defined before use in a TYPE section.  Id: TYPE_0X1100
+
+C:\~LocalWork\Repos\Programming\KarelPCDecompile\WorkingData\Probe Samples\PC\V8.33\VersionFlagBreadth\rt\oi0019_cliver\e6220165\oi0019_cliver.kl(8)
+   8 ROUTINE R(P1 : TYPE_0x1100; P2 : TYPE_0x1101) FROM OI0019
+                                                ^ ERROR
+Id is undefined, it must be defined before use in a TYPE section.  Id: TYPE_0X1101
+
+C:\~LocalWork\Repos\Programming\KarelPCDecompile\WorkingData\Probe Samples\PC\V8.33\VersionFlagBreadth\rt\oi0019_cliver\e6220165\oi0019_cliver.kl(18)
+  18 R(G,H)
+       ^ ERROR
+Id must be defined before this use.  Id: G
+
+C:\~LocalWork\Repos\Programming\KarelPCDecompile\WorkingData\Probe Samples\PC\V8.33\VersionFlagBreadth\rt\oi0019_cliver\e6220165\oi0019_cliver.kl(18)
+  18 R(G,H)
+         ^ ERROR
+Id must be defined before this use.  Id: H
+
+
+===============Translation not successful===============
+Error executing KTrans: Error translating program: Code: 0xFFFFFFFF:  

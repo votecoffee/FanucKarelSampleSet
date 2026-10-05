@@ -1,0 +1,139 @@
+{
+  "status": "compared",
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\Probes\\b2c0035.pc",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\Probes\\b2c0035\\b2c0035.KL",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_release": "V833-1",
+  "compiler_exit_code": 0,
+  "compiler_success": true,
+  "whole_pc_bytes_equal": false,
+  "native_alignment": {
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "original_records": 18,
+    "generated_records": 18,
+    "opcode_aligned": 18,
+    "raw_equal_in_opcode_alignment": 18,
+    "opcode_agreement_pct": 100.0,
+    "raw_agreement_pct": 100.0,
+    "exact_native_record_stream": true,
+    "original_code_sha256": "1a6aa4ecd08fb63bdf72aa094ede949c3e9d72a111db729977254e853b12baf4",
+    "generated_code_sha256": "7132ff12c0cae7f7afc94e09b1598efe0be9db44c4a5dcbe7376f3639ae255a8",
+    "code_bytes_equal": false,
+    "first_differences": [],
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof."
+  },
+  "source_marker_alignment": {
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 5,
+    "generated_count": 5,
+    "paired_count": 5,
+    "code_offset_equal_count": 5,
+    "line_equal_count": 0,
+    "source_byte_offset_equal_count": 0,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "ordinal": 0,
+        "original": [
+          14,
+          18,
+          240
+        ],
+        "generated": [
+          14,
+          21,
+          261
+        ]
+      },
+      {
+        "ordinal": 1,
+        "original": [
+          37,
+          19,
+          252
+        ],
+        "generated": [
+          37,
+          22,
+          270
+        ]
+      },
+      {
+        "ordinal": 2,
+        "original": [
+          61,
+          20,
+          265
+        ],
+        "generated": [
+          61,
+          23,
+          284
+        ]
+      },
+      {
+        "ordinal": 3,
+        "original": [
+          70,
+          22,
+          279
+        ],
+        "generated": [
+          70,
+          25,
+          296
+        ]
+      },
+      {
+        "ordinal": 4,
+        "original": [
+          79,
+          23,
+          284
+        ],
+        "generated": [
+          79,
+          26,
+          298
+        ]
+      }
+    ],
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified."
+  },
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "original_pc_sha256": "343d97617b87665e8aa2f420e2580c5362bbb705979f5d7a19e15ada50512b90",
+  "kl_sha256": "2d67f4f96143c0e6e26ebef95f39c2c6126856af2859cb5744eeee2b4de863a9",
+  "original_version_probe": {
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\Probes\\b2c0035.pc",
+    "name": "b2c0035.pc",
+    "status": "tag_observed",
+    "observed_tag": "27",
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "size": 666
+  },
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\Probes\\rt\\b2c0035\\248fbd5b",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "b2c0035.KL"
+  ],
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "robot_ini_sha256": null,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\Probes\\rt\\b2c0035\\248fbd5b\\compile.log",
+  "compiler_log_sha256": "b322a6b94288a2adbbf2f4dcbff7b95cacd69bc8b3b18d1fa115197545f10dbf",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\Probes\\rt\\b2c0035\\248fbd5b\\b2c0035.pc",
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\Probes\\b2c0035\\marker_fit\\initial\\b2c0035.recompiled.pc",
+  "generated_pc_sha256": "284701bf86fa4f85d102ac76b86b3afa02c783c3aa0352818c54f44968f4d319"
+}

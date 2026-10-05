@@ -1,0 +1,115 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V9.40-1",
+    "basr_noini.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_exit_code": 0,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V9.40\\PCImportConfig\\rt\\basr_noini\\87b53d6a\\compile.log",
+  "compiler_log_sha256": "9bd43aa653fae5183da7f903824e3c5163808727e1fcf8f12d10a04ce19c4b27",
+  "compiler_release": "V940-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": true,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V9.40\\PCImportConfig\\rt\\basr_noini\\87b53d6a\\basr_noini.pc",
+  "generated_pc_sha256": "b5c9a693a441591aea3b1721f9507e082c3213026001750873d296e632605f49",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V9.40\\PCImportConfig\\basr_noini\\basr_noini.KL",
+  "kl_sha256": "868bf83b669bdda4365290397d008d9eacc904307a4ba491a2e51dae740c4533",
+  "native_alignment": {
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; not source identity or semantic equivalence.",
+    "code_bytes_equal": false,
+    "exact_native_record_stream": false,
+    "first_differences": [
+      {
+        "generated_opcodes": [],
+        "generated_record_span": [
+          0,
+          0
+        ],
+        "kind": "delete",
+        "original_opcodes": [
+          "2B",
+          "2C",
+          "7B",
+          "2E",
+          "23",
+          "21",
+          "23",
+          "7F",
+          "27",
+          "AA"
+        ],
+        "original_record_span": [
+          0,
+          10
+        ]
+      }
+    ],
+    "generated_code_sha256": "889d982d7bdeb2540b8f4943cf8de36d54f3b8d26ab9c8145408306b41d7bf63",
+    "generated_records": 2,
+    "method": "V940-1 profile native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "opcode_agreement_pct": 16.67,
+    "opcode_aligned": 2,
+    "original_code_sha256": "1f21a5304d023590a75ebecbdd0e6f603667b78fed177beaf71122e524a44c52",
+    "original_records": 12,
+    "raw_agreement_pct": 16.67,
+    "raw_equal_in_opcode_alignment": 2
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V9.40\\PCImportConfig\\basr_noini.pc",
+  "original_pc_sha256": "bb427a06f1a683943e2ee057ef5f5d1a6b326aae22427279767d20f9d8749bf0",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V910-1",
+      "V916-1",
+      "V930-1",
+      "V940-1"
+    ],
+    "name": "basr_noini.pc",
+    "observed_tag": "29",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V9.40\\PCImportConfig\\basr_noini.pc",
+    "size": 608,
+    "status": "tag_observed"
+  },
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V9.40\\PCImportConfig\\rt\\basr_noini\\87b53d6a",
+  "source_marker_alignment": {
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+    "code_offset_equal_count": 0,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "generated": [
+          0,
+          16,
+          696
+        ],
+        "ordinal": 0,
+        "original": [
+          12,
+          10,
+          107
+        ]
+      },
+      {
+        "generated_count": 1,
+        "kind": "marker_count_difference",
+        "original_count": 5
+      }
+    ],
+    "generated_count": 1,
+    "line_equal_count": 0,
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 5,
+    "paired_count": 1,
+    "source_byte_offset_equal_count": 0
+  },
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V9.40\\PCImportConfig\\basr_noini\\basr_noini.recompiled.pc",
+  "status": "compared",
+  "whole_pc_bytes_equal": false
+}

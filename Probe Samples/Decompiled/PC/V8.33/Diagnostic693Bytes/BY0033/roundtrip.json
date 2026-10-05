@@ -1,0 +1,175 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "BY0033.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_exit_code": 0,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\Diagnostic693Bytes\\rt\\BY0033\\0af9bcc7\\compile.log",
+  "compiler_log_sha256": "e89724167ab4a3ca006d7b534407bbab07247f0807af90b1a93892de55b037be",
+  "compiler_release": "V833-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": true,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\Diagnostic693Bytes\\rt\\BY0033\\0af9bcc7\\by0033.pc",
+  "generated_pc_sha256": "c92e2cc5563a02a79f966f7f410d5fca9809bacc9402fdf200eafd6a0eef9919",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\Diagnostic693Bytes\\BY0033\\BY0033.KL",
+  "kl_sha256": "f6a12d4038bfc07df149d69687a2b11885f522bfdab0b3c419701534c006328b",
+  "layout_fit": {
+    "compact_kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\Diagnostic693Bytes\\BY0033\\BY0033.compact.KL",
+    "filler_operations": [
+      {
+        "decisions": [
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 10,
+            "prior_line_trailing_spaces": 0,
+            "source_byte_offset_mod65536": 194,
+            "source_line_u16": 10,
+            "synthetic_comment_count": 1,
+            "synthetic_line_count": 1,
+            "unwrapped_byte_offset": 194
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 30,
+            "prior_line_trailing_spaces": 4,
+            "source_byte_offset_mod65536": 207,
+            "source_line_u16": 11,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 207
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 54,
+            "prior_line_trailing_spaces": 4,
+            "source_byte_offset_mod65536": 220,
+            "source_line_u16": 12,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 220
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 63,
+            "prior_line_trailing_spaces": 2,
+            "source_byte_offset_mod65536": 234,
+            "source_line_u16": 14,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 234
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 116,
+            "prior_line_trailing_spaces": 3,
+            "source_byte_offset_mod65536": 257,
+            "source_line_u16": 15,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 257
+          }
+        ],
+        "separator": "LF",
+        "source_compactions": [],
+        "synthetic_comment_count": 1,
+        "synthetic_line_count": 1,
+        "trailing_space_count": 13
+      }
+    ],
+    "preamble_compactions": [
+      {
+        "definition_line": 10,
+        "kind": "inline_local_routine_signature",
+        "prototype_line": 9,
+        "routine": "R"
+      },
+      {
+        "kind": "omit_sentinel_directive_candidate",
+        "template_line": 2,
+        "text": "%STACKSIZE=65535"
+      },
+      {
+        "kind": "omit_sentinel_directive_candidate",
+        "template_line": 3,
+        "text": "%PRIORITY=65535"
+      },
+      {
+        "kind": "short_synthetic_local",
+        "new": "C",
+        "old": "L1",
+        "routine": "R"
+      },
+      {
+        "declaration_count": 3,
+        "kind": "pack_var_declarations",
+        "template_line": 4
+      },
+      {
+        "declaration_count": 2,
+        "kind": "pack_var_declarations",
+        "template_line": 9
+      }
+    ],
+    "report": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\Diagnostic693Bytes\\BY0033\\marker_fit\\marker_fit.json",
+    "source_authentication": false,
+    "statement_line_numbers_refer_to_compact_kl": true,
+    "status": "whole_pc_equal"
+  },
+  "native_alignment": {
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+    "code_bytes_equal": true,
+    "exact_native_record_stream": true,
+    "first_differences": [],
+    "generated_code_sha256": "30d0f25fce36e5f496156f054d02fcff35bbfed312aa6b3b4216217771cd21f1",
+    "generated_records": 27,
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "opcode_agreement_pct": 100.0,
+    "opcode_aligned": 27,
+    "original_code_sha256": "30d0f25fce36e5f496156f054d02fcff35bbfed312aa6b3b4216217771cd21f1",
+    "original_records": 27,
+    "raw_agreement_pct": 100.0,
+    "raw_equal_in_opcode_alignment": 27
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\Diagnostic693Bytes\\BY0033.pc",
+  "original_pc_sha256": "c92e2cc5563a02a79f966f7f410d5fca9809bacc9402fdf200eafd6a0eef9919",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "name": "BY0033.pc",
+    "observed_tag": "27",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\Diagnostic693Bytes\\BY0033.pc",
+    "size": 669,
+    "status": "tag_observed"
+  },
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\Diagnostic693Bytes\\rt\\BY0033\\0af9bcc7",
+  "source_marker_alignment": {
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+    "code_offset_equal_count": 5,
+    "complete_triplet_equal_count": 5,
+    "exact_triplet_stream": true,
+    "first_differences": [],
+    "generated_count": 5,
+    "line_equal_count": 5,
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 5,
+    "paired_count": 5,
+    "source_byte_offset_equal_count": 5
+  },
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\Diagnostic693Bytes\\BY0033\\BY0033.recompiled.pc",
+  "status": "compared",
+  "whole_pc_bytes_equal": true
+}

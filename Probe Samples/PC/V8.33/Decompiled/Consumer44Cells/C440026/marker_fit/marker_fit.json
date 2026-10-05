@@ -1,0 +1,213 @@
+{
+  "claim_limit": "Only a whole-PC compiler byte comparison establishes physical equality.",
+  "fitted_kl": null,
+  "initial_roundtrip": {
+    "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+    "compile_command": [
+      "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+      "/ver",
+      "V8.33-1",
+      "C440026.KL"
+    ],
+    "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "compiler_exit_code": 0,
+    "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Consumer44Cells\\rt\\C440026\\166abc15\\compile.log",
+    "compiler_log_sha256": "53ab35eee8035f7a97446efebfd01160e6e038a194cc72a4a0424aff7e9979a5",
+    "compiler_release": "V833-1",
+    "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+    "compiler_success": true,
+    "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+    "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Consumer44Cells\\rt\\C440026\\166abc15\\c440026.pc",
+    "generated_pc_sha256": "a6f943ed6c1b72d6114b8385fbfcc5e34184315dae3c8d7feca6e8c209cc64b6",
+    "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Decompiled\\Consumer44Cells\\C440026\\C440026.KL",
+    "kl_sha256": "fba0e0f3083125838feb4c5de39a601c9643f58a75507bcba47ecf412cb04318",
+    "native_alignment": {
+      "alignment_seconds": 0.0,
+      "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+      "code_bytes_equal": false,
+      "exact_native_record_stream": true,
+      "first_differences": [],
+      "generated_code_sha256": "906ec68e212552c17671d943ba3ff7a27c0fc66a25e43bb2ea8536e2e12c3b2a",
+      "generated_records": 22,
+      "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+      "opcode_agreement_pct": 100.0,
+      "opcode_aligned": 22,
+      "original_code_sha256": "73a4bf32d4d4141cc6d117561d5fcfb9795cd13461e770f7e9e6d544f592c23f",
+      "original_records": 22,
+      "raw_agreement_pct": 100.0,
+      "raw_equal_in_opcode_alignment": 22
+    },
+    "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Consumer44Cells\\C440026.pc",
+    "original_pc_sha256": "994078b3a74f18dee3111577b23adadbd1daa452ff56d722e2dd5e32de690d57",
+    "original_version_probe": {
+      "candidate_releases": [
+        "V810-1",
+        "V813-1",
+        "V820-1",
+        "V823-1",
+        "V830-1",
+        "V833-1"
+      ],
+      "name": "C440026.pc",
+      "observed_tag": "27",
+      "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Consumer44Cells\\C440026.pc",
+      "size": 643,
+      "status": "tag_observed"
+    },
+    "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\robot.ini",
+    "robot_ini_sha256": null,
+    "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Consumer44Cells\\rt\\C440026\\166abc15",
+    "source_marker_alignment": {
+      "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+      "code_offset_equal_count": 10,
+      "complete_triplet_equal_count": 0,
+      "exact_triplet_stream": false,
+      "first_differences": [
+        {
+          "generated": [
+            12,
+            13,
+            216
+          ],
+          "ordinal": 0,
+          "original": [
+            12,
+            10,
+            118
+          ]
+        },
+        {
+          "generated": [
+            24,
+            14,
+            230
+          ],
+          "ordinal": 1,
+          "original": [
+            24,
+            11,
+            131
+          ]
+        },
+        {
+          "generated": [
+            42,
+            15,
+            253
+          ],
+          "ordinal": 2,
+          "original": [
+            42,
+            12,
+            151
+          ]
+        },
+        {
+          "generated": [
+            54,
+            16,
+            266
+          ],
+          "ordinal": 3,
+          "original": [
+            54,
+            13,
+            164
+          ]
+        },
+        {
+          "generated": [
+            59,
+            17,
+            272
+          ],
+          "ordinal": 4,
+          "original": [
+            59,
+            14,
+            173
+          ]
+        },
+        {
+          "generated": [
+            77,
+            18,
+            296
+          ],
+          "ordinal": 5,
+          "original": [
+            77,
+            15,
+            194
+          ]
+        },
+        {
+          "generated": [
+            89,
+            19,
+            310
+          ],
+          "ordinal": 6,
+          "original": [
+            89,
+            16,
+            208
+          ]
+        },
+        {
+          "generated": [
+            94,
+            20,
+            316
+          ],
+          "ordinal": 7,
+          "original": [
+            94,
+            17,
+            217
+          ]
+        },
+        {
+          "generated": [
+            103,
+            22,
+            328
+          ],
+          "ordinal": 8,
+          "original": [
+            103,
+            19,
+            231
+          ]
+        },
+        {
+          "generated": [
+            112,
+            23,
+            330
+          ],
+          "ordinal": 9,
+          "original": [
+            112,
+            20,
+            236
+          ]
+        }
+      ],
+      "generated_count": 10,
+      "line_equal_count": 0,
+      "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+      "original_count": 10,
+      "paired_count": 10,
+      "source_byte_offset_equal_count": 0
+    },
+    "status": "compared",
+    "whole_pc_bytes_equal": false
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Consumer44Cells\\C440026.pc",
+  "reason": "MarkerFitError: pure marker layout solver found no bounded LF/CRLF solution; b'\\n': marker at template line 13 needs earlier line or line wrap; b'\\r\\n': marker at template line 13 needs earlier line or line wrap",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\robot.ini",
+  "source_kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompile\\WorkingData\\Probe Samples\\PC\\V8.33\\Decompiled\\Consumer44Cells\\C440026\\C440026.KL",
+  "status": "withheld",
+  "whole_pc_bytes_equal": false
+}

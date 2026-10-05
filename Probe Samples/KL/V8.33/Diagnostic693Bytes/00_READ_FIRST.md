@@ -1,0 +1,7 @@
+# Byte-oriented diagnostic probes
+
+Start with [the report](../../../Evidence/Diagnostic693Bytes_2026-09-30/REPORT.md). The 49 `BY*.KL` files are controlled V8.33 sources; 46 have native PCs in `PC/V8.33/Diagnostic693Bytes`, and three KTRANS rejection logs are retained as negative controls. [RESULTS.json](../../../Evidence/Diagnostic693Bytes_2026-09-30/RESULTS.json) pins every source, log, compiled PC, original-PC hash, and exact native record comparison. [The 698-PC corpus scan](../../../Evidence/Diagnostic693Bytes_2026-09-30/EXISTING_CORPUS_EXACT_RAW.json) also includes the [routine-boundary follow-up](../Diagnostic693Bytes2/00_READ_FIRST.md) and lists all complete raw-record matches against the 352 unresolved spans.
+
+The strongest controls are `BY0020` (two XYZWPR formal copies), `BY0033`/`BY0045`/`BY0049` (formal STRING assignments into indexed STRING arrays), `BY0047`/`BY0048` (TPIN WAIT ON/OFF), and `BY0041` (`ABORT`). They reproduce complete raw record sequences in 39 original-PC unresolved spans, including operand bytes. A matching short sequence does not establish the surrounding routine, whole-PC equality, or recovered source.
+
+Run `py -3 -X utf8 build_diagnostic693_byte_controls.py` from the evidence folder to rebuild and compare. The script compiles only in isolated scratch directories and verifies the frozen original-PC hashes before extracting target records. The original PCs and decoder are read only.

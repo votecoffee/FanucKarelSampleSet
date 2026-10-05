@@ -1,0 +1,15 @@
+PROGRAM DGCASE
+%NOLOCKGROUP
+VAR
+G : STRING[16]
+ROUTINE R:STRING
+VAR
+B : STRING[16]
+BEGIN             
+B='A'     
+RETURN(B)   
+END R
+BEGIN  
+G=R     
+END DGCASE
+-- UNRESOLVED_PC line 11 opcodes [7F] marker_code=35

@@ -1,0 +1,477 @@
+{
+  "claim_limit": "Only a whole-PC compiler byte comparison establishes physical equality.",
+  "fitted_kl": null,
+  "initial_roundtrip": {
+    "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+    "compile_command": [
+      "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+      "/ver",
+      "V8.33-1",
+      "fw0015.KL"
+    ],
+    "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "compiler_exit_code": 0,
+    "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\rt\\fw0015\\cb2da261\\compile.log",
+    "compiler_log_sha256": "b18c1dcf47fc3dd9094105adadadb45508ab09fe8696215940499758b58bcd5a",
+    "compiler_release": "V833-1",
+    "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+    "compiler_success": true,
+    "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+    "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\rt\\fw0015\\cb2da261\\fw0015.pc",
+    "generated_pc_sha256": "b27b418ae4f803353b307211a90968801c1043b82cb2bf0e4a26ced83c34bcc4",
+    "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\FiveWindows\\fw0015\\fw0015.KL",
+    "kl_sha256": "00dca3f399e927b7240844defc3741dfa1da4cb845c314526978eef06bc8c4d7",
+    "native_alignment": {
+      "alignment_seconds": 0.0,
+      "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+      "code_bytes_equal": false,
+      "exact_native_record_stream": true,
+      "first_differences": [],
+      "generated_code_sha256": "eee3c8f41ced9aa3a36118180fb35a8e711ec333c82b000c8484126ced376033",
+      "generated_records": 28,
+      "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+      "opcode_agreement_pct": 100.0,
+      "opcode_aligned": 28,
+      "original_code_sha256": "95356f6497b1656363a995e46d8a822d6e22004332d0b2a36dafa837bf6dc921",
+      "original_records": 28,
+      "raw_agreement_pct": 100.0,
+      "raw_equal_in_opcode_alignment": 28
+    },
+    "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\fw0015.pc",
+    "original_pc_sha256": "2ddc132f8fc949a2c8b93e258cad7956770d460a20626a46647fea28f995dc9b",
+    "original_version_probe": {
+      "candidate_releases": [
+        "V810-1",
+        "V813-1",
+        "V820-1",
+        "V823-1",
+        "V830-1",
+        "V833-1"
+      ],
+      "name": "fw0015.pc",
+      "observed_tag": "27",
+      "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\fw0015.pc",
+      "size": 668,
+      "status": "tag_observed"
+    },
+    "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+    "robot_ini_sha256": null,
+    "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\rt\\fw0015\\cb2da261",
+    "source_marker_alignment": {
+      "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+      "code_offset_equal_count": 10,
+      "complete_triplet_equal_count": 0,
+      "exact_triplet_stream": false,
+      "first_differences": [
+        {
+          "generated": [
+            14,
+            18,
+            235
+          ],
+          "ordinal": 0,
+          "original": [
+            14,
+            13,
+            159
+          ]
+        },
+        {
+          "generated": [
+            26,
+            19,
+            246
+          ],
+          "ordinal": 1,
+          "original": [
+            26,
+            14,
+            167
+          ]
+        },
+        {
+          "generated": [
+            38,
+            20,
+            255
+          ],
+          "ordinal": 2,
+          "original": [
+            38,
+            15,
+            175
+          ]
+        },
+        {
+          "generated": [
+            60,
+            22,
+            281
+          ],
+          "ordinal": 3,
+          "original": [
+            60,
+            16,
+            189
+          ]
+        },
+        {
+          "generated": [
+            88,
+            24,
+            301
+          ],
+          "ordinal": 4,
+          "original": [
+            88,
+            17,
+            207
+          ]
+        },
+        {
+          "generated": [
+            106,
+            26,
+            319
+          ],
+          "ordinal": 5,
+          "original": [
+            106,
+            18,
+            225
+          ]
+        },
+        {
+          "generated": [
+            118,
+            27,
+            330
+          ],
+          "ordinal": 6,
+          "original": [
+            118,
+            19,
+            240
+          ]
+        },
+        {
+          "generated": [
+            123,
+            28,
+            340
+          ],
+          "ordinal": 7,
+          "original": [
+            123,
+            20,
+            253
+          ]
+        },
+        {
+          "generated": [
+            132,
+            30,
+            352
+          ],
+          "ordinal": 8,
+          "original": [
+            132,
+            22,
+            267
+          ]
+        },
+        {
+          "generated": [
+            141,
+            31,
+            354
+          ],
+          "ordinal": 9,
+          "original": [
+            141,
+            23,
+            272
+          ]
+        }
+      ],
+      "generated_count": 10,
+      "line_equal_count": 0,
+      "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+      "original_count": 10,
+      "paired_count": 10,
+      "source_byte_offset_equal_count": 0
+    },
+    "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\FiveWindows\\fw0015\\marker_fit\\initial\\fw0015.recompiled.pc",
+    "status": "compared",
+    "whole_pc_bytes_equal": false
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\fw0015.pc",
+  "preamble_compaction_trial": {
+    "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+    "compile_command": [
+      "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+      "/ver",
+      "V8.33-1",
+      "compact_preamble.KL"
+    ],
+    "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "compiler_exit_code": 0,
+    "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\rt\\fw0015\\c6bc07a0\\compile.log",
+    "compiler_log_sha256": "866f2eaa20bb8fcd7f33e364386d1c2730ec349c70b0f9c0c38312fe60042aaa",
+    "compiler_release": "V833-1",
+    "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+    "compiler_success": true,
+    "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+    "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\rt\\fw0015\\c6bc07a0\\compact_preamble.pc",
+    "generated_pc_sha256": "9e8023c7b67cbc4b0d0f229f1f16fed3df7b2105a0b749976453f48e22b266d7",
+    "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\FiveWindows\\fw0015\\marker_fit\\compact_preamble.KL",
+    "kl_sha256": "20faf276c46dd6efa4c9cbe4a4fed96f4949cbbd7af7a0e186f0c42a826e0b97",
+    "native_alignment": {
+      "alignment_seconds": 0.0,
+      "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+      "code_bytes_equal": false,
+      "exact_native_record_stream": true,
+      "first_differences": [],
+      "generated_code_sha256": "e3351068460cafaee2f7e1137300fc7883815e25af4e389ff79bad9ca7771e41",
+      "generated_records": 28,
+      "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+      "opcode_agreement_pct": 100.0,
+      "opcode_aligned": 28,
+      "original_code_sha256": "95356f6497b1656363a995e46d8a822d6e22004332d0b2a36dafa837bf6dc921",
+      "original_records": 28,
+      "raw_agreement_pct": 100.0,
+      "raw_equal_in_opcode_alignment": 28
+    },
+    "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\fw0015.pc",
+    "original_pc_sha256": "2ddc132f8fc949a2c8b93e258cad7956770d460a20626a46647fea28f995dc9b",
+    "original_version_probe": {
+      "candidate_releases": [
+        "V810-1",
+        "V813-1",
+        "V820-1",
+        "V823-1",
+        "V830-1",
+        "V833-1"
+      ],
+      "name": "fw0015.pc",
+      "observed_tag": "27",
+      "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\fw0015.pc",
+      "size": 668,
+      "status": "tag_observed"
+    },
+    "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+    "robot_ini_sha256": null,
+    "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\FiveWindows\\rt\\fw0015\\c6bc07a0",
+    "source_marker_alignment": {
+      "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+      "code_offset_equal_count": 10,
+      "complete_triplet_equal_count": 0,
+      "exact_triplet_stream": false,
+      "first_differences": [
+        {
+          "generated": [
+            14,
+            9,
+            143
+          ],
+          "ordinal": 0,
+          "original": [
+            14,
+            13,
+            159
+          ]
+        },
+        {
+          "generated": [
+            26,
+            10,
+            150
+          ],
+          "ordinal": 1,
+          "original": [
+            26,
+            14,
+            167
+          ]
+        },
+        {
+          "generated": [
+            38,
+            11,
+            154
+          ],
+          "ordinal": 2,
+          "original": [
+            38,
+            15,
+            175
+          ]
+        },
+        {
+          "generated": [
+            60,
+            13,
+            175
+          ],
+          "ordinal": 3,
+          "original": [
+            60,
+            16,
+            189
+          ]
+        },
+        {
+          "generated": [
+            88,
+            15,
+            191
+          ],
+          "ordinal": 4,
+          "original": [
+            88,
+            17,
+            207
+          ]
+        },
+        {
+          "generated": [
+            106,
+            17,
+            205
+          ],
+          "ordinal": 5,
+          "original": [
+            106,
+            18,
+            225
+          ]
+        },
+        {
+          "generated": [
+            118,
+            18,
+            212
+          ],
+          "ordinal": 6,
+          "original": [
+            118,
+            19,
+            240
+          ]
+        },
+        {
+          "generated": [
+            123,
+            19,
+            222
+          ],
+          "ordinal": 7,
+          "original": [
+            123,
+            20,
+            253
+          ]
+        },
+        {
+          "generated": [
+            132,
+            21,
+            234
+          ],
+          "ordinal": 8,
+          "original": [
+            132,
+            22,
+            267
+          ]
+        },
+        {
+          "generated": [
+            141,
+            22,
+            236
+          ],
+          "ordinal": 9,
+          "original": [
+            141,
+            23,
+            272
+          ]
+        }
+      ],
+      "generated_count": 10,
+      "line_equal_count": 0,
+      "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+      "original_count": 10,
+      "paired_count": 10,
+      "source_byte_offset_equal_count": 0
+    },
+    "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\FiveWindows\\fw0015\\marker_fit\\compact_preamble_initial\\fw0015.recompiled.pc",
+    "status": "compared",
+    "whole_pc_bytes_equal": false
+  },
+  "preamble_compactions": [
+    {
+      "definition_line": 8,
+      "kind": "inline_local_routine_signature",
+      "prototype_line": 7,
+      "routine": "R"
+    },
+    {
+      "kind": "omit_sentinel_directive_candidate",
+      "template_line": 2,
+      "text": "%STACKSIZE=65535"
+    },
+    {
+      "kind": "omit_sentinel_directive_candidate",
+      "template_line": 3,
+      "text": "%PRIORITY=65535"
+    },
+    {
+      "kind": "short_synthetic_local",
+      "new": "A",
+      "old": "L2",
+      "routine": "R"
+    },
+    {
+      "kind": "short_synthetic_local",
+      "new": "B",
+      "old": "U2C_9",
+      "routine": "R"
+    },
+    {
+      "kind": "short_synthetic_local",
+      "new": "C",
+      "old": "U2C_10",
+      "routine": "R"
+    },
+    {
+      "kind": "short_synthetic_local",
+      "new": "D",
+      "old": "U2C_11",
+      "routine": "R"
+    },
+    {
+      "kind": "short_synthetic_local",
+      "new": "E",
+      "old": "U2C_12",
+      "routine": "R"
+    },
+    {
+      "kind": "short_synthetic_local",
+      "new": "F",
+      "old": "U2C_13",
+      "routine": "R"
+    },
+    {
+      "declaration_count": 7,
+      "kind": "pack_var_declarations",
+      "template_line": 7
+    }
+  ],
+  "reason": "MarkerFitError: pure marker layout solver found no bounded LF/CRLF solution; b'\\n': marker at template line 13 needs earlier line or line wrap; b'\\r\\n': marker at template line 13 needs earlier line or line wrap",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "source_kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\FiveWindows\\fw0015\\fw0015.KL",
+  "status": "withheld",
+  "whole_pc_bytes_equal": false
+}

@@ -1,0 +1,73 @@
+{
+  "status": "compared",
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\PCImportConfig\\ipcb_cliver_nopc.pc",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\PCImportConfig\\ipcb_cliver_nopc\\marker_fit\\ipcb_cliver_nopc.KL",
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_release": "V833-1",
+  "compiler_exit_code": 0,
+  "compiler_success": true,
+  "whole_pc_bytes_equal": true,
+  "native_alignment": {
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "original_records": 14,
+    "generated_records": 14,
+    "opcode_aligned": 14,
+    "raw_equal_in_opcode_alignment": 14,
+    "opcode_agreement_pct": 100.0,
+    "raw_agreement_pct": 100.0,
+    "exact_native_record_stream": true,
+    "original_code_sha256": "be8c4b08883298422c24aa89bd1c189f61b9443ed8b31e241bb5b642d7a794e5",
+    "generated_code_sha256": "be8c4b08883298422c24aa89bd1c189f61b9443ed8b31e241bb5b642d7a794e5",
+    "code_bytes_equal": true,
+    "first_differences": [],
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof."
+  },
+  "source_marker_alignment": {
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 5,
+    "generated_count": 5,
+    "paired_count": 5,
+    "code_offset_equal_count": 5,
+    "line_equal_count": 5,
+    "source_byte_offset_equal_count": 5,
+    "complete_triplet_equal_count": 5,
+    "exact_triplet_stream": true,
+    "first_differences": [],
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified."
+  },
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "original_pc_sha256": "937e11cda9b03d59fddd44971645f116c824d2fb9e09e5073269b59d1f3f0ebf",
+  "kl_sha256": "3c4a99c06e68a0cde5f41f3274ceeb758fcde0dfc419c52990e5cb1d5e3e3092",
+  "original_version_probe": {
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\PCImportConfig\\ipcb_cliver_nopc.pc",
+    "name": "ipcb_cliver_nopc.pc",
+    "status": "tag_observed",
+    "observed_tag": "27",
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "size": 628
+  },
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\PCImportConfig\\rt\\ipcb_cliver_nopc\\6535d1d3",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "ipcb_cliver_nopc.KL"
+  ],
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "robot_ini_sha256": null,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\PCImportConfig\\rt\\ipcb_cliver_nopc\\6535d1d3\\compile.log",
+  "compiler_log_sha256": "62ea3c5aeb9996c25f6255aa6b14b5211fb3382c9d77779910f4ccc2de642384",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\PCImportConfig\\rt\\ipcb_cliver_nopc\\6535d1d3\\ipcb_cliver_nopc.pc",
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\PCImportConfig\\ipcb_cliver_nopc\\marker_fit\\fitted\\ipcb_cliver_nopc.recompiled.pc",
+  "generated_pc_sha256": "937e11cda9b03d59fddd44971645f116c824d2fb9e09e5073269b59d1f3f0ebf"
+}

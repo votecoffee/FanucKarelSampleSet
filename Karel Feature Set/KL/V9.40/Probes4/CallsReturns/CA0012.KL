@@ -1,0 +1,38 @@
+PROGRAM CA0012
+%NOLOCKGROUP
+TYPE
+  T = STRUCTURE
+    A : INTEGER
+    B : REAL
+  ENDSTRUCTURE
+VAR
+  G : INTEGER
+  I : INTEGER
+  R : REAL
+  B : BOOLEAN
+  S : STRING[16]
+  AI : ARRAY[2] OF INTEGER
+  AR : ARRAY[2] OF REAL
+  ST : T
+  P : XYZWPR
+  V : VECTOR
+ROUTINE F(P1 : INTEGER;
+  P2 : INTEGER;
+  P3 : INTEGER)
+BEGIN
+  G = G + 1
+END F
+BEGIN
+  G = 0
+  I = 1
+  R = 2.5
+  B = TRUE
+  S = 'A'
+  AI[1] = 3
+  AR[1] = 4.5
+  ST.A = 5
+  ST.B = 6.5
+  F(I,
+  I,
+  I)
+END CA0012

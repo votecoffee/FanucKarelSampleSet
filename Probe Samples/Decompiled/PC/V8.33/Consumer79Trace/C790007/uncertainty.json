@@ -1,0 +1,538 @@
+{
+  "all_untyped_cell_constraints": [
+    {
+      "cell_index": 1,
+      "constraint_scope": "Exact cell and native reference sites; scalar/vector alternatives are storage geometry only and no source type is selected.",
+      "direct_reference_count": 3,
+      "frame_cell_offset": 9,
+      "native_reference_sites": [
+        {
+          "code_offset": 18,
+          "opcode_hex": "23",
+          "record_index": 5
+        },
+        {
+          "code_offset": 29,
+          "opcode_hex": "21",
+          "record_index": 7
+        },
+        {
+          "code_offset": 84,
+          "opcode_hex": "23",
+          "record_index": 22
+        }
+      ],
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [],
+      "routine_name": "R",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    }
+  ],
+  "assumed_compact_cells": 1,
+  "candidate_compact_concat_source_rewrite_count": 0,
+  "candidate_compact_concat_source_rewrites": [],
+  "candidate_named_local_declarations": [],
+  "candidate_named_structure_declarations": [],
+  "candidate_unreachable_terminal_classifications": [],
+  "code_sha256": "c7ab54f113a0e6d4b45e06c33840b25f7306b20494f0a2bd13cbe3b52496879b",
+  "compact_2c_source_type_choices": {
+    "cell_count": 1,
+    "cells": [
+      {
+        "active_use_lines": [
+          44,
+          45,
+          48
+        ],
+        "address_reference_count": 0,
+        "chosen_source_candidate_type": "INTEGER",
+        "conflicting_effective_call_types": false,
+        "conflicting_scalar_use_constraints": false,
+        "direct_native_reference_count": 3,
+        "effective_typed_call_constraints": [],
+        "emitted_active_use_count": 3,
+        "frame_cell_offset": 9,
+        "native_scalar_use_constraints": [
+          {
+            "consumer_code_offset": 55,
+            "consumer_opcode": "57",
+            "frame_cell_offset": 9,
+            "required_scalar_type": "INTEGER",
+            "routine_name": "R",
+            "source_declaration_type_proved": false
+          }
+        ],
+        "original_source_type_proved": false,
+        "possible_composite_partition_excluded": false,
+        "preference_order": [
+          "BOOLEAN",
+          "INTEGER",
+          "REAL"
+        ],
+        "routine_name": "R",
+        "selection_reason": "unique_native_scalar_use_constraint",
+        "unmet_native_scalar_use_types": [],
+        "unrepresented_direct_use_count": 0
+      }
+    ],
+    "effective_typed_call_cell_count": 0,
+    "literal_rewrite_count": 0,
+    "literal_rewrites": [],
+    "scope": "maximal WIP KL only; not strict source or original declaration proof",
+    "selection_order": [
+      "BOOLEAN",
+      "INTEGER",
+      "REAL"
+    ],
+    "status": "heuristic_compact_2c_source_choices",
+    "type_counts": {
+      "INTEGER": 1
+    }
+  },
+  "compact_hypothesis_inventory_complete": true,
+  "compact_hypothesis_withheld_routines": [],
+  "direct_reference_sites_to_untyped_cells": 3,
+  "emitted_executable_statement_count": 5,
+  "environment_inference": {
+    "method": "none",
+    "reason": "PC module/link preconditions not met"
+  },
+  "existing_renderer_unproved_rule_count": 0,
+  "existing_renderer_unproved_rule_fraction_of_emitted_statements": 0.0,
+  "existing_renderer_unproved_rules": [],
+  "extra_unproved_fraction_of_emitted_statements": 0.6,
+  "extra_unproved_method_counts": {
+    "assumed_compact_2c_source_type": 3
+  },
+  "extra_unproved_statements": [
+    {
+      "kl_line": 23,
+      "methods_needing_proof": [
+        "assumed_compact_2c_source_type"
+      ],
+      "original_ir": "FRAME[R+0x9] = 1",
+      "pc_source_line": 20,
+      "rendered_code": "U2C_9=1",
+      "routine": "R",
+      "source_type_proved": false
+    },
+    {
+      "kl_line": 24,
+      "methods_needing_proof": [
+        "assumed_compact_2c_source_type"
+      ],
+      "original_ir": "IF (FRAME[R+0x9] = CAM_GO[P1,3]) THEN",
+      "pc_source_line": 21,
+      "rendered_code": "IF (U2C_9=CAM_GO[P1,3]) THEN",
+      "routine": "R",
+      "source_type_proved": false
+    },
+    {
+      "kl_line": 27,
+      "methods_needing_proof": [
+        "assumed_compact_2c_source_type"
+      ],
+      "original_ir": "FRAME[R+0x9] = 0",
+      "pc_source_line": 24,
+      "rendered_code": "U2C_9=0",
+      "routine": "R",
+      "source_type_proved": false
+    }
+  ],
+  "extra_unproved_statements_emitted": 3,
+  "kl_sha256": "e32380335338bc550766bee9876b0385c347183ed4911904cc238979886315e0",
+  "layout_assumption_withholding_reason": null,
+  "marker_fit": {
+    "compact_kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\Consumer79Trace\\C790007\\C790007.compact.KL",
+    "filler_operations": [
+      {
+        "decisions": [
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 12,
+            "prior_line_trailing_spaces": 0,
+            "source_byte_offset_mod65536": 307,
+            "source_line_u16": 20,
+            "synthetic_comment_count": 11,
+            "synthetic_line_count": 11,
+            "unwrapped_byte_offset": 307
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 24,
+            "prior_line_trailing_spaces": 5,
+            "source_byte_offset_mod65536": 316,
+            "source_line_u16": 21,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 316
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 61,
+            "prior_line_trailing_spaces": 2,
+            "source_byte_offset_mod65536": 343,
+            "source_line_u16": 22,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 343
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 73,
+            "prior_line_trailing_spaces": 6,
+            "source_byte_offset_mod65536": 353,
+            "source_line_u16": 23,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 353
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 78,
+            "prior_line_trailing_spaces": 3,
+            "source_byte_offset_mod65536": 362,
+            "source_line_u16": 24,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 362
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 90,
+            "prior_line_trailing_spaces": 5,
+            "source_byte_offset_mod65536": 371,
+            "source_line_u16": 25,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 371
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 99,
+            "prior_line_trailing_spaces": 2,
+            "source_byte_offset_mod65536": 385,
+            "source_line_u16": 27,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 385
+          },
+          {
+            "byte_offset_wraps": 0,
+            "code_offset": 110,
+            "prior_line_trailing_spaces": 3,
+            "source_byte_offset_mod65536": 393,
+            "source_line_u16": 28,
+            "synthetic_comment_count": 0,
+            "synthetic_line_count": 0,
+            "unwrapped_byte_offset": 393
+          }
+        ],
+        "separator": "LF",
+        "source_compactions": [],
+        "synthetic_comment_count": 11,
+        "synthetic_line_count": 11,
+        "trailing_space_count": 26
+      }
+    ],
+    "preamble_compactions": [
+      {
+        "definition_line": 18,
+        "kind": "inline_local_routine_signature",
+        "prototype_line": 17,
+        "routine": "R"
+      },
+      {
+        "kind": "omit_sentinel_directive_candidate",
+        "template_line": 2,
+        "text": "%STACKSIZE=65535"
+      },
+      {
+        "kind": "omit_sentinel_directive_candidate",
+        "template_line": 3,
+        "text": "%PRIORITY=65535"
+      },
+      {
+        "kind": "short_synthetic_local",
+        "new": "A",
+        "old": "U2C_9",
+        "routine": "R"
+      },
+      {
+        "declaration_count": 11,
+        "kind": "pack_var_declarations",
+        "template_line": 4
+      },
+      {
+        "declaration_count": 2,
+        "kind": "pack_var_declarations",
+        "template_line": 17
+      }
+    ],
+    "report": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\Consumer79Trace\\C790007\\marker_fit\\marker_fit.json",
+    "source_authentication": false,
+    "statement_line_numbers_refer_to_compact_kl": true,
+    "status": "whole_pc_equal"
+  },
+  "native_source_marker_coverage": {
+    "authenticated_marker_count": 8,
+    "body_geometry_policy": "fresh_native_3E_intervals_with_verified_successor_prologue",
+    "code_sha256": "c7ab54f113a0e6d4b45e06c33840b25f7306b20494f0a2bd13cbe3b52496879b",
+    "complete": true,
+    "issue_count": 0,
+    "issues": [],
+    "native_marker_count": 8,
+    "source_row_count": 8,
+    "status": "generic_V833_native_source_marker_coverage"
+  },
+  "original_declaration_blocker_routines": 1,
+  "original_pc_sha256": "3bb701a0de60449200df34280da87d26c9a6f4e8002fcc1d1ccbe5c826baaf45",
+  "original_source_diagnostic_units": 4,
+  "original_unresolved_executable_spans": 0,
+  "original_unsafe_source_ir_lines": 3,
+  "program": "C790007",
+  "provenance_note": "Existing source-safe statements are compiler-correlated candidates, not authenticated original source. Extra emitted statements use listed methods needing proof. Unknown PC spans remain comments.",
+  "referenced_cell_constraints": [
+    {
+      "cell_index": 1,
+      "constraint_scope": "Exact cell and native reference sites; scalar/vector alternatives are storage geometry only and no source type is selected.",
+      "direct_reference_count": 3,
+      "frame_cell_offset": 9,
+      "native_reference_sites": [
+        {
+          "code_offset": 18,
+          "opcode_hex": "23",
+          "record_index": 5
+        },
+        {
+          "code_offset": 29,
+          "opcode_hex": "21",
+          "record_index": 7
+        },
+        {
+          "code_offset": 84,
+          "opcode_hex": "23",
+          "record_index": 22
+        }
+      ],
+      "nearest_proved_special_locals": [],
+      "possible_vector_spans": [],
+      "routine_name": "R",
+      "same_width_nominal_aliases_not_excluded": true,
+      "source_type_proved": false,
+      "viable_scalar_types": [
+        "INTEGER",
+        "REAL",
+        "BOOLEAN"
+      ]
+    }
+  ],
+  "relocated_comment_count": 20,
+  "relocated_kl_diagnostics": [
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 1,
+      "routine": null,
+      "text": "-- RESEARCH LOCAL LAYOUT: 1 untyped 2C cells; candidate BOOLEAN=0 INTEGER=1 REAL=0."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 2,
+      "routine": null,
+      "text": "-- Placeholder types and declaration partitions are unproved; compare compiler output only."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 3,
+      "routine": null,
+      "text": "-- INCOMPLETE PC DECOMPILATION - REVIEW DRAFT ONLY"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 4,
+      "routine": null,
+      "text": "-- This is compiler-correlated candidate text, not recovered original KL."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 5,
+      "routine": null,
+      "text": "-- Unknown instructions remain as UNRESOLVED_PC comments in the body."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 6,
+      "routine": null,
+      "text": "-- Compilation may succeed while unresolved behavior is omitted."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 7,
+      "routine": null,
+      "text": "-- Resolve every blocker and verify the result before using this source."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 8,
+      "routine": null,
+      "text": "-- Original PC SHA-256: 3bb701a0de60449200df34280da87d26c9a6f4e8002fcc1d1ccbe5c826baaf45"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 9,
+      "routine": null,
+      "text": "-- Remaining source blockers: 4"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 10,
+      "routine": null,
+      "text": "-- Unknown special local cells: 1"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 11,
+      "routine": null,
+      "text": "-- Unresolved executable marker lines: 0"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 12,
+      "routine": null
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 13,
+      "routine": null,
+      "text": "-- GENERIC V8.33 WHOLE-PROGRAM KAREL CANDIDATE \u2014 PASS100"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 14,
+      "routine": null,
+      "text": "-- NON-DEPLOYABLE. Unresolved executable spans are preserved as comments, never silently omitted."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 15,
+      "routine": null,
+      "text": "-- PC-resident global/routine names are exact; local/formal names are synthetic when source names are absent."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 16,
+      "routine": null,
+      "text": "-- Header directives are emitted only for compiler-roundtrip-proved V8.33 config images."
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 17,
+      "routine": null
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 34,
+      "routine": "C790007"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 35,
+      "routine": "C790007",
+      "text": "-- LOCAL ROUTINE FORWARD DECLARATIONS (synthetic formal names)"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 37,
+      "routine": "R(P1 : INTEGER) FROM C790007"
+    },
+    {
+      "kind": "inline_assumption_comment",
+      "old_kl_line": 41,
+      "routine": "R",
+      "text": "-- ASSUMED 2C source type; see uncertainty report"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 42,
+      "routine": "R",
+      "text": "-- RESEARCH 2C LAYOUT: scalar source choices preserve one cell each; all types unproved."
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 49,
+      "routine": "R",
+      "text": "-- STRUCTURAL_PC line 25 opcodes [7F] marker_code=90"
+    },
+    {
+      "kind": "blank_line",
+      "old_kl_line": 51,
+      "routine": "R"
+    },
+    {
+      "kind": "explanatory_comment",
+      "old_kl_line": 54,
+      "routine": "R",
+      "text": "-- STRUCTURAL_PC line 28 opcodes [7F] marker_code=110"
+    }
+  ],
+  "remaining_declaration_warning_comments": 0,
+  "remaining_issue_comments": [],
+  "remaining_unresolved_pc_comments": 0,
+  "remaining_unsafe_source_ir_comments": 0,
+  "removed_blank_line_count": 5,
+  "review_layout_policy": "compact_spacing_and_missing_content_comments_only",
+  "robot_deployable": false,
+  "runtime_equivalence_proved": false,
+  "source_safe_statements_from_existing_renderer": 2,
+  "status": "V833_maximal_KL_uncertainty_report",
+  "still_untyped_cells_with_direct_references": 1,
+  "still_untyped_compact_cells": 1,
+  "strict_source_eligible": false,
+  "unlocated_untyped_compact_cells": 0,
+  "unreferenced_cell_hypotheses": [],
+  "untyped_local_reference_sites": [
+    {
+      "code_offset": 18,
+      "frame_cell_offset": 9,
+      "kl_lines": [
+        23
+      ],
+      "opcode_hex": "23",
+      "pc_source_marker_line": 20,
+      "record_index": 5,
+      "routine": "R",
+      "type_proved": false
+    },
+    {
+      "code_offset": 29,
+      "frame_cell_offset": 9,
+      "kl_lines": [
+        24
+      ],
+      "opcode_hex": "21",
+      "pc_source_marker_line": 21,
+      "record_index": 7,
+      "routine": "R",
+      "type_proved": false
+    },
+    {
+      "code_offset": 84,
+      "frame_cell_offset": 9,
+      "kl_lines": [
+        27
+      ],
+      "opcode_hex": "23",
+      "pc_source_marker_line": 24,
+      "record_index": 22,
+      "routine": "R",
+      "type_proved": false
+    }
+  ],
+  "whole_pc_equality_proved": false
+}

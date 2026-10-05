@@ -1,0 +1,15 @@
+PROGRAM DT0021
+%STACKSIZE=65535
+%PRIORITY=65535
+%NOLOCKGROUP
+VAR
+G : BOOLEAN
+ROUTINE R FROM DT0021
+ROUTINE R
+-- LOCAL DECLARATIONS WITHHELD: local source type has no canonical declaration proof; non-special native local storage width unresolved
+BEGIN
+-- UNSAFE_SOURCE_IR line 9: G = field_offset(FRAME[R+0x2F3],284)
+END R
+BEGIN
+R
+END DT0021

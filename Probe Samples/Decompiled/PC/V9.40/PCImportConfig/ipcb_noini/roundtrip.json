@@ -1,0 +1,117 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V9.40-1",
+    "ipcb_noini.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_exit_code": 0,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V9.40\\PCImportConfig\\rt\\ipcb_noini\\32503233\\compile.log",
+  "compiler_log_sha256": "49a7609eca354a50a21049f34adc75c71ba328a3adea5d182d530dc59d82fd70",
+  "compiler_release": "V940-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": true,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V9.40\\PCImportConfig\\rt\\ipcb_noini\\32503233\\ipcb_noini.pc",
+  "generated_pc_sha256": "f5b0a884ed2c4dbd621ad72534a398e27fd860e0eea614cb83f82ee09b116ec4",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V9.40\\PCImportConfig\\ipcb_noini\\ipcb_noini.KL",
+  "kl_sha256": "5f7328b7a56d34ca72fe9a45e81b2fc62f87120074d2c9e12de8f5d8573d7a41",
+  "native_alignment": {
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; not source identity or semantic equivalence.",
+    "code_bytes_equal": false,
+    "exact_native_record_stream": false,
+    "first_differences": [
+      {
+        "generated_opcodes": [],
+        "generated_record_span": [
+          0,
+          0
+        ],
+        "kind": "delete",
+        "original_opcodes": [
+          "2B",
+          "2C",
+          "7B",
+          "9D",
+          "23",
+          "27",
+          "22",
+          "AA",
+          "23",
+          "7F",
+          "27",
+          "AA"
+        ],
+        "original_record_span": [
+          0,
+          12
+        ]
+      }
+    ],
+    "generated_code_sha256": "dcb73dffbfcd32ec9f64d14e416e02bb4232aa812a69d27814c03b42228187a0",
+    "generated_records": 2,
+    "method": "V940-1 profile native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "opcode_agreement_pct": 14.29,
+    "opcode_aligned": 2,
+    "original_code_sha256": "be8c4b08883298422c24aa89bd1c189f61b9443ed8b31e241bb5b642d7a794e5",
+    "original_records": 14,
+    "raw_agreement_pct": 14.29,
+    "raw_equal_in_opcode_alignment": 2
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V9.40\\PCImportConfig\\ipcb_noini.pc",
+  "original_pc_sha256": "eae52a9287b7144a9c9f7d2aa1549af08a6b276d693784894f8b3fcd4cf73b67",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V910-1",
+      "V916-1",
+      "V930-1",
+      "V940-1"
+    ],
+    "name": "ipcb_noini.pc",
+    "observed_tag": "29",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V9.40\\PCImportConfig\\ipcb_noini.pc",
+    "size": 628,
+    "status": "tag_observed"
+  },
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V9.40\\PCImportConfig\\rt\\ipcb_noini\\32503233",
+  "source_marker_alignment": {
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+    "code_offset_equal_count": 0,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "generated": [
+          0,
+          14,
+          687
+        ],
+        "ordinal": 0,
+        "original": [
+          12,
+          11,
+          164
+        ]
+      },
+      {
+        "generated_count": 1,
+        "kind": "marker_count_difference",
+        "original_count": 5
+      }
+    ],
+    "generated_count": 1,
+    "line_equal_count": 0,
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 5,
+    "paired_count": 1,
+    "source_byte_offset_equal_count": 0
+  },
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V9.40\\PCImportConfig\\ipcb_noini\\ipcb_noini.recompiled.pc",
+  "status": "compared",
+  "whole_pc_bytes_equal": false
+}

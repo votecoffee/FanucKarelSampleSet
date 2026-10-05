@@ -1,0 +1,68 @@
+PROGRAM NC0036
+%NOLOCKGROUP
+ROUTINE R
+VAR
+  X : INTEGER
+BEGIN
+  X = 1
+  SELECT X OF
+    CASE(1):
+      X = X + 2
+    CASE(2):
+      X = X + 3
+    ELSE:
+      SELECT X OF
+        CASE(1):
+          X = X + 2
+        CASE(2):
+          X = X + 3
+        ELSE:
+          SELECT X OF
+            CASE(1):
+              X = X + 2
+            CASE(2):
+              X = X + 3
+            ELSE:
+              SELECT X OF
+                CASE(1):
+                  X = X + 2
+                CASE(2):
+                  X = X + 3
+                ELSE:
+                  SELECT X OF
+                    CASE(1):
+                      X = X + 2
+                    CASE(2):
+                      X = X + 3
+                    ELSE:
+                      SELECT X OF
+                        CASE(1):
+                          X = X + 2
+                        CASE(2):
+                          X = X + 3
+                        ELSE:
+                          SELECT X OF
+                            CASE(1):
+                              X = X + 2
+                            CASE(2):
+                              X = X + 3
+                            ELSE:
+                              SELECT X OF
+                                CASE(1):
+                                  X = X + 2
+                                CASE(2):
+                                  X = X + 3
+                                ELSE:
+                                  X = X + 1
+                              ENDSELECT
+                          ENDSELECT
+                      ENDSELECT
+                  ENDSELECT
+              ENDSELECT
+          ENDSELECT
+      ENDSELECT
+  ENDSELECT
+END R
+BEGIN
+  R
+END NC0036

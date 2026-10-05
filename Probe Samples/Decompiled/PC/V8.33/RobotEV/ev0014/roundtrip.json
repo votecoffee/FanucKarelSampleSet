@@ -1,0 +1,153 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "ev0014.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_exit_code": 0,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\RobotEV\\rt\\ev0014\\e8b08075\\compile.log",
+  "compiler_log_sha256": "417fe5961a5bb2962f7682c53fd432fe79f656bad61eb866f4ddae2cc9b1862d",
+  "compiler_release": "V833-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": true,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\RobotEV\\rt\\ev0014\\e8b08075\\ev0014.pc",
+  "generated_pc_sha256": "74c931e9029b440e110692cb6a22bbb7be142aa8a7ece81539843d15ce3d51b9",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\RobotEV\\ev0014\\ev0014.KL",
+  "kl_sha256": "f5797ed075dbb04309447eb0cf63bdc6dc0a25b2b2896b424e2d43f96e7d3eed",
+  "native_alignment": {
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+    "code_bytes_equal": false,
+    "exact_native_record_stream": false,
+    "first_differences": [
+      {
+        "generated_opcodes": [],
+        "generated_record_span": [
+          0,
+          0
+        ],
+        "kind": "delete",
+        "original_opcodes": [
+          "2B",
+          "2C"
+        ],
+        "original_record_span": [
+          0,
+          2
+        ]
+      },
+      {
+        "generated_opcodes": [],
+        "generated_record_span": [
+          1,
+          1
+        ],
+        "kind": "delete",
+        "original_opcodes": [
+          "22",
+          "32",
+          "34",
+          "23"
+        ],
+        "original_record_span": [
+          3,
+          7
+        ]
+      }
+    ],
+    "generated_code_sha256": "486a1dfa8a7f832ebfc03da4203c91726429aa46f52f00716714f5c37305ea20",
+    "generated_records": 6,
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "opcode_agreement_pct": 50.0,
+    "opcode_aligned": 6,
+    "original_code_sha256": "4e719be3b59e9be82c259f740da441d47b01d49a23bd0c29c7eabe24f285a70e",
+    "original_records": 12,
+    "raw_agreement_pct": 50.0,
+    "raw_equal_in_opcode_alignment": 6
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\RobotEV\\ev0014.pc",
+  "original_pc_sha256": "eaf72c537ec997a8a75493868a0553a76fd5ac36bfde1d69c37dd053643763a0",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "name": "ev0014.pc",
+    "observed_tag": "27",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\RobotEV\\ev0014.pc",
+    "size": 220,
+    "status": "tag_observed"
+  },
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\RobotEV\\rt\\ev0014\\e8b08075",
+  "source_marker_alignment": {
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+    "code_offset_equal_count": 0,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "generated": [
+          1,
+          10,
+          366
+        ],
+        "ordinal": 0,
+        "original": [
+          10,
+          9,
+          108
+        ]
+      },
+      {
+        "generated": [
+          10,
+          12,
+          378
+        ],
+        "ordinal": 1,
+        "original": [
+          31,
+          10,
+          130
+        ]
+      },
+      {
+        "generated": [
+          19,
+          13,
+          380
+        ],
+        "ordinal": 2,
+        "original": [
+          40,
+          12,
+          144
+        ]
+      },
+      {
+        "generated_count": 3,
+        "kind": "marker_count_difference",
+        "original_count": 4
+      }
+    ],
+    "generated_count": 3,
+    "line_equal_count": 0,
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 4,
+    "paired_count": 3,
+    "source_byte_offset_equal_count": 0
+  },
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\RobotEV\\ev0014\\ev0014.recompiled.pc",
+  "status": "compared",
+  "whole_pc_bytes_equal": false
+}

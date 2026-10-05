@@ -1,0 +1,15 @@
+PROGRAM DT0006
+%STACKSIZE=65535
+%PRIORITY=65535
+%NOLOCKGROUP
+VAR
+G : INTEGER
+ROUTINE R FROM DT0006
+ROUTINE R
+-- LOCAL DECLARATIONS WITHHELD: local source type has no canonical declaration proof; non-special native local storage width unresolved
+BEGIN
+G=1
+END R
+BEGIN
+R
+END DT0006

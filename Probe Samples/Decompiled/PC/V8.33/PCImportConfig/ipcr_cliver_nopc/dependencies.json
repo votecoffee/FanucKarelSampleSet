@@ -1,0 +1,72 @@
+{
+  "claim_limit": "Exact PC metadata references; loader binding, source and runtime behavior unproved.",
+  "incoming_element_count": 0,
+  "incoming_element_references": [],
+  "incoming_later_pc_references": [],
+  "outgoing_element_count": 1,
+  "outgoing_element_references": [
+    {
+      "claim_limit": "Embedded reference/signature metadata only; runtime binding and source are unproved.",
+      "consumer_pc": "PC/V8.33/PCImportConfig/ipcr_cliver_nopc.pc",
+      "consumer_processed_after_provider": false,
+      "consumer_program": "IPCR",
+      "element_kind": "routine",
+      "element_name": "IDENTR",
+      "expected_type_from_consumer_pc": {
+        "argument_types_u16": [
+          17
+        ],
+        "extended_argument_types": [],
+        "return_type_u16": 17
+      },
+      "later_pc_reference_note": null,
+      "metadata_comparison": "provider_pc_ambiguous",
+      "provider_pc_candidates": [
+        "PC/V8.33/PCImportConfig/ipcprov.pc",
+        "PC/V8.33/PCImportConfig/ipcprov_cliver.pc"
+      ],
+      "provider_pc_in_folder": null,
+      "provider_program_from_consumer_pc": "IPCPROV",
+      "provider_type_from_provider_pc": null,
+      "site_count": 1,
+      "sites": [
+        {
+          "caller_routine_name": "R",
+          "code_offset": 40,
+          "opcode_hex": "AA",
+          "record_index": 9,
+          "record_sha256": "c44bc64a66f3a5da2e37b7ef874985b85958fcf203a18f34af60abae5d6ecc2c",
+          "source_line_context": 12
+        }
+      ]
+    }
+  ],
+  "pc_dependency_names": [
+    {
+      "matching_workspace_pcs": [],
+      "name_from_pc": "IPCR",
+      "relationship": "PC metadata dependency name; source/include ownership not proven",
+      "same_folder_pc": null
+    },
+    {
+      "matching_workspace_pcs": [
+        "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\PCImportConfig\\ipcprov.pc"
+      ],
+      "name_from_pc": "IPCPROV",
+      "relationship": "PC metadata dependency name; source/include ownership not proven",
+      "same_folder_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\PCImportConfig\\ipcprov.pc"
+    },
+    {
+      "matching_workspace_pcs": [],
+      "name_from_pc": "*ID*43da",
+      "relationship": "PC metadata dependency name; source/include ownership not proven",
+      "same_folder_pc": null
+    }
+  ],
+  "pc_file": "PC/V8.33/PCImportConfig/ipcr_cliver_nopc.pc",
+  "program_name": "IPCR",
+  "robot_ini": null,
+  "same_stem_sidecars": [],
+  "schema": "KAREL_PC_dependency_report_v2",
+  "sidecar_authentication": "names and paths only; no PC/sidecar producer identity proven"
+}

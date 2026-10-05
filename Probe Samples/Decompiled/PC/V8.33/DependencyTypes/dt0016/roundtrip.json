@@ -1,0 +1,154 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "dt0016.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_exit_code": 0,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\DependencyTypes\\rt\\dt0016\\1244044f\\compile.log",
+  "compiler_log_sha256": "6245191dcc03a67df040d36b5707ecf0bdabb1009ff99944ec8db410cc5890c0",
+  "compiler_release": "V833-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": true,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\DependencyTypes\\rt\\dt0016\\1244044f\\dt0016.pc",
+  "generated_pc_sha256": "5b1468e8433a83a8192f525510799331c48b323557d7ec5c023c259ddda9bdc5",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\DependencyTypes\\dt0016\\dt0016.KL",
+  "kl_sha256": "c0fc46c480956151332bf090e7081a8670fb87ba73f3a5d844108feaa23511b9",
+  "native_alignment": {
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+    "code_bytes_equal": false,
+    "exact_native_record_stream": false,
+    "first_differences": [
+      {
+        "generated_opcodes": [],
+        "generated_record_span": [
+          0,
+          0
+        ],
+        "kind": "delete",
+        "original_opcodes": [
+          "2B"
+        ],
+        "original_record_span": [
+          0,
+          1
+        ]
+      },
+      {
+        "generated_opcodes": [],
+        "generated_record_span": [
+          1,
+          1
+        ],
+        "kind": "delete",
+        "original_opcodes": [
+          "22",
+          "32",
+          "9D",
+          "33",
+          "34",
+          "23"
+        ],
+        "original_record_span": [
+          2,
+          8
+        ]
+      }
+    ],
+    "generated_code_sha256": "11779f9a2d5b3c93867eb362f9c40f9f9d8d839541bef46065f488b5d2443a22",
+    "generated_records": 6,
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "opcode_agreement_pct": 46.15,
+    "opcode_aligned": 6,
+    "original_code_sha256": "7b650163f4e905708434d9b99f87bdba2bcd2c75bb0eb62c0ad547f726abf789",
+    "original_records": 13,
+    "raw_agreement_pct": 46.15,
+    "raw_equal_in_opcode_alignment": 6
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\DependencyTypes\\dt0016.pc",
+  "original_pc_sha256": "d21399b05f392c800cf4860e38873a0faa217cf6941208e5d45af190f6774df6",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "name": "dt0016.pc",
+    "observed_tag": "27",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\DependencyTypes\\dt0016.pc",
+    "size": 631,
+    "status": "tag_observed"
+  },
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\DependencyTypes\\rt\\dt0016\\1244044f",
+  "source_marker_alignment": {
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+    "code_offset_equal_count": 0,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "generated": [
+          1,
+          12,
+          315
+        ],
+        "ordinal": 0,
+        "original": [
+          6,
+          9,
+          93
+        ]
+      },
+      {
+        "generated": [
+          10,
+          14,
+          327
+        ],
+        "ordinal": 1,
+        "original": [
+          29,
+          10,
+          111
+        ]
+      },
+      {
+        "generated": [
+          19,
+          15,
+          329
+        ],
+        "ordinal": 2,
+        "original": [
+          38,
+          12,
+          125
+        ]
+      },
+      {
+        "generated_count": 3,
+        "kind": "marker_count_difference",
+        "original_count": 4
+      }
+    ],
+    "generated_count": 3,
+    "line_equal_count": 0,
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 4,
+    "paired_count": 3,
+    "source_byte_offset_equal_count": 0
+  },
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\DependencyTypes\\dt0016\\dt0016.recompiled.pc",
+  "status": "compared",
+  "whole_pc_bytes_equal": false
+}

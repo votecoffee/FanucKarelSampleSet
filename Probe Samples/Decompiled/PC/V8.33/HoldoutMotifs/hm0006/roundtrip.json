@@ -1,0 +1,163 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "hm0006.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_exit_code": 0,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\HoldoutMotifs\\rt\\hm0006\\de267957\\compile.log",
+  "compiler_log_sha256": "681b7655b157f9082848ce8ed5699a760ee58c9271284d1c464b5000720739a4",
+  "compiler_release": "V833-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": true,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\HoldoutMotifs\\rt\\hm0006\\de267957\\hm0006.pc",
+  "generated_pc_sha256": "1d0a43507f083a615e278abfe45be9aa38de13218111c1f4bc495b3c317953c9",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\HoldoutMotifs\\hm0006\\hm0006.KL",
+  "kl_sha256": "1c5e6ae39608c7b5d5fc29ee05272c5a38783e8965a0de3e07fbc53e957939ab",
+  "native_alignment": {
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+    "code_bytes_equal": false,
+    "exact_native_record_stream": false,
+    "first_differences": [
+      {
+        "generated_opcodes": [],
+        "generated_record_span": [
+          5,
+          5
+        ],
+        "kind": "delete",
+        "original_opcodes": [
+          "21",
+          "9C",
+          "6D",
+          "79"
+        ],
+        "original_record_span": [
+          5,
+          9
+        ]
+      }
+    ],
+    "generated_code_sha256": "febb117a4a14d9124494f268b5fe4db837a2ffdc28a5bd66399aaf1d1ed883d2",
+    "generated_records": 14,
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "opcode_agreement_pct": 77.78,
+    "opcode_aligned": 14,
+    "original_code_sha256": "d830e77a75ec51872c7c3d5a403da7eb1fef5b3fa2a4ffaa91b0824d15febc5d",
+    "original_records": 18,
+    "raw_agreement_pct": 77.78,
+    "raw_equal_in_opcode_alignment": 14
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\HoldoutMotifs\\hm0006.pc",
+  "original_pc_sha256": "1626c3081b9213249f9eeb401e0db2651d61a4443c2fc9df04e5763b7ae8f12b",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "name": "hm0006.pc",
+    "observed_tag": "27",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\HoldoutMotifs\\hm0006.pc",
+    "size": 634,
+    "status": "tag_observed"
+  },
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\HoldoutMotifs\\rt\\hm0006\\de267957",
+  "source_marker_alignment": {
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+    "code_offset_equal_count": 2,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "generated": [
+          12,
+          13,
+          168
+        ],
+        "ordinal": 0,
+        "original": [
+          12,
+          10,
+          121
+        ]
+      },
+      {
+        "generated": [
+          29,
+          15,
+          239
+        ],
+        "ordinal": 1,
+        "original": [
+          29,
+          11,
+          129
+        ]
+      },
+      {
+        "generated": [
+          41,
+          16,
+          243
+        ],
+        "ordinal": 2,
+        "original": [
+          47,
+          12,
+          147
+        ]
+      },
+      {
+        "generated": [
+          50,
+          18,
+          255
+        ],
+        "ordinal": 3,
+        "original": [
+          59,
+          13,
+          156
+        ]
+      },
+      {
+        "generated": [
+          65,
+          19,
+          262
+        ],
+        "ordinal": 4,
+        "original": [
+          64,
+          14,
+          165
+        ]
+      },
+      {
+        "generated_count": 5,
+        "kind": "marker_count_difference",
+        "original_count": 7
+      }
+    ],
+    "generated_count": 5,
+    "line_equal_count": 0,
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 7,
+    "paired_count": 5,
+    "source_byte_offset_equal_count": 0
+  },
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\HoldoutMotifs\\hm0006\\hm0006.recompiled.pc",
+  "status": "compared",
+  "whole_pc_bytes_equal": false
+}

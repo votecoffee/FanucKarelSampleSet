@@ -1,0 +1,206 @@
+{
+  "claim_limit": "Round-trip output is diagnostic, never source or runtime proof.",
+  "compile_command": [
+    "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+    "/ver",
+    "V8.33-1",
+    "FY0015.KL"
+  ],
+  "compiler": "C:\\Program Files (x86)\\FANUC\\WinOLPC\\bin\\ktrans.exe",
+  "compiler_exit_code": 0,
+  "compiler_log": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier2\\rt\\FY0015\\d0cc37ce\\compile.log",
+  "compiler_log_sha256": "f094c2cf19766f26f78e336be861c2e9257e829decab72957df9bc40ad35201c",
+  "compiler_release": "V833-1",
+  "compiler_sha256": "4c2703f94cd891e4adac3325ed411c0072228c973d9b74bab530be8c4e22881b",
+  "compiler_success": true,
+  "configuration_warning": "No robot.ini: compiler uses basic KAREL support. Native comparison may differ from the original support environment.",
+  "generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier2\\rt\\FY0015\\d0cc37ce\\fy0015.pc",
+  "generated_pc_sha256": "8341579a79368c35935600e48b379cd04ef6957c124d0e147c7644d018d7c913",
+  "kl": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\WIP972Frontier2\\FY0015\\FY0015.KL",
+  "kl_sha256": "0146b8c513d10551c379d63a416d59ccf47b40666ccd31e75f90584168a54d9a",
+  "native_alignment": {
+    "alignment_seconds": 0.0,
+    "claim_limit": "Diagnostic alignment only; it is not a minimum edit distance or semantic equivalence proof.",
+    "code_bytes_equal": false,
+    "exact_native_record_stream": false,
+    "first_differences": [
+      {
+        "generated_opcodes": [],
+        "generated_record_span": [
+          5,
+          5
+        ],
+        "kind": "delete",
+        "original_opcodes": [
+          "21",
+          "40",
+          "41",
+          "41",
+          "42"
+        ],
+        "original_record_span": [
+          5,
+          10
+        ]
+      },
+      {
+        "generated_opcodes": [],
+        "generated_record_span": [
+          7,
+          7
+        ],
+        "kind": "delete",
+        "original_opcodes": [
+          "7A",
+          "43"
+        ],
+        "original_record_span": [
+          12,
+          14
+        ]
+      }
+    ],
+    "generated_code_sha256": "b2cafa7e537ebfdcac0e475607079731c3e63a5fb56b080dc98d2c0e65746d3b",
+    "generated_records": 16,
+    "method": "V8.33 native opcode SequenceMatcher with autojunk=False; raw bytes checked inside equal opcode blocks; 3E markers excluded",
+    "opcode_agreement_pct": 69.57,
+    "opcode_aligned": 16,
+    "original_code_sha256": "8e2299ea7ce57a19ba8cb9c3593a55528c40ee74d421c2030adc1cf5651f6188",
+    "original_records": 23,
+    "raw_agreement_pct": 69.57,
+    "raw_equal_in_opcode_alignment": 16
+  },
+  "original_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier2\\FY0015.pc",
+  "original_pc_sha256": "1a59bcba4ebdede8914b6a1ffecfb0ec592c053b1d444c4475d5a5e2555d4be0",
+  "original_version_probe": {
+    "candidate_releases": [
+      "V810-1",
+      "V813-1",
+      "V820-1",
+      "V823-1",
+      "V830-1",
+      "V833-1"
+    ],
+    "name": "FY0015.pc",
+    "observed_tag": "27",
+    "path": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier2\\FY0015.pc",
+    "size": 652,
+    "status": "tag_observed"
+  },
+  "robot_ini": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\robot.ini",
+  "robot_ini_sha256": null,
+  "run_directory": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\PC\\V8.33\\WIP972Frontier2\\rt\\FY0015\\d0cc37ce",
+  "source_marker_alignment": {
+    "claim_limit": "Marker equality is a compiler-output property; source spelling is not identified.",
+    "code_offset_equal_count": 2,
+    "complete_triplet_equal_count": 0,
+    "exact_triplet_stream": false,
+    "first_differences": [
+      {
+        "generated": [
+          8,
+          13,
+          151
+        ],
+        "ordinal": 0,
+        "original": [
+          8,
+          10,
+          103
+        ]
+      },
+      {
+        "generated": [
+          20,
+          15,
+          224
+        ],
+        "ordinal": 1,
+        "original": [
+          20,
+          11,
+          112
+        ]
+      },
+      {
+        "generated": [
+          32,
+          16,
+          232
+        ],
+        "ordinal": 2,
+        "original": [
+          47,
+          12,
+          127
+        ]
+      },
+      {
+        "generated": [
+          44,
+          17,
+          240
+        ],
+        "ordinal": 3,
+        "original": [
+          65,
+          13,
+          148
+        ]
+      },
+      {
+        "generated": [
+          61,
+          18,
+          248
+        ],
+        "ordinal": 4,
+        "original": [
+          77,
+          14,
+          164
+        ]
+      },
+      {
+        "generated": [
+          70,
+          20,
+          260
+        ],
+        "ordinal": 5,
+        "original": [
+          82,
+          15,
+          177
+        ]
+      },
+      {
+        "generated": [
+          79,
+          21,
+          262
+        ],
+        "ordinal": 6,
+        "original": [
+          99,
+          16,
+          186
+        ]
+      },
+      {
+        "generated_count": 7,
+        "kind": "marker_count_difference",
+        "original_count": 9
+      }
+    ],
+    "generated_count": 7,
+    "line_equal_count": 0,
+    "method": "ordinal comparison of exact PC 3E record code offset, source line and source byte offset",
+    "original_count": 9,
+    "paired_count": 7,
+    "source_byte_offset_equal_count": 0
+  },
+  "stable_generated_pc": "C:\\~LocalWork\\Repos\\Programming\\KarelPCDecompileWorkingData\\Probe Samples\\Decompiled\\PC\\V8.33\\WIP972Frontier2\\FY0015\\FY0015.recompiled.pc",
+  "status": "compared",
+  "whole_pc_bytes_equal": false
+}

@@ -1,0 +1,232 @@
+KAREL .PC OFFLINE RESEARCH LISTING — NOT EXECUTABLE
+No motion has been verified; do not load any reconstructed text onto a robot.
+File SHA-256: 587a95dfd53fdb8786fbf48def175a6464cd66ea4ac9b73bdfe2e3283d0e7505
+Status: partial_instruction_evidence
+Exact release selected: V833-1
+Build authenticated: NO
+Candidate releases from observed tag: V810-1, V813-1, V820-1, V823-1, V830-1, V833-1
+Observed program: TF0012
+
+EXACT-RELEASE ROUTES:
+  envelope: supported
+  record_walk: supported
+  controlled_layout: supported
+  maximal_review_kl: supported
+  bounded_ast: supported
+  v833_native_pipeline: supported
+  recursive_source_regions: supported
+  complete_kl: unsupported — no arbitrary-PC complete KL source guarantee for this exact release
+  Known breakpoints through selected release:
+    V720-1: STRING 2B descriptor and FILE 37 selector change from 08 to 1F; zero-offset special member access gains the explicit 32 pair; source grammar changes from G1 to G2
+    V730-1: record-width family changes L1 to L2 (B6 becomes dispatchable AA alias); source grammar changes to G3
+    V740-1: source grammar changes to G4
+    V750-1: source grammar changes to G5 and structural epoch to C5a
+    V810-1: runtime opcode 77 is retired
+  Feature support (guarded route / provisional review / unsupported):
+    envelope_and_code_window: supported — exact tag plus independently checked expanded-code window
+    record_segmentation: supported — L2 width profile; complete walk is guarded per file
+      expanded_code_window: supported — strict envelope and bounded expanded code
+      release_width_table: supported — L2 exact 256-entry record widths
+      complete_profile_walk: supported — all record boundaries must account for the code window
+      native_dispatch_annotation: supported — V8.33 native execution dispatch evidence
+    source_marker_segmentation: supported — complete profile record walk and exact 3E marker bytes required
+      marker_record_extraction: supported — exact 3E record width and offset
+      marker_triplet_decode: supported — line, byte-position, and source-marker fields
+      marker_owned_source_regions: supported — V8.33 graph-associated source intervals
+    declaration_metadata: provisional — C1/C2/C3/C4/C5a/C5b/C6 epochs; STRING/FILE changes at V720-1
+    local_frame_layout: supported — V833-1 typed two-pass local-frame recovery
+    control_region_recovery: supported — V8.33 guarded native graph and recursive regions
+      branch_target_graph: supported — verified native branch targets and routine ownership
+      source_region_intervals: supported — marker-owned IF/FOR/WHILE/SELECT intervals
+      nested_region_tree: supported — recursive region and arm rendering with leaf guards
+    expression_recovery: supported — guarded V8.33 typed motifs
+      raw_record_motifs: supported — record-local observations; no general expression semantics
+      bound_operands: supported — V8.33 symbol, formal, and local-frame reference binding
+      typed_scalar_and_predicate: supported — guarded scalar, comparison, and predicate forms
+      call_arguments_and_results: supported — guarded call bundle and result-consumer forms
+      string_array_and_composite: supported — guarded STRING, indexed, and composite forms
+    statement_recovery: supported — guarded V8.33 source statements
+      raw_statement_motifs: supported — bounded record motifs; unknown behavior remains explicit
+      assignment_and_call: supported — guarded stores and CALL statements
+      flow_and_return: supported — guarded IF/FOR/WHILE/SELECT and RETURN statements
+      io_file_and_builtin: supported — guarded native I/O, file, and builtin statements
+    kl_assembly: supported — V8.33 maximal review KL
+      program_and_declarations: supported — synthetic names and declarations remain uncertainty-tracked
+      ordered_statement_emission: supported — marker-order source assembly; gaps retained as comments where needed
+      recursive_region_emission: supported — verified region tree; no cross-release transfer
+      uncertainty_sidecar: supported — report records missing, unsafe, and unproved source claims
+      arbitrary_pc_complete_source: unsupported — no exact release has an arbitrary-PC original-source guarantee
+    dependency_elements: supported — V833-1 generic symbol/link graph
+    roundtrip_analysis: supported — optional; exact-release KTRANS must be available and compilation must succeed
+      compiler_invocation: supported — conditional on available exact-release KTRANS; robot.ini is optional
+      opcode_alignment: supported — release-profile record walk; source-marker opcodes excluded
+      raw_record_comparison: supported — raw bytes compared inside aligned opcode blocks
+      source_marker_triplets: supported — decoded 3E triplet sequence compared separately
+      whole_pc_bytes: supported — compiled physical PC bytes compared exactly
+      source_marker_layout_fitting: supported — V8.33 optional KL whitespace/comment filler fit; requires whole-PC replay
+      behavior_equivalence: unsupported — compile and physical equality do not prove runtime equivalence
+    complete_source_guarantee: unsupported — no arbitrary-PC original-source or semantic-equivalence guarantee
+
+V8.33 NATIVE STAGE READINESS:
+  loader_alignment: passed
+  weighted_framing: passed
+  native_record_walk: passed
+  execution_dispatch: passed
+  composite_byte_patterns: passed
+  guarded native source route: eligible
+
+EXPANDED RECORD RANGES — observational; code is not authenticated:
+  [0x000000,0x000022)       34 bytes sha256=8a58eafa31b81f0375017b44368652a59dbc1d64a733aa5cf5bbac59aac9be9e header and pre-code bytes
+  [0x000022,0x00006a)       72 bytes sha256=0ccae766f7f282fbc5e45dc177d2b55806bee149c48db36d01e542573f1d3664 CRC-matched candidate P-code block; executable-only content NOT proven
+  [0x00006a,0x000075)       11 bytes sha256=8972b044f661cd2ceec75e07e5c32ad59e0b20bbe431322888a557073ea3f2d5 between-code metadata; NEVER decode as instructions
+  [0x000075,0x00007e)        9 bytes sha256=5cf484387ece7dde986d305cd209dc5ab54f36557cc792fd149e7cce66116dec observed ID/checksum record
+  [0x00007e,0x0000e9)      107 bytes sha256=fae41731dbb04d95ee1bfdf3e72b1831608a1f337a54c863b8d72e080cc9f989 opaque post-ID metadata
+  [0x0000e9,0x0000ec)        3 bytes sha256=52c2cf0d347ac4f1351ac4e038f979024c579bf4a815f682b27d28f87b384174 observed terminal length mirror plus LF
+
+RELEASE-SCOPED COMPILER LAYOUT CONTRASTS — NOT SOURCE TYPES OR KL:
+  Status: release_scoped_controlled_layout_contrasts
+  STRING/FILE control epoch: V720_and_later; position geometry epoch: through_V836
+  Matching 2B STRING-like descriptors: 0; 37 FILE-control bytes: 0; 32 zero-offset bytes: 0
+  Widths and byte motifs alone do not identify anonymous source declarations.
+
+V8.33 FOUR-DLL NATIVE RECORD SCAN — LENGTHS/ANCHORS, NOT EXECUTION:
+  Status: native_static_full_span_record_boundaries
+  Exact static records: 20; bytes: 72; 0x3E source markers: 4; 0x7F boundary candidates: 2
+  Original-source offsets in 3E records: zero-based bytes modulo 65536, NOT columns or PC offsets.
+  Legacy proposed records vs native scan: all_records_match_exactly
+  Recovered KL / runtime opcode dispatch / branch targets: NO / NO / NO
+
+V8.33 GENERIC PC SYMBOL/LINK BINDING — PC METADATA, NOT GUESSED SOURCE:
+  Status: generic_V833_pc_metadata_and_reference_links_verified
+  declarations=5; links=5; reference records=5
+  mode-01 exact PC link bindings=5; mode-FF local-frame refs=0; unresolved modes=0
+  Numeric reference operands are now resolved through the on-disk link table rather than guessed from source semantics.
+
+V8.33 ROUTINE LOCAL-FRAME DESCRIPTORS — SYNTHETIC NAMES ONLY:
+  Status: generic_V833_routine_local_frame_descriptors
+  routines=2; mode-FF refs=0; uniquely typed matches=0
+  Original local variable names are NOT claimed.
+
+V8.33 COMPILER SUPPORT ROUTINES — SHIPPED EV METADATA CLASSIFICATION:
+  Status: V833_compiler_support_routine_classification
+  compiler-known=1/1; unclassified/user-library=0
+  Known support calls should not be redundantly emitted as explicit ROUTINE declarations.
+
+SYMBOL DESCRIPTORS (names/types are observed metadata, not verified operand ABI):
+  {"absolute_offset": 130, "conditional_compiler_type_size": {"KL_declaration_recovered": false, "compiler_base_size_if_type_word_bytes": 4, "conditional_on_compiler_descriptor_ABI": true, "raw_type_word_hex": "0010", "rule": "native_simple_class_fixed_selector", "runtime_storage_size_verified": false, "status": "conditional_context_free_base_size", "vm_type_verified": false}, "end_exclusive": 136, "extra_hex": "", "index": 0, "name": "T", "prefix_hex": "00", "record_hex": "005400000010", "type_bytes_hex": "000010"}
+  {"absolute_offset": 136, "conditional_compiler_type_size": {"KL_declaration_recovered": false, "compiler_base_size_if_type_word_bytes": 4, "conditional_on_compiler_descriptor_ABI": true, "raw_type_word_hex": "0010", "rule": "native_simple_class_fixed_selector", "runtime_storage_size_verified": false, "status": "conditional_context_free_base_size", "vm_type_verified": false}, "end_exclusive": 142, "extra_hex": "", "index": 1, "name": "I", "prefix_hex": "00", "record_hex": "004900000010", "type_bytes_hex": "000010"}
+  {"absolute_offset": 142, "conditional_compiler_type_size": {"KL_declaration_recovered": false, "compiler_base_size_if_type_word_bytes": 4, "conditional_on_compiler_descriptor_ABI": true, "raw_type_word_hex": "0011", "rule": "native_simple_class_fixed_selector", "runtime_storage_size_verified": false, "status": "conditional_context_free_base_size", "vm_type_verified": false}, "end_exclusive": 151, "extra_hex": "", "index": 2, "name": "RVAL", "prefix_hex": "00", "record_hex": "005256414c00000011", "type_bytes_hex": "000011"}
+  {"absolute_offset": 151, "conditional_compiler_type_size": {"KL_declaration_recovered": false, "compiler_base_size_if_type_word_bytes": 12, "conditional_on_compiler_descriptor_ABI": true, "raw_type_word_hex": "1f08", "rule": "native_class31_even_round_opcode_plus_three", "runtime_storage_size_verified": false, "status": "conditional_context_free_base_size", "vm_type_verified": false}, "end_exclusive": 157, "extra_hex": "", "index": 3, "name": "S", "prefix_hex": "00", "record_hex": "005300001f08", "type_bytes_hex": "001f08"}
+  {"absolute_offset": 157, "conditional_compiler_type_size": {"KL_declaration_recovered": false, "compiler_base_size_if_type_word_bytes": 4, "conditional_on_compiler_descriptor_ABI": true, "raw_type_word_hex": "0010", "rule": "native_simple_class_fixed_selector", "runtime_storage_size_verified": false, "status": "conditional_context_free_base_size", "vm_type_verified": false}, "end_exclusive": 168, "extra_hex": "", "index": 4, "name": "STATUS", "prefix_hex": "00", "record_hex": "0053544154555300000010", "type_bytes_hex": "000010"}
+
+V8.33 NATIVE COMPILER TYPE HINTS — CONDITIONAL, NOT VM/STORAGE TYPES:
+  raw symbol fields with context-free native comparison: 5; routine parameter fields: 6; withheld: 0
+  Descriptor-to-native ABI: UNVERIFIED; no array allocation, opcode, or KL declaration inferred.
+
+V8.33 CANDIDATE FLOW LANDMARKS — NOT EXECUTABLE BASIC BLOCKS:
+  Status: byte_exact_candidate_control_flow_landmarks_only
+  File-order blocks: 6; candidate branch references: 0; bounded calls: 1; legacy unknown bytes: 42
+  Sequential neighbours do NOT constitute verified fallthrough edges.
+
+V8.33 LOSSLESS CANDIDATE IR (NOT SOURCE OR VERIFIED VM SEMANTICS):
+  Status: lossless_candidate_intermediate_representation_only
+  source/routine units: 5; framed candidate arguments: 0; opaque call bundles: 0; unresolved legacy bytes: 42
+
+V8.33 ISOLATED INTEGER ASSIGNMENT SHAPES — SOURCE CANDIDATES ONLY:
+  Status: withheld
+
+INSTRUCTION RECOVERY: unsupported_full_source
+
+V8.33 legacy evidence (not a complete disassembly):
+  byte classes: {"framed_opcode_candidate": 4, "opaque_unknown": 42, "preamble_unknown": 1, "source_location_candidate": 20}
+  candidate symbols: 0
+  branch candidates: 0
+  unknown opcode interval leading bytes: {"27": 1, "7f": 1}
+
+V8.33 GUARDED BYTE/ARGUMENT COVERAGE — NO SOURCE RECOVERED:
+  opaque intervals: 2, structurally framed: 0, still incomplete: 2
+  framed historical opaque bytes: 0; still unframed: 42
+  bounded candidate calls: 1
+  call argument framing: {"fully_bounded_candidate": 1}
+  recovered KL: NO; verified new VM opcode identities: ZERO
+
+V8.33 INDEPENDENT CANDIDATE-BOUNDARY CROSS-CHECK (NOT VM/CFG PROOF):
+  Status: cross_view_candidate_only
+  footer raw words at proposed record starts: 0/0
+  source marker byte spans at proposed records: 4/4
+  branch origins at proposed records: 0/0
+  branch targets at proposed records: 0/0
+  call bundles with aligned boundaries: 1/1
+  routine entries at proposed records: 2/2
+  three-byte motif instances: 0 standalone candidate record, 0 embedded in larger record
+  conditional native-type base-size correspondences: 0; disagreement candidates: 0 (not VM type proof)
+
+V8.33 SOURCE-POSITION-ORGANIZED RAW LISTING (NOT KL OR AN INSTRUCTION DISASSEMBLY):
+  Status: source_position_candidate_only
+  Source-position candidates: 4; record candidates: 20; bytes: 72
+  Candidate calls: 1; branch references: 0; routine entries: 2
+  SEGMENT 0 line?=None field2?=None code=[+0,+1) sha256=021fb596db81e6d02bf3d2586ee3981fe519f275c0ac9ca76bbcf2ebb4097d96
+    ROUTINE? +0 R (unverified)
+    +00000..+00001 7b RECORD?
+  SEGMENT 1 line?=12 field2?=153 code=[+1,+44) sha256=da90f953242b455479cbefd9c06963707608f6a52a715744fd974697cdd9a013
+    +00001..+00006 3e000c0099 SOURCE_MARKER?
+    +00006..+00007 27 RECORD?
+    +00007..+00008 27 RECORD?
+    +00008..+00009 9d RECORD?
+    +00009..+00015 220100000000 RECORD?
+    +00015..+00021 220100000001 RECORD?
+    +00021..+00027 220100000002 RECORD?
+    +00027..+00033 220100000003 RECORD?
+    +00033..+00035 2a01 RECORD?
+    +00035..+00041 220100000004 RECORD?
+    +00041..+00044 310002 RECORD?
+  SEGMENT 2 line?=13 field2?=189 code=[+44,+53) sha256=cac20e9969f3bc976d601da296021e040b2f7594809262bef4fad1c7a1b0f2a6
+    +00044..+00049 3e000d00bd SOURCE_MARKER?
+    +00049..+00053 7f000000 RECORD?
+  SEGMENT 3 line?=15 field2?=203 code=[+53,+62) sha256=27a75d1641c17c8ed09ec1950b3634ddce071c04f561b5f44195ac2c2c223dca
+    ROUTINE? +53 TF0012 (unverified)
+    CALL? +58..+62 R dispatch=1 (unverified)
+    +00053..+00058 3e000f00cb SOURCE_MARKER?
+    +00058..+00059 27 RECORD?
+    +00059..+00062 aa0001 RECORD?
+  SEGMENT 4 line?=16 field2?=206 code=[+62,+72) sha256=6a0e9a11d0ce0dcc80afbc2cfa2b6854a97586ca337d129e86d07f51cc8ebee5
+    +00062..+00067 3e001000ce SOURCE_MARKER?
+    +00067..+00071 7f000000 RECORD?
+    +00071..+00072 ff RECORD?
+
+V8.33 ROUTINE-SCOPED RAW CANDIDATES — NOT RECOVERED BODIES/CFG:
+  Status: routine_candidate_outline_only
+  Candidate routine regions: 2; records: 20; bytes: 72
+  Candidate call sites: 1; branch references: 0; source markers crossed by entries: 0
+  ROUTINE? R [+0,+53) records=14 calls?=0 branches?=0 legacy_unframed=42 sha256=7cc8182272f7de4c87d221cf94bc442f2a7402c154aa522b70c9b06ef8eb5506
+  ROUTINE? TF0012 [+53,+72) records=6 calls?=1 branches?=0 legacy_unframed=0 sha256=aa750d9091f6e299e677be4a924b56b2f523018aac337d48d290f255957472ef
+    CALL? +58 target?=R raw_descriptor_count_match=True status=fully_bounded_candidate
+  Candidate entry-to-next-entry partitions only; routine termination and edge execution UNVERIFIED.
+
+V8.33 BYTE-EXACT RECORD NAVIGATION — NOT VM INSTRUCTIONS:
+  Status: byte_exact_candidate_record_index_only
+  Indexed 20 proposed records, 5 source segments, 2 candidate routine regions.
+  Cross-referenced calls? 1, branches? 0, unframed legacy bytes: 42
+  Use --records to export the per-record offset/hex navigation listing.
+
+V8.33 NATIVE-WEIGHT PROPOSED RECORDS — NOT VM INSTRUCTIONS:
+  20 candidates; byte coverage 72/72; strings 0
+  Verified VM opcode meanings: ZERO; original opaque instruction ledger unchanged.
+
+V8.33 SOURCE-CORRELATED RAW COMPOSITE MOTIFS (not opcodes):
+  counts: {}
+  continuations: {}
+
+BOUNDED V8.33 ROUTINE DESCRIPTORS (names/parameters are metadata only):
+  records: 3, bytes: 51
+  [  0] TF0012: args=0 raw_locator=000035 dependency=None
+  [  1] R: args=0 raw_locator=000000 dependency=None
+  [  2] GET_TPE_PRM: args=6 raw_locator=01ffff dependency=PBCORE
+
+PC-ONLY CANDIDATE CALL-NAME JOIN — NOT A VERIFIED DISPATCH:
+  named: 1/1
+  +0x0003a line? 15 -> R (raw index 1; verified: NO)
+
+UNRESOLVED CANDIDATE CODE WINDOW:
+  expanded offsets [34,106); sha256=0ccae766f7f282fbc5e45dc177d2b55806bee149c48db36d01e542573f1d3664
+  Unknown bytes are preserved in the original input .PC; no KL is invented.
