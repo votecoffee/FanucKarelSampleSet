@@ -1,0 +1,26 @@
+PROGRAM IO0076
+%STACKSIZE=65535
+%PRIORITY=65535
+%NOLOCKGROUP
+ROUTINE RTEST FROM IO0076
+ROUTINE RTEST
+VAR
+L1 : ARRAY[3] OF INTEGER
+L2 : XYZWPR
+L3 : JOINTPOS9
+L4 : POSITION
+U2C_37 : BOOLEAN -- ASSUMED 2C source type; see uncertainty report
+U2C_38 : REAL -- ASSUMED 2C source type; see uncertainty report
+U2C_39 : REAL -- ASSUMED 2C source type; see uncertainty report
+U2C_40 : BOOLEAN -- ASSUMED 2C source type; see uncertainty report
+S1 : REAL
+BEGIN
+U2C_37=TRUE
+L1[1]=2
+U2C_40=TRUE
+S1=1.0
+-- UNSAFE_SOURCE_IR line 19: S1 = int_to_real(native_io_value(4, 1))
+END RTEST
+BEGIN
+RTEST
+END IO0076

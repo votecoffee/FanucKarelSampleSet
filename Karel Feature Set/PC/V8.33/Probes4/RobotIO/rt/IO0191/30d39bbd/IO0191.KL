@@ -1,0 +1,26 @@
+PROGRAM IO0191
+%STACKSIZE=65535
+%PRIORITY=65535
+%NOLOCKGROUP
+ROUTINE RTEST FROM IO0191
+ROUTINE RTEST
+VAR
+L1 : ARRAY[3] OF INTEGER
+L2 : XYZWPR
+L3 : JOINTPOS9
+L4 : POSITION
+U2C_37 : INTEGER -- ASSUMED 2C source type; see uncertainty report
+U2C_38 : REAL -- ASSUMED 2C source type; see uncertainty report
+U2C_39 : REAL -- ASSUMED 2C source type; see uncertainty report
+U2C_40 : BOOLEAN -- ASSUMED 2C source type; see uncertainty report
+U2C_41 : INTEGER -- ASSUMED 2C source type; see uncertainty report
+BEGIN
+U2C_37=1
+L1[1]=2
+U2C_40=TRUE
+U2C_41=1065353216
+-- UNRESOLVED_PC line 19 opcodes [03 22 21 33 34 1B 9D 12 13 04 14] marker_code=77
+END RTEST
+BEGIN
+RTEST
+END IO0191

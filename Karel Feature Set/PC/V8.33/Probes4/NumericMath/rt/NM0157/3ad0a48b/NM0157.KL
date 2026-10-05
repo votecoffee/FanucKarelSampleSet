@@ -1,0 +1,41 @@
+PROGRAM NM0157
+%STACKSIZE=65535
+%PRIORITY=65535
+%NOLOCKGROUP
+ROUTINE IDI(P1 : INTEGER) : INTEGER FROM NM0157
+ROUTINE IDR(P1 : REAL) : REAL FROM NM0157
+ROUTINE RTEST FROM NM0157
+ROUTINE IDI
+BEGIN
+-- UNRESOLVED_PC line 5 opcodes [2D 9D 52 7F] marker_code=1
+-- UNRESOLVED_PC line 6 opcodes [7F] marker_code=18
+END IDI
+ROUTINE IDR
+BEGIN
+-- UNRESOLVED_PC line 9 opcodes [2D 2E 69 7F] marker_code=28
+-- UNRESOLVED_PC line 10 opcodes [7F] marker_code=49
+END IDR
+ROUTINE RTEST
+VAR
+L1 : STRING[8]
+L2 : ARRAY[3] OF INTEGER
+L3 : ARRAY[3] OF REAL
+U2C_12 : BOOLEAN -- ASSUMED 2C source type; see uncertainty report
+U2C_13 : INTEGER -- ASSUMED 2C source type; see uncertainty report
+U2C_14 : INTEGER -- ASSUMED 2C source type; see uncertainty report
+U2C_15 : INTEGER -- ASSUMED 2C source type; see uncertainty report
+U2C_16 : BOOLEAN -- ASSUMED 2C source type; see uncertainty report
+BEGIN
+U2C_12=TRUE
+U2C_13=2
+U2C_14=1075838976
+U2C_15=1080033280
+U2C_16=TRUE
+L1='A'
+L2[1]=2
+L3[1]=2.5
+-- UNRESOLVED_PC line 30 opcodes [27 27 2E 64 76 23] marker_code=200
+END RTEST
+BEGIN
+RTEST
+END NM0157

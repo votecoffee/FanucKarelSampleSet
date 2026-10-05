@@ -1,0 +1,16 @@
+PROGRAM KT00291
+%STACKSIZE=65535
+%PRIORITY=65535
+%NOLOCKGROUP
+VAR
+OUT : BOOLEAN
+-- UNRESOLVED DECLARATIONS (source type spelling not recovered)
+-- V1 : TYPE_0x0013 (type_u16=0x0013)
+-- V2 : TYPE_0x0013 (type_u16=0x0013)
+BEGIN
+-- UNSAFE_SOURCE_IR line 8: field_offset(V1,0) = 1065353216
+-- UNSAFE_SOURCE_IR line 9: field_offset(V2,4) = 1073741824
+-- UNSAFE_SOURCE_IR line 10: field_offset(V1,0) = 1065353216
+-- UNSAFE_SOURCE_IR line 11: field_offset(V2,4) = 1073741824
+-- UNRESOLVED_PC line 12 opcodes [49 49 95 23] marker_code=80
+END KT00291

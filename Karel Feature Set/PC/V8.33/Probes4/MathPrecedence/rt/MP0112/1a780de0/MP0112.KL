@@ -1,0 +1,40 @@
+PROGRAM MP0112
+%STACKSIZE=65535
+%PRIORITY=65535
+%NOLOCKGROUP
+ROUTINE FINT(P1 : INTEGER) : INTEGER FROM MP0112
+ROUTINE FREAL(P1 : REAL) : REAL FROM MP0112
+ROUTINE RTEST(P1 : INTEGER; P2 : REAL) FROM MP0112
+ROUTINE FINT
+BEGIN
+-- UNRESOLVED_PC line 5 opcodes [2D 9D 52 7F] marker_code=1
+-- UNRESOLVED_PC line 6 opcodes [7F] marker_code=18
+END FINT
+ROUTINE FREAL
+BEGIN
+-- UNRESOLVED_PC line 9 opcodes [2D 2E 69 7F] marker_code=28
+-- UNRESOLVED_PC line 10 opcodes [7F] marker_code=49
+END FREAL
+ROUTINE RTEST
+VAR
+L1 : XYZWPR
+U2C_9 : INTEGER -- ASSUMED 2C source type; see uncertainty report
+U2C_10 : INTEGER -- ASSUMED 2C source type; see uncertainty report
+U2C_11 : INTEGER -- ASSUMED 2C source type; see uncertainty report
+U2C_12 : INTEGER -- ASSUMED 2C source type; see uncertainty report
+U2C_13 : INTEGER -- ASSUMED 2C source type; see uncertainty report
+U2C_14 : INTEGER -- ASSUMED 2C source type; see uncertainty report
+U2C_15 : REAL -- ASSUMED 2C source type; see uncertainty report
+S1 : REAL
+BEGIN
+U2C_9=7
+U2C_10=3
+U2C_11=2
+U2C_12=1075838976
+U2C_13=1083179008
+U2C_14=1069547520
+S1=(L1.X / U2C_13)
+END RTEST
+BEGIN
+RTEST(7,2.5)
+END MP0112
