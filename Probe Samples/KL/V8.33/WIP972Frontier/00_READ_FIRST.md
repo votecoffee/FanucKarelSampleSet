@@ -1,7 +1,0 @@
-# KL probes for the WIP972 44-cell / 693-diagnostic frontier
-
-Open the [results report](../../../Evidence/WIP972Frontier_2026-09-30/REPORT.md) first. [PROBE_INDEX.csv](PROBE_INDEX.csv) lists each `DXnnnn.KL`, its family, compile status and matching `PC/V8.33/WIP972Frontier/dxnnnn.pc`. The [manifest](../../../Evidence/WIP972Frontier_2026-09-30/manifest.json) pins source/PC hashes and compiler logs. All 71 sources were compiled with KTRANS V8.33 Build 25 in isolated scratch directories using `/ver V8.33-1` without `robot.ini`.
-
-For a specific unknown cell, start in [TARGET_44_CELLS_ANALYSIS.json](../../../Evidence/WIP972Frontier_2026-09-30/TARGET_44_CELLS_ANALYSIS.json) by original program, routine and physical cell index, then open a listed probe KL/PC. For a source diagnostic, find its ID in [DIAGNOSTIC_693.jsonl](../../../Evidence/WIP972Frontier_2026-09-30/DIAGNOSTIC_693.jsonl) and read the corresponding [triage row](../../../Evidence/WIP972Frontier_2026-09-30/DIAGNOSTIC_693_TRIAGE.jsonl). An exact opcode-run probe ID is stronger than a semantic-family candidate ID, but neither proves recovered original source.
-
-The suite includes source-type alternatives, whole-cell use patterns, allocation order, control flow, arrays, STRING, position/structure members, FILE, support calls, indexed I/O, and two-routine boundaries. Ten specialized cases are explicitly marked `adapted_from` in the index. The [builder and WIP972 replay scripts](../../../Evidence/WIP972Frontier_2026-09-30/scripts/) reproduce the results without modifying PC4 or original PCs.

@@ -1,7 +1,0 @@
-# V8.33 holdout-reference motif probes
-
-Start with the [results report](../../../Evidence/HoldoutMotifs_2026-09-30/REPORT.md) and [case index](PROBE_INDEX.csv). All 30 `HMnnnn.KL` cases compile to matching `PC/V8.33/HoldoutMotifs/hmnnnn.pc` files. The [manifest](../../../Evidence/HoldoutMotifs_2026-09-30/manifest.json) records source/PC hashes and compiler logs; [native analysis](../../../Evidence/HoldoutMotifs_2026-09-30/native_analysis.json) records direct local references and opcode windows. The [original-site triage](../../../Evidence/HoldoutMotifs_2026-09-30/original_site_triage.csv) lists all 186 maintained target references, including the 53 that lacked an earlier three-opcode probe match.
-
-Cases are synthetic compiler controls for zero comparisons, chained INTEGER and BOOLEAN conditions, SELECT branch-boundary stores, and PBCORE `READ_KB` calls with local/formal output-address combinations. The [reproduction scripts](../../../Evidence/HoldoutMotifs_2026-09-30/scripts/) use native KTRANS V8.33 Build 25 in scratch and read the installed support files. Original PCs and PC Decompiler 4 source were not changed.
-
-All seven previously missing three-opcode patterns now occur in at least one probe, but the same patterns also occur under different known source types. A match is an index into candidates, not a type inference or recovered original KL. The [Samples compiling guide](../../../../COMPILING_KAREL_SAMPLES.md) explains the build setup and dependency limits.

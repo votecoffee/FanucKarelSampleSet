@@ -1,9 +1,0 @@
-# V8.33 environment-dependency type probes
-
-Start with the [results report](../../../Evidence/DependencyTypes_2026-09-30/REPORT.md) and [case index](PROBE_INDEX.csv). Each `DTnnnn.KL` has a native [compiler log](../../../Evidence/DependencyTypes_2026-09-30/compiler_logs/); accepted cases have a matching `PC/V8.33/DependencyTypes/dtnnnn.pc`. The [manifest](../../../Evidence/DependencyTypes_2026-09-30/manifest.json) gives input and output SHA-256 hashes and the hashes of the referenced V8.33 support EVs. The [native analysis](../../../Evidence/DependencyTypes_2026-09-30/native_analysis.json) records record boundaries, embedded dependencies/types, linked system symbols, and crosschecks against external routines in the 12 original PCs.
-
-The 68 controlled cases come from the [12-PC dependency audit](../../../Evidence/EnvironmentDependencies_2026-09-30/00_READ_FIRST.md). They cover seven `sysdef.ev` named structures, typed member reads and writes, actual linked system variables, six implicitly loaded `PBCORE` calls from `core.ev`, and 15 calls across `REGOPE`, `MOTN`, `MULTI`, `IOSETUP`, `FDEV`, and `STRNG`. Eleven cases are intentional rejection controls, including protected system members and wrong type or call usage.
-
-KTRANS loads `sysdef.ev` and `core.ev` implicitly in these tests. `PBCORE` is the environment name *inside* `core.ev`; `%ENVIRONMENT PBCORE` is not the working spelling with this support layout. Builds used V8.33 Build 25 in isolated scratch directories. For reproduction see the [Samples compiling guide](../../../../COMPILING_KAREL_SAMPLES.md) and the archived [build and analysis scripts](../../../Evidence/DependencyTypes_2026-09-30/scripts/). Original PCs and installed support files were read only.
-
-These probes authenticate type names and operations in the synthetic PCs. They do not assign a type to any of the maintained 80 unknown physical 2C cells without same-PC storage ownership and typed-use evidence.
